@@ -1,0 +1,21 @@
+{
+  "name": "aDeuxPasDuLavoir",
+  "description": "Website of the multi-service shop in Rodemack",
+  "main": "index.html",
+  "authors": [
+    "Ivan Lucci"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/IvanLucci/aDeuxPasDuLavoir",
+  "moduleType": [],
+  "private": true,
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6",
+    "ui.bootstrap": "^1.3.2",
+    "angular-animate": "^1.5.5",
+    "angular-route": "^1.5.5",
+    "angular-translate": "^2.11.0"
+  }
+}

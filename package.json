@@ -1,0 +1,28 @@
+{
+  "name": "aDeuxPasDuLavoir",
+  "version": "1.0.0",
+  "description": "Website of the multi-service shop in Rodemack",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanLucci/aDeuxPasDuLavoir.git"
+  },
+  "keywords": [],
+  "author": "Ivan Lucci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IvanLucci/aDeuxPasDuLavoir/issues"
+  },
+  "homepage": "https://github.com/IvanLucci/aDeuxPasDuLavoir#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7"
+  }
+}

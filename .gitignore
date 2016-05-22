@@ -1,0 +1,9 @@
+#node and bower components
+/node_modules/
+/bower_components/
+
+#dist
+/public/
+
+#others
+/.sass-cache/
