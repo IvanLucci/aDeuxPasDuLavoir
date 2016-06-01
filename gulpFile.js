@@ -11,14 +11,14 @@ gulp.task( 'default', [ 'sass', 'js', 'views', 'html' ]);
 
 //Compile css and minify if production
 gulp.task( 'sass', function() {
-	return sass( 'src/sass/**/*.scss' )
+	return sass( 'src/sass/main.scss' )
 		.pipe( gutil.env.type === 'production' ? cssmin() : gutil.noop() )
 		.pipe( gulp.dest( 'public/css' ) );
 });
 
 //Concat js and uglify if production
 gulp.task( 'js', function() {
-	return gulp.src( 'src/app/**/*.js' )
+	return gulp.src([ 'src/app/adpdl.js', 'src/app/**/*.js' ])
 		.pipe( concat( 'app.js' ) )
 		.pipe( gutil.env.type === 'production' ? uglify() : gutil.noop() )
 		.pipe( gulp.dest( 'public/app' ) );
