@@ -12,8 +12,9 @@
 	]);
 
 	var paths = {
-		tplPath: 	'app/tpl/',
-		viewPath:  	'views/'
+		tplPath: 		'app/tpl/',
+		contentPath: 	'app/content/', 
+		viewPath:  		'views/'
 	}
 
 	//App information

@@ -1,6 +1,6 @@
 (function( app, tplPath ) {
 
-	app.directive( 'timetable', [ 'timetableService', function( timetableService ) {
+	app.directive( 'timetable', [ 'timetableService', '$q', function( timetableService, $q ) {
 
 		return {
 			restrict: 'A',
@@ -10,7 +10,21 @@
 		};
 
 		function link( scope ) {
-			
+
+			scope.timetable = {};
+			scope.days = [];
+
+			$q.all([
+				timetableService.getTimetable(),
+				timetableService.getDays()
+			]).then(
+				function( data ) {
+					scope.timetable = data[0];
+					scope.days = data[1];
+					console.log( scope.days );
+					console.log( scope.timetable );
+				}
+			);
 		}
 
 	}]);	

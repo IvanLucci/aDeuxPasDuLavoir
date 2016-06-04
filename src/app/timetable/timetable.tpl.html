@@ -1,5 +1,21 @@
-dir scope: {{ test }}
 <table class="table table-bordered">
+	<thead>
+		<tr>
+			<th data-ng-repeat="d in days">
+				{{ d }}
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-ng-repeat="d in days">
+				time here
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<!--<table class="table table-bordered">
 	<thead>
 		<tr>
 			<th>Mon</th>
@@ -31,4 +47,4 @@ dir scope: {{ test }}
 			<td>14</td>
 		</tr>
 	</tbody>
-</table>
+</table>-->

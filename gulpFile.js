@@ -16,7 +16,7 @@ var depLibs = [
 ];
 
 //Default task
-gulp.task( 'default', [ 'sass', 'js', 'deps', 'views', 'html', 'tpl' ]);
+gulp.task( 'default', [ 'sass', 'js', 'deps', 'views', 'html', 'tpl', 'content' ]);
 
 //Compile css and minify if production
 gulp.task( 'sass', function() {
@@ -57,4 +57,10 @@ gulp.task( 'tpl', function() {
 	return gulp.src( 'src/app/**/*.tpl.html' )
 		.pipe( flatten() )
 		.pipe( gulp.dest( 'public/app/tpl' ) );
+});
+
+//Copy the content JSON files
+gulp.task( 'content', function() {
+	return gulp.src( 'src/app/**/*.json' )
+		.pipe( gulp.dest( 'public/app/content' ) );
 });
