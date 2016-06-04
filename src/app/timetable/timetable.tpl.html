@@ -1,50 +1,21 @@
-<table class="table table-bordered">
-	<thead>
-		<tr>
-			<th data-ng-repeat="d in days">
-				{{ d }}
-			</th>
-		</tr>
-	</thead>
+
+<button class="btn btn-default" data-ng-click="changeLang( 'en' );">English</button>
+<button class="btn btn-default" data-ng-click="changeLang( 'fr' );">French</button>
+
+<table class="table table-condensed">
+
 	<tbody>
-		<tr>
-			<td data-ng-repeat="d in days">
-				time here
+		<tr data-ng-repeat="day in days" ng-class="{success: day==='saturday'}">
+			<td class="col-lg-2">
+				<strong data-translate="{{ day }}"></strong>
+			</td>
+			<td>
+				{{ getMorningTime( day ) }}
+			</td>
+			<td>
+				{{ getAfternoonTime( day ) }}
 			</td>
 		</tr>
 	</tbody>
-</table>
 
-<!--<table class="table table-bordered">
-	<thead>
-		<tr>
-			<th>Mon</th>
-			<th>Tue</th>
-			<th>Wed</th>
-			<th>Thu</th>
-			<th>Fry</th>
-			<th>Sat</th>
-			<th>Sun</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>01</td>
-			<td>02</td>
-			<td>03</td>
-			<td>04</td>
-			<td>05</td>
-			<td>06</td>
-			<td>07</td>
-		</tr>
-		<tr>
-			<td>08</td>
-			<td>09</td>
-			<td>10</td>
-			<td>11</td>
-			<td>12</td>
-			<td>13</td>
-			<td>14</td>
-		</tr>
-	</tbody>
-</table>-->
+</table>

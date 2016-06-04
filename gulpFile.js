@@ -12,11 +12,15 @@ var depLibs = [
 	'bower_components/angular/angular.min.js',
 	'bower_components/angular-animate/angular-animate.min.js',
 	'bower_components/angular-route/angular-route.min.js',
-	'bower_components/angular-translate/angular-translate.min.js'
+	'bower_components/angular-translate/angular-translate.min.js',
+	'bower_components/angular-cookies/angular-cookies.min.js',
+	'bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js',
+	'bower_components/angular-translate-storage-local/angular-translate-storage-local.min.js',
+	'bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js'
 ];
 
 //Default task
-gulp.task( 'default', [ 'sass', 'js', 'deps', 'views', 'html', 'tpl', 'content' ]);
+gulp.task( 'default', [ 'sass', 'js', 'deps', 'views', 'html', 'tpl', 'content', 'locale' ]);
 
 //Compile css and minify if production
 gulp.task( 'sass', function() {
@@ -63,4 +67,10 @@ gulp.task( 'tpl', function() {
 gulp.task( 'content', function() {
 	return gulp.src( 'src/app/**/*.json' )
 		.pipe( gulp.dest( 'public/app/content' ) );
+});
+
+//Copy locale folder
+gulp.task( 'locale', function() {
+	return gulp.src( 'src/app/locale/*.json' )
+		.pipe( gulp.dest( 'public/app/content/locale' ) );
 });

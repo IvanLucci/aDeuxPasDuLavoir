@@ -2,7 +2,7 @@
 	"summer": {
 		"monday": {
 			"morning": {
-				"from": "9:00",
+				"from": "09:00",
 				"to": "12:00"
 			},
 			"afternoon": {
@@ -12,7 +12,7 @@
 		},
 		"tuesday": {
 			"morning": {
-				"from": "9:00",
+				"from": "09:00",
 				"to": "12:00"
 			},
 			"afternoon": {
@@ -22,7 +22,7 @@
 		},
 		"wednesday": {
 			"morning": {
-				"from": "9:00",
+				"from": "09:00",
 				"to": "12:00"
 			},
 			"afternoon": {
@@ -32,7 +32,7 @@
 		},
 		"thursday": {
 			"morning": {
-				"from": "9:00",
+				"from": "09:00",
 				"to": "12:00"
 			},
 			"afternoon": {
@@ -42,7 +42,7 @@
 		},
 		"friday": {
 			"morning": {
-				"from": "9:00",
+				"from": "09:00",
 				"to": "12:00"
 			},
 			"afternoon": {
@@ -52,7 +52,7 @@
 		},
 		"saturday": {
 			"morning": {
-				"from": "9:00",
+				"from": "10:00",
 				"to": "12:00"
 			},
 			"afternoon": {
@@ -62,7 +62,7 @@
 		},
 		"sunday": {
 			"morning": {
-				"from": "9:00",
+				"from": "10:00",
 				"to": "12:00"
 			},
 			"afternoon": {
@@ -74,7 +74,7 @@
 	"winter": {
 		"monday": {
 			"morning": {
-				"from": "9:00",
+				"from": "09:00",
 				"to": "12:00"
 			},
 			"afternoon": {
@@ -84,7 +84,7 @@
 		},
 		"tuesday": {
 			"morning": {
-				"from": "9:00",
+				"from": "09:00",
 				"to": "12:00"
 			},
 			"afternoon": {
@@ -94,7 +94,7 @@
 		},
 		"wednesday": {
 			"morning": {
-				"from": "9:00",
+				"from": "09:00",
 				"to": "12:00"
 			},
 			"afternoon": {
@@ -104,7 +104,7 @@
 		},
 		"thursday": {
 			"morning": {
-				"from": "9:00",
+				"from": "09:00",
 				"to": "12:00"
 			},
 			"afternoon": {
@@ -114,7 +114,7 @@
 		},
 		"friday": {
 			"morning": {
-				"from": "9:00",
+				"from": "09:00",
 				"to": "12:00"
 			},
 			"afternoon": {
@@ -124,7 +124,7 @@
 		},
 		"saturday": {
 			"morning": {
-				"from": "9:00",
+				"from": "09:00",
 				"to": "12:00"
 			},
 			"afternoon": {
@@ -134,7 +134,7 @@
 		},
 		"sunday": {
 			"morning": {
-				"from": "9:00",
+				"from": "09:00",
 				"to": "12:00"
 			},
 			"afternoon": {

@@ -1,6 +1,6 @@
 (function( app, tplPath ) {
 
-	app.directive( 'timetable', [ 'timetableService', '$q', function( timetableService, $q ) {
+	app.directive( 'timetable', [ 'timetableService', '$translate', function( timetableService, $translate ) {
 
 		return {
 			restrict: 'A',
@@ -11,20 +11,29 @@
 
 		function link( scope ) {
 
-			scope.timetable = {};
 			scope.days = [];
+			var timetable = {};
 
-			$q.all([
-				timetableService.getTimetable(),
-				timetableService.getDays()
-			]).then(
+			timetableService.getTimetable().then(
 				function( data ) {
-					scope.timetable = data[0];
-					scope.days = data[1];
-					console.log( scope.days );
-					console.log( scope.timetable );
+					timetable = data;
+					scope.days = timetableService.getDays();
 				}
 			);
+
+			scope.getMorningTime = function( day ) {
+				var morning = timetable[ day ].morning;
+				return morning.from + ' - ' + morning.to;
+			}
+
+			scope.getAfternoonTime = function( day ) {
+				var afternoon = timetable[ day ].afternoon;
+				return afternoon.from + ' - ' + afternoon.to;
+			}
+
+			scope.changeLang = function( lang ) {
+				$translate.use( lang );
+			}
 		}
 
 	}]);	

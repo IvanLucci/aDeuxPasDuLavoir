@@ -25,16 +25,16 @@
 			},
 
 			// Get the days of the week.
-			// TODO: consider multilanguage
 			getDays: function() {
-				return $http.get( contentPath + 'timetable/days.json' ).then(
-					function( res ) {
-						return res.data;
-					},
-					function( error ) {
-						throw 'Cannot get the days.';
-					}
-				);
+				return [
+					'monday',
+					'tuesday',
+					'wednesday',
+					'thursday',
+					'friday',
+					'saturday',
+					'sunday'
+				];
 			}
 
 		};

@@ -1,0 +1,30 @@
+{
+	"site": {
+		"name": "A Deux Pas du Lavoir"
+	},
+
+	"menu": {
+		"home": "Home",
+		"products": "Products",
+		"services": "Services",
+		"contacts": "Contacts"
+	},
+
+	
+
+	"monday": "Lundi",
+	"tuesday": "Mardi",
+	"wednesday": "Mercredi",
+	"thursday": "Jeudi",
+	"friday": "Vendredi",
+	"saturday": "Samedi",
+	"sunday": "Dimanche",
+
+	"mon": "Lun",
+	"tue": "Mar",
+	"wed": "Mer",
+	"thu": "Jeu",
+	"fri": "Ven",
+	"sat": "Sam",
+	"sun": "Dim"
+}

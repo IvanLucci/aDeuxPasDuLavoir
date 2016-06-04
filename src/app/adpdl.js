@@ -8,12 +8,14 @@
 	var adpdlModule = angular.module( 'adpdl', [
 		'ngAnimate',
 		'ngRoute',
+		'ngCookies',
 		'pascalprecht.translate'
 	]);
 
 	var paths = {
 		tplPath: 		'app/tpl/',
-		contentPath: 	'app/content/', 
+		contentPath: 	'app/content/',
+		localePath: 	'app/content/locale/',
 		viewPath:  		'views/'
 	}
 
