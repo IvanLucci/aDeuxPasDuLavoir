@@ -2,7 +2,7 @@
 
 	app.config([ '$routeProvider', function( $routeProvider ) {
 
-		"use strict";
+		'use strict';
 
 		$routeProvider
 		.when( '/home', {

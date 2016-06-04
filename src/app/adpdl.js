@@ -1,6 +1,6 @@
 (function ( angular, window ){ 
 
-	"use strict";
+	'use strict';
 
 	window.adpdl = window.adpdl || {};
 
@@ -11,11 +11,17 @@
 		'pascalprecht.translate'
 	]);
 
+	var paths = {
+		tplPath: 	'app/tpl/',
+		viewPath:  	'views/'
+	}
+
 	//App information
 	window.adpdl.version 		= '0.0.1';
 	window.adpdl.author			= 'Ivan Lucci';
 	window.adpdl.title 			= 'A Deux Pas du Lavoir';
 	window.adpdl.description 	= 'The website of the multi-service shop in Rodemack (France)';
 	window.adpdl.module 		= adpdlModule;
+	window.adpdl.paths			= paths;
 
 })( angular, window );

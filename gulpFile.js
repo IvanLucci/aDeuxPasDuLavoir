@@ -3,11 +3,20 @@ var gulp 	= require( 'gulp' ),
 	gutil	= require( 'gulp-util' ),
 	cssmin 	= require( 'gulp-cssmin' ),
 	uglify	= require( 'gulp-uglify' ),
-	sass	= require( 'gulp-ruby-sass' );
-	concat 	= require( 'gulp-concat' );
+	sass	= require( 'gulp-ruby-sass' ),
+	concat 	= require( 'gulp-concat' ),
+	flatten	= require( 'gulp-flatten' );
+
+//List of dependency libraries
+var depLibs = [
+	'bower_components/angular/angular.min.js',
+	'bower_components/angular-animate/angular-animate.min.js',
+	'bower_components/angular-route/angular-route.min.js',
+	'bower_components/angular-translate/angular-translate.min.js'
+];
 
 //Default task
-gulp.task( 'default', [ 'sass', 'js', 'views', 'html' ]);
+gulp.task( 'default', [ 'sass', 'js', 'deps', 'views', 'html', 'tpl' ]);
 
 //Compile css and minify if production
 gulp.task( 'sass', function() {
@@ -24,6 +33,13 @@ gulp.task( 'js', function() {
 		.pipe( gulp.dest( 'public/app' ) );
 });
 
+gulp.task( 'deps', function() {
+	return gulp.src( depLibs )
+		.pipe( flatten() )
+		.pipe( concat( 'dependencies.js' ) )
+		.pipe( gulp.dest( 'public/app' ) );
+});
+
 //Copy html
 gulp.task( 'html', function() {
 	return gulp.src( 'src/index.html' )
@@ -34,4 +50,11 @@ gulp.task( 'html', function() {
 gulp.task( 'views', function() {
 	return gulp.src( 'src/views/**/*' )
 		.pipe( gulp.dest( 'public/views' ) );
+});
+
+//Copy templates
+gulp.task( 'tpl', function() {
+	return gulp.src( 'src/app/**/*.tpl.html' )
+		.pipe( flatten() )
+		.pipe( gulp.dest( 'public/app/tpl' ) );
 });
