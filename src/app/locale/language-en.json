@@ -1,6 +1,8 @@
 {
 	"site": {
-		"name": "A Deux Pas du Lavoir"
+		"name": "A Deux Pas du Lavoir",
+		"subtitle": "Epicerie Multi-Service",
+		"description": "The multi-service shop of Rodemack"
 	},
 
 	"menu": {
@@ -8,6 +10,10 @@
 		"products": "Products",
 		"services": "Services",
 		"contacts": "Contacts"
+	},
+
+	"footer": {
+		"text": "A Deux Pas du Lavoir © 2016"
 	},
 
 	"nowOpen": "Now open",
