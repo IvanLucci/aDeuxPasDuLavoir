@@ -12,14 +12,23 @@
 		function link( scope ) {
 
 			scope.days = [];
+			scope.isOpen = null;
 			var timetable = {};
+
 
 			timetableService.getTimetable().then(
 				function( data ) {
 					timetable = data;
 					scope.days = timetableService.getDays();
+					scope.isOpen = isNowOpen();
 				}
 			);
+
+			function isNowOpen() {
+				var today = new Date(),
+				currDayStr = timetableService.getDayString( today.getDay() );
+				return timetableService.isCurrTimeInRange( timetable[ currDayStr ] );
+			}
 
 			scope.getMorningTime = function( day ) {
 				var morning = timetable[ day ].morning;
@@ -29,6 +38,10 @@
 			scope.getAfternoonTime = function( day ) {
 				var afternoon = timetable[ day ].afternoon;
 				return afternoon.from + ' - ' + afternoon.to;
+			}
+
+			scope.isCurrentWeekDay = function( day ) {
+				return timetableService.isCurrentWeekDay( day );
 			}
 
 			scope.changeLang = function( lang ) {

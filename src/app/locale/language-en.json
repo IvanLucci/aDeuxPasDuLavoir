@@ -10,7 +10,8 @@
 		"contacts": "Contacts"
 	},
 
-	
+	"nowOpen": "Now open",
+	"nowClosed": "Now closed",
 
 	"monday": "Monday",
 	"tuesday": "Tuesday",

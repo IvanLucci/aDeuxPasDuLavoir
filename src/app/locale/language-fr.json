@@ -10,7 +10,8 @@
 		"contacts": "Contacts"
 	},
 
-	
+	"nowOpen": "Maintenant ouvert",
+	"nowClosed": "Maintenant fermé",
 
 	"monday": "Lundi",
 	"tuesday": "Mardi",
