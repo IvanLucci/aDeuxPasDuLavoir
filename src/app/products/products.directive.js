@@ -1,6 +1,6 @@
 (function( app, tplPath ) {
 
-	app.directive( 'products', [ function() {
+	app.directive( 'products', [ 'productsService', function( productsService ) {
 
 		return {
 			restrict: 'A',
@@ -10,7 +10,13 @@
 		};
 
 		function link( scope ) {
-			
+			scope.products = [];
+
+			productsService.getProducts().then(
+				function( data ) {
+					scope.products = data;
+				}
+			);
 		}
 
 	}]);

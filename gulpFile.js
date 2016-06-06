@@ -20,7 +20,7 @@ var depLibs = [
 ];
 
 //Default task
-gulp.task( 'default', [ 'sass', 'js', 'deps', 'views', 'html', 'tpl', 'content', 'locale' ]);
+gulp.task( 'default', [ 'sass', 'js', 'deps', 'views', 'html', 'tpl', 'content', 'locale', 'img' ]);
 
 //Compile css and minify if production
 gulp.task( 'sass', function() {
@@ -73,4 +73,10 @@ gulp.task( 'content', function() {
 gulp.task( 'locale', function() {
 	return gulp.src( 'src/app/locale/*.json' )
 		.pipe( gulp.dest( 'public/app/content/locale' ) );
+});
+
+//Copy images
+gulp.task( 'img', function() {
+	return gulp.src( 'src/app/products/img/*' )
+		.pipe( gulp.dest( 'public/app/content/products/img' ) );
 });

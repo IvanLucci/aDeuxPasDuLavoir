@@ -16,7 +16,9 @@
 		tplPath: 		'app/tpl/',
 		contentPath: 	'app/content/',
 		localePath: 	'app/content/locale/',
-		viewPath:  		'views/'
+		viewPath:  		'views/',
+		prodImgPath:  	'app/content/products/img/',
+		servImgPath:  	'app/content/services/img/'
 	}
 
 	//App information
