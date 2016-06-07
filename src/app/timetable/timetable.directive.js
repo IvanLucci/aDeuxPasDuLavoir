@@ -43,10 +43,6 @@
 			scope.isCurrentWeekDay = function( day ) {
 				return timetableService.isCurrentWeekDay( day );
 			}
-
-			scope.changeLang = function( lang ) {
-				$translate.use( lang );
-			}
 		}
 
 	}]);	

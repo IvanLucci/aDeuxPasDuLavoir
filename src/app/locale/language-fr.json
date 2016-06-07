@@ -16,6 +16,20 @@
 		"text": "A Deux Pas du Lavoir © 2016"
 	},
 
+	"products": {
+		"conchiglioni4Sapori": {
+			"name": "Conchiglioni Quatre Saveurs",
+			"description": "Speciale tipe de pasta aux quatre saveurs differentes."
+		},
+		"trofietteBasilico": {
+			"name": "Troffiette Basilique",
+			"description": "Specialité de Ligurie. Ces trofie aux saveur basilique tu ne peux pas les louper!"
+		},
+		"linguineI": {
+			"name": "linguine Terra e Arte"
+		}
+	},
+
 	"nowOpen": "Maintenant ouvert",
 	"nowClosed": "Maintenant fermé",
 

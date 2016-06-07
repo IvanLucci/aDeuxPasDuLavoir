@@ -1,8 +1,17 @@
 <div data-ng-repeat="p in products" style="border: 1px solid #ccc; margin: 3px;">
 	
 	<img data-ng-src="{{ p.img }}" class="pull-left" />
-	<h4>{{ p.id }}</h4>
+	
+	<h4 data-translate="products.{{ p.id }}.name"
+		data-translate-default="{{ p.id }}">
+	</h4>
+	
 	<h3>{{ p.price | currency }}</h3>
+	
+	<p data-translate="products.{{ p.id }}.description"
+	   data-translate-default="">
+	</p>
+
 	<div class="clearfix" />
 
 </div>

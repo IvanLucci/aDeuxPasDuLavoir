@@ -16,6 +16,20 @@
 		"text": "A Deux Pas du Lavoir © 2016"
 	},
 
+	"products": {
+		"conchiglioni4Sapori": {
+			"name": "Conchiglioni 4 Flavours",
+			"description": "Special kind of pasta with four different flavours"
+		},
+		"trofietteBasilico": {
+			"name": "Troffiette Basil",
+			"description": "Ligurian speciality. These trofie have a basil flavour that you must not miss!"
+		},
+		"linguineI": {
+			"name": "linguine Terra e Arte"
+		}
+	},
+
 	"nowOpen": "Now open",
 	"nowClosed": "Now closed",
 
