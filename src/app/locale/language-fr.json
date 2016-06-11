@@ -30,6 +30,17 @@
 		}
 	},
 
+	"services": {
+		"relaisColis": {
+			"name": "Relais Colis",
+			"description": "Service de relais colis. Viens rétirer vos colis ici."
+		},
+		"pressing": {
+			"name": "Pressing",
+			"description": "Amenez nous vos choses à laver. Une fois par semaine on les amène à Hettange chez Prestonet. Après d'une semaine, réturnez chez nous et vos vetements serons pretes: lavees et repassees."
+		}
+	},
+
 	"nowOpen": "Maintenant ouvert",
 	"nowClosed": "Maintenant fermé",
 

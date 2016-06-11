@@ -30,6 +30,17 @@
 		}
 	},
 
+	"services": {
+		"relaisColis": {
+			"name": "Delivery Center",
+			"description": "Delivery center service. Come get your deliveries here."
+		},
+		"pressing": {
+			"name": "Laundry Service",
+			"description": "Bring us your laundry. Once per week we bring it to Hettange to Prestonet. After one week, come back to us and your laundry will be ready: clean, ironed and folded."
+		}
+	},
+
 	"nowOpen": "Now open",
 	"nowClosed": "Now closed",
 

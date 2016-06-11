@@ -12,24 +12,17 @@
 	<body data-ng-app="adpdl">
 		
 		<header>
-			<h1 data-translate="site.name"></h1>
-			<p data-translate="site.subtitle"></p>
-			
 			<!-- Language buttons. TODO: change into a directive -->
 			<div data-ng-controller="langCtrl" class="pull-right">
 				<button class="btn btn-default btn-sm" ng-click="changeLang( 'en' )">English</button>
 				<button class="btn btn-default btn-sm" ng-click="changeLang( 'fr' )">French</button>
 			</div>
 
+			<h1 data-translate="site.name"></h1>
+			<p data-translate="site.subtitle"></p>
 		</header>
 
-		<!-- Nav. TODO: change into a directive -->
-		<nav>
-			<a href="#/home" data-translate="menu.home"></a> |
-			<a href="#/products" data-translate="menu.products"></a> |
-			<a href="#/services" data-translate="menu.services"></a> |
-			<a href="#/contacts" data-translate="menu.contacts"></a>
-		</nav>
+		<div data-menu></div>
 
 		<content data-ng-view></content>
 

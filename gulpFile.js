@@ -10,13 +10,15 @@ var gulp 	= require( 'gulp' ),
 //List of dependency libraries
 var depLibs = [
 	'bower_components/angular/angular.min.js',
+	'bower_components/jquery/dist/jquery.min.js',
 	'bower_components/angular-animate/angular-animate.min.js',
 	'bower_components/angular-route/angular-route.min.js',
 	'bower_components/angular-translate/angular-translate.min.js',
 	'bower_components/angular-cookies/angular-cookies.min.js',
 	'bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js',
 	'bower_components/angular-translate-storage-local/angular-translate-storage-local.min.js',
-	'bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js'
+	'bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js',
+	'bower_components/bootstrap/dist/js/bootstrap.min.js'
 ];
 
 //Default task
@@ -75,8 +77,17 @@ gulp.task( 'locale', function() {
 		.pipe( gulp.dest( 'public/app/content/locale' ) );
 });
 
-//Copy images
-gulp.task( 'img', function() {
+//Copy product images
+gulp.task( 'imgProducts', function() {
 	return gulp.src( 'src/app/products/img/*' )
 		.pipe( gulp.dest( 'public/app/content/products/img' ) );
 });
+
+//Copy service images
+gulp.task( 'imgServices', function() {
+	return gulp.src( 'src/app/services/img/*' )
+		.pipe( gulp.dest( 'public/app/content/services/img' ) );
+});
+
+//Copy images
+gulp.task( 'img', [ 'imgProducts', 'imgServices' ]);
