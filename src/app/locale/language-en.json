@@ -19,26 +19,39 @@
 	"products": {
 		"conchiglioni4Sapori": {
 			"name": "Conchiglioni 4 Flavours",
-			"description": "Special kind of pasta with four different flavours"
+			"description": "Special kind of pasta with four different flavours",
+			"imgAlt": "@:products.conchiglioni4Sapori.name"
 		},
 		"trofietteBasilico": {
 			"name": "Troffiette Basil",
-			"description": "Ligurian speciality. These trofie have a basil flavour that you must not miss!"
+			"description": "Ligurian speciality. These trofie have a basil flavour that you must not miss!",
+			"imgAlt": "@:products.trofietteBasilico.name"
 		},
 		"linguineI": {
-			"name": "linguine Terra e Arte"
+			"name": "linguine Terra e Arte",
+			"imgAlt": "@:products.linguineI.name"
 		}
 	},
 
 	"services": {
 		"relaisColis": {
 			"name": "Delivery Center",
-			"description": "Delivery center service. Come get your deliveries here."
+			"description": "Delivery center service. Come get your deliveries here.",
+			"imgAlt": "@:services.relaisColis.name"
 		},
 		"pressing": {
 			"name": "Laundry Service",
-			"description": "Bring us your laundry. Once per week we bring it to Hettange to Prestonet. After one week, come back to us and your laundry will be ready: clean, ironed and folded."
+			"description": "Bring us your laundry. Once per week we bring it to Hettange to Prestonet. After one week, come back to us and your laundry will be ready: clean, ironed and folded.",
+			"imgAlt": "@:services.pressing.name"
 		}
+	},
+
+	"language": {
+		"en": "English",
+		"fr": "French",
+		"it": "Italian",
+		"es": "Spanish",
+		"de": "German"
 	},
 
 	"nowOpen": "Now open",

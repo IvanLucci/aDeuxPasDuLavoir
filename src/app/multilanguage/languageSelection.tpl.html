@@ -1,0 +1,17 @@
+<div class="pull-right">
+	<div class="dropdown">
+		<button class="btn btn-default btn-sm dropdown-toggle"
+				type="button"
+				data-toggle="dropdown">
+			{{ getCurrentLanguageId() | translate }}
+			<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu dropdown-menu-right">
+			<li data-ng-repeat="l in activeLanguages" ng-class="{ active: isActive( l ) }">
+				<a data-ng-click="changeLanguage( l )"
+				   data-translate="language.{{ l }}">
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>

@@ -17,6 +17,10 @@
 					scope.services = data;
 				}
 			);
+
+			scope.getAltId = function( serviceId ) {
+				return 'services.' + serviceId + '.imgAlt';
+			}
 		}
 
 	}]);

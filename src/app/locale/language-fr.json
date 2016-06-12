@@ -41,6 +41,14 @@
 		}
 	},
 
+	"language": {
+		"en": "Anglais",
+		"fr": "Francais",
+		"it": "Italien",
+		"es": "Espanol",
+		"de": "Allemand"
+	},
+
 	"nowOpen": "Maintenant ouvert",
 	"nowClosed": "Maintenant fermé",
 

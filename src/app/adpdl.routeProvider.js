@@ -2,8 +2,6 @@
 
 	app.config([ '$routeProvider', function( $routeProvider ) {
 
-		'use strict';
-
 		$routeProvider
 		.when( '/home', {
 			templateUrl: 'views/home.html'

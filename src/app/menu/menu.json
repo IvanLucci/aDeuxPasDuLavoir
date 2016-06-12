@@ -1,18 +1,18 @@
 [
 	{
-		"url": "#/home",
-		"translation": "menu.home"
+		"url": "home",
+		"id": "menu.home"
 	},
 	{
-		"url": "#/products",
-		"translation": "menu.products"
+		"url": "products",
+		"id": "menu.products"
 	},
 	{
-		"url": "#/services",
-		"translation": "menu.services"
+		"url": "services",
+		"id": "menu.services"
 	},
 	{
-		"url": "#/contacts",
-		"translation": "menu.contacts"
+		"url": "contacts",
+		"id": "menu.contacts"
 	}
 ]

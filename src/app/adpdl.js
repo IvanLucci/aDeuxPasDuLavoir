@@ -3,7 +3,6 @@ A Deux Pas du Lavoir
 Author: Ivan Lucci
 */
 
-'use strict';
 
 (function ( angular, window ){ 
 

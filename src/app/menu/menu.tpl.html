@@ -10,15 +10,14 @@
 			</button>
 		</div>
 
-
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li ng-repeat="i in menuItems">
-					<a href="{{ i.url }}" data-translate="{{ i.translation }}"></a>
+				<li data-ng-repeat="i in menuItems"
+					data-ng-class="{ active: isActive( i.url ) }">
+					<a href="#/{{ i.url }}" data-translate="{{ i.id }}"></a>
 				</li>
 			</ul>
 		</div>
-
 
 	</div>
 </nav>

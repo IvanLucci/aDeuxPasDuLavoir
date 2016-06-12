@@ -17,6 +17,10 @@
 					scope.products = data;
 				}
 			);
+
+			scope.getAltId = function( productId ) {
+				return 'products.' + productId + '.imgAlt';
+			}
 		}
 
 	}]);

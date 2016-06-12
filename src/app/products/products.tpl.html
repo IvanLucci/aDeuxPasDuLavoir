@@ -1,6 +1,8 @@
 <div data-ng-repeat="p in products" class="media">
 	<div class="media-left">
-		<img data-ng-src="{{ p.img }}" class="pull-left media-object img-rounded item-thumbnail" />
+		<img class="pull-left media-object img-rounded item-thumbnail"
+			 data-ng-src="{{ p.img }}"
+			 data-ng-alt="{{ getAltId( p.id ) | translate }}" />
 	</div>
 	<div class="media-body">
 		<h4 data-translate="products.{{ p.id }}.name"

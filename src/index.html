@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 
+<!--
+A Deux Pas Du Lavoir
+Author: Ivan Lucci
+-->
+
 <html>
 	<head>
 		<title>A Deux Pas du Lavoir</title>
@@ -12,12 +17,7 @@
 	<body data-ng-app="adpdl">
 		
 		<header>
-			<!-- Language buttons. TODO: change into a directive -->
-			<div data-ng-controller="langCtrl" class="pull-right">
-				<button class="btn btn-default btn-sm" ng-click="changeLang( 'en' )">English</button>
-				<button class="btn btn-default btn-sm" ng-click="changeLang( 'fr' )">French</button>
-			</div>
-
+			<div data-language-selection></div>
 			<h1 data-translate="site.name"></h1>
 			<p data-translate="site.subtitle"></p>
 		</header>
