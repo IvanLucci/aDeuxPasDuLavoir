@@ -95,5 +95,11 @@ gulp.task( 'imgFlags', function() {
 		.pipe( gulp.dest( 'public/app/content/multilanguage/flags' ) );
 });
 
+//Copy style images
+gulp.task( 'imgStyle', function() {
+	return gulp.src( 'src/img/*' )
+		.pipe( gulp.dest( 'public/img' ) );
+});
+
 //Copy images
-gulp.task( 'img', [ 'imgProducts', 'imgServices', 'imgFlags' ]);
+gulp.task( 'img', [ 'imgProducts', 'imgServices', 'imgFlags', 'imgStyle' ]);
