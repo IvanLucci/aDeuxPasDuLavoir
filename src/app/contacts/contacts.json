@@ -1,0 +1,10 @@
+{
+	"email": "adeuxpasinfo@gmail.com",
+	"phone": "+33 456 23 52 21",
+	"address": {
+		"name": "A Deux Pas du Lavoir",
+		"street": "50, Place de Baillis",
+		"city": "57570 - Rodemack",
+		"country": "france"
+	}
+}

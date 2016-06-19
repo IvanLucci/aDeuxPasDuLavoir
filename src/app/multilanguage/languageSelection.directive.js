@@ -25,6 +25,18 @@
 				return 'language.' + currentLanguage;
 			}
 
+			scope.getCurrentLanguageIcon = function() {
+				for ( var i = scope.activeLanguages.length - 1; i >= 0; i-- ) {
+					if ( scope.activeLanguages[i].name === currentLanguage ) {
+						return scope.activeLanguages[i].icon;
+					}
+				}
+			}
+
+			scope.getLanguageId = function( language ) {
+				return 'language.' + language;
+			}
+
 			scope.isActive = function( language ) {
 				return currentLanguage === language;
 			}

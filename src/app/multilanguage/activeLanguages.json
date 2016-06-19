@@ -1,4 +1,10 @@
 [
-	"en",
-	"fr"
+	{
+		"name": "en",
+		"icon": "app/content/multilanguage/flags/gb.png"
+	},
+	{
+		"name": "fr",
+		"icon": "app/content/multilanguage/flags/fr.png"
+	}
 ]

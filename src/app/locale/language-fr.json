@@ -66,5 +66,7 @@
 	"thu": "Jeu",
 	"fri": "Ven",
 	"sat": "Sam",
-	"sun": "Dim"
+	"sun": "Dim",
+
+	"france": "France"
 }
