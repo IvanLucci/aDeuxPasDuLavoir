@@ -6,10 +6,14 @@ body {
 }
 
 .container {
-	background: oldlace;
+	background: floralwhite;
 	border: 2px solid black;
 	padding-left: 0px;
 	padding-right: 0px;
+	box-shadow: 0px 0px 30px 5px black;
+	-webkit-box-shadow: 0px 0px 30px 5px black;
+	-moz-box-shadow: 0px 0px 30px 5px black;
+	-ms-box-shadow: 0px 0px 30px 5px black;
 }
 
 .content-container {
