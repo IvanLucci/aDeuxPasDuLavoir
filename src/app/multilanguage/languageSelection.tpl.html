@@ -1,19 +1,21 @@
-<div class="pull-right">
-	<div class="dropdown">
-		<button class="btn btn-default btn-sm dropdown-toggle"
-				type="button"
-				data-toggle="dropdown">
-			<img data-ng-src="{{ getCurrentLanguageIcon() }}" class="language-flag" /> 
-			{{ getCurrentLanguageId() | translate }}
-			<span class="caret"></span>
-		</button>
-		<ul class="dropdown-menu dropdown-menu-right">
-			<li data-ng-repeat="l in activeLanguages" ng-class="{ active: isActive( l.name ) }">
-				<a data-ng-click="changeLanguage( l.name )" >
-				   <img data-ng-src="{{ l.icon }}" class="language-flag" /> 
-				   {{ getLanguageId( l.name ) | translate }}
-				</a>
-			</li>
-		</ul>
+<div id="language-container">
+	<div id="language-selection">
+		<div class="dropdown" id="language-dropdown">
+			<button class="btn btn-default btn-sm dropdown-toggle btn-language"
+					type="button"
+					data-toggle="dropdown">
+				<img data-ng-src="{{ getCurrentLanguageIcon() }}" class="language-flag" /> 
+				{{ getCurrentLanguageId() | translate }}
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li data-ng-repeat="l in activeLanguages" ng-class="{ active: isActive( l.name ) }">
+					<a data-ng-click="changeLanguage( l.name )" >
+					   <img data-ng-src="{{ l.icon }}" class="language-flag" /> 
+					   {{ getLanguageId( l.name ) | translate }}
+					</a>
+				</li>
+			</ul>
+		</div>
 	</div>
 </div>

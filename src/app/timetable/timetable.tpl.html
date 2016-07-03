@@ -1,8 +1,9 @@
+<!--<img src="img/clock.png" />-->
 
 <div class="label label-success" ng-if="isOpen" translate="nowOpen"></div>
 <div class="label label-danger" ng-if="!isOpen" translate="nowClosed"></div>
 
-<table class="table table-condensed">
+<table class="table table-condensed table-hover">
 
 	<tbody>
 		<tr data-ng-repeat="day in days" ng-class="{ active: isCurrentWeekDay( day ) }">

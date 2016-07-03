@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-inverse" role="navigation">
 	<div class="container-fluid">
 		
 		<div class="navbar-header">
@@ -11,7 +11,7 @@
 		</div>
 
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav">
+			<ul class="nav navbar-nav" id="menu">
 				<li data-ng-repeat="i in menuItems"
 					data-ng-class="{ active: isActive( i.url ) }">
 					<a href="#/{{ i.url }}" data-translate="{{ i.id }}"></a>
