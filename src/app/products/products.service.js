@@ -2,24 +2,34 @@
 
 	app.factory( 'productsService', [ '$http', function( $http ) {
 		
-		function fixUrls( products ) {
-			for ( var i = products.length - 1; i >= 0; i-- ) {
-				if ( products[i].img ) {
-					products[i].img = paths.prodImgPath + products[i].img;
+		function fixUrls( categories ) {
+			var products = null, i, j;
+			for ( i = categories.length - 1; i >= 0; i-- ) {
+				fixUrl( categories[i] );
+				products = categories[i].products || [];
+				for ( j = products.length - 1; j >= 0; j-- ) {
+					fixUrl( products[j] );
 				}
 			}
 		}
 
+		function fixUrl( item ) {
+			if ( item.img ) {
+				item.img = paths.prodImgPath + item.img;
+			}
+			//item.img = item.img && paths.prodImgPath + item.img;
+		}
+
 		return {
 
-			getProducts: function() {
+			getCategories: function() {
 				return $http.get( paths.contentPath + 'products/products.json' ).then(
 					function( res ) {
 						fixUrls( res.data );
 						return res.data;
 					},
 					function( error ) {
-						throw 'Cannot get the products';
+						throw 'Cannot get the categories';
 					}
 				);
 			}

@@ -1,22 +1,48 @@
 [
 	{
-		"id": "conchiglioni4Sapori",
-		"img": "conchiglioni_4_sapori.jpg",
-		"price": "2.50"
+		"id": "pastaLigorio",
+		"img": "almattarelloLogo.png",
+		"products": [
+			{
+				"id": "conchiglioni4Sapori",
+				"img": "conchiglioni_4_sapori.jpg"
+			},
+			{
+				"id": "trofietteBasilico",
+				"img": "trofiette_basilico.jpg"
+			},
+			{
+				"id": "linguineI",
+				"img": "linguineI.jpg"
+			}
+		]
 	},
 	{
-		"id": "trofietteBasilico",
-		"img": "trofiette_basilico.jpg",
-		"price": "3.10"
+		"id": "terraECielo",
+		"img": "terraCieloLogo2.jpg",
+		"products": [
+			{
+				"id": "strozzapretiSC",
+				"img": "strozzapretiSC.jpg"
+			},
+			{
+				"id": "conchiglioni4Sapori",
+				"img": "conchiglioni_4_sapori.jpg"
+			}
+		]
 	},
 	{
-		"id": "linguineI",
-		"img": "linguineI.jpg",
-		"price": "2.50"
-	},
-	{
-		"id": "strozzapretiSC",
-		"img": "strozzapretiSC.jpg",
-		"price": "3.70"
+		"id": "pastaFiore",
+		"img": "fioreLogo.png",
+		"products": [
+			{
+				"id": "trofietteBasilico",
+				"img": "trofiette_basilico.jpg"
+			},
+			{
+				"id": "linguineI",
+				"img": "linguineI.jpg"
+			}
+		]
 	}
 ]

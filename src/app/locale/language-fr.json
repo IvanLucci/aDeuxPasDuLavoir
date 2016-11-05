@@ -30,6 +30,21 @@
 		}
 	},
 
+	"productCategories": {
+		"pastaLigorio": {
+			"name": "Pasta Ligorio",
+			"imgAlt": "@:productCategories.pastaLigorio.name"
+		},
+		"terraECielo": {
+			"name": "La Terra e il Cielo",
+			"imgAlt": "@:productCategories.terraECielo.name"
+		},
+		"pastaFiore": {
+			"name": "Pasta Fiore",
+			"imgAlt": "@:productCategories.pastaFiore.name"
+		}
+	},
+
 	"services": {
 		"relaisColis": {
 			"name": "Relais Colis",

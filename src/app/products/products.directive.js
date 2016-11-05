@@ -10,11 +10,11 @@
 		};
 
 		function link( scope ) {
-			scope.products = [];
+			scope.categories = [];
 
-			productsService.getProducts().then(
+			productsService.getCategories().then(
 				function( data ) {
-					scope.products = data;
+					scope.categories = data;
 				}
 			);
 

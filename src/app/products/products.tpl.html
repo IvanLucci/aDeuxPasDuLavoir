@@ -1,3 +1,38 @@
+<div class="row">
+	<div data-ng-repeat="c in categories track by c.id" class="category-container col-lg-4 col-md-6 col-sm-12">
+		
+			<div class="panel panel-default">
+				<div class="panel-heading text-center">
+					<img class=""
+						 data-ng-src="{{ c.img }}"
+						 data-ng-alt="{{ getAltId( c.id ) | translate }}" />
+				</div>
+
+				<div class="panel-body">
+					<div data-ng-repeat="p in c.products track by p.id" class="media">
+						<div class="media-left">
+							<img class="pull-left media-object img-circle item-thumbnail-sm"
+								 data-ng-src="{{ p.img }}"
+								 data-ng-alt="{{ getAltId( p.id ) | translate }}" />
+						</div>
+						<div class="media-body media-middle">
+							<a data-translate="products.{{ p.id }}.name"
+							   data-translate-default="{{ p.id }}"
+							   href="">
+							</a>
+							<p data-translate="products.{{ p.id }}.description"
+							   data-translate-default="">
+							</p>
+							<h4><em>{{ p.price | currency : '€ ' }}</em></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+
+	</div>
+</div>
+
+<!--
 <div data-ng-repeat="p in products" class="media">
 	<div class="media-left">
 		<img class="pull-left media-object img-rounded item-thumbnail"
@@ -14,3 +49,4 @@
 		<h4><em>{{ p.price | currency : '€ ' }}</em></h4>
 	</div>
 </div>
+-->

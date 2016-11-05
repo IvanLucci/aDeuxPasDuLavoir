@@ -23,6 +23,15 @@ body {
 
 h1, h2, h3 {
 	font-family: Berry, Helvetica, Sans-Serif;
+	text-shadow: 0px 0px 8px orange;
+}
+
+a {
+	color: #ff6d31;
+	&:focus, &:hover {
+		color: #c54815;
+		text-decoration: none;
+	}
 }
 
 .container {
@@ -109,6 +118,20 @@ h1, h2, h3 {
 
 .item-thumbnail {
 	width: 200px;
+}
+
+.item-thumbnail-sm {
+	width: 50px;
+}
+
+.panel {
+	background-color: $bodyBackground;
+}
+
+.panel-default {
+	.panel-heading {
+		background-color: black;
+	}
 }
 
 .language-flag {
