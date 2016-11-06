@@ -1,18 +1,19 @@
 $bodyBackground: #222;
 $textColor: white;
-$inactiveText: #999;
+$linkColor: #e8743b;
+$linkColorHover: #c54815;
 $highlightColor: black;
 $highlightColorLight: #191919;
 $borderColor: #ccc;
 
 @font-face {
     font-family: Berry;
-    src: url("../fonts/Berry Rotunda.eot"); /* for IE */
+    src: url("../fonts/Noir-et-Blanc.eot"); /* for IE */
 }
 
 @font-face {
     font-family: Berry;
-    src: url("../fonts/Berry Rotunda.ttf");
+    src: url("../fonts/Noir-et-Blanc.ttf");
 }
 
 body {
@@ -29,9 +30,9 @@ h1, h2, h3 {
 }
 
 a {
-	color: #ff6d31;
+	color: $linkColor;
 	&:focus, &:hover {
-		color: #c54815;
+		color: $linkColorHover;
 		text-decoration: none;
 	}
 }
@@ -84,8 +85,8 @@ a {
 				background-repeat: no-repeat;
 			    height: 80px;
 			    width: 110px;
-			    font-size: 15px;
-			    color: $inactiveText;
+			    font-size: 20px;
+			    color: $linkColor;
 			    line-height: 50px;
 			    text-align: center;
 			    margin: 0px 4px;
@@ -164,11 +165,13 @@ a {
 }
 
 .popover {
+	box-shadow: 0px 0px 30px 3px black;
 	background-color: $bodyBackground;
 	border: 1px solid $borderColor;
 	max-width: 400px;
 	.popover-title {
 		background-color: $highlightColor;
+		font-size: 20px;
 	}
 }
 
