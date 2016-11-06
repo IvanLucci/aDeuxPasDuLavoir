@@ -19,14 +19,20 @@
 	"products": {
 		"conchiglioni4Sapori": {
 			"name": "Conchiglioni Quatre Saveurs",
-			"description": "Speciale tipe de pasta aux quatre saveurs differentes."
+			"abstract": "Speciale tipe de pasta aux quatre saveurs differentes.",
+			"description": "Speciale tipe de pasta aux quatre saveurs differentes.",
+			"imgAlt": "@:products.conchiglioni4Sapori.name"
 		},
 		"trofietteBasilico": {
 			"name": "Troffiette Basilique",
-			"description": "Specialité de Ligurie. Ces trofie aux saveur basilique tu ne peux pas les louper!"
+			"abstract": "Specialité de Ligurie.",
+			"description": "Specialité de Ligurie. Ces trofie aux saveur basilique tu ne peux pas les louper!",
+			"imgAlt": "@:products.trofietteBasilico.name"
 		},
 		"linguineI": {
-			"name": "linguine Terra e Arte"
+			"name": "linguine Terra e Arte",
+			"abstract": "Linguine",
+			"imgAlt": "@:products.linguineI.name"
 		}
 	},
 

@@ -19,16 +19,19 @@
 	"products": {
 		"conchiglioni4Sapori": {
 			"name": "Conchiglioni 4 Flavours",
+			"abstract": "Special kind of pasta with four different flavours",
 			"description": "Special kind of pasta with four different flavours",
 			"imgAlt": "@:products.conchiglioni4Sapori.name"
 		},
 		"trofietteBasilico": {
 			"name": "Troffiette Basil",
+			"abstract": "Ligurian speciality",
 			"description": "Ligurian speciality. These trofie have a basil flavour that you must not miss!",
 			"imgAlt": "@:products.trofietteBasilico.name"
 		},
 		"linguineI": {
 			"name": "linguine Terra e Arte",
+			"abstract": "Linguine",
 			"imgAlt": "@:products.linguineI.name"
 		}
 	},

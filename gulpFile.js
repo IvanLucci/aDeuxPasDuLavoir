@@ -18,7 +18,8 @@ var depLibs = [
 	'bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js',
 	'bower_components/angular-translate-storage-local/angular-translate-storage-local.min.js',
 	'bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js',
-	'bower_components/bootstrap/dist/js/bootstrap.min.js'
+	'bower_components/bootstrap/dist/js/bootstrap.min.js',
+	'bower_components/ui.bootstrap/ui-bootstrap-custom-tpls-2.2.0.min.js'
 ];
 
 //List of CSS dependencies

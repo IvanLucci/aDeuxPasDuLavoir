@@ -1,6 +1,10 @@
 (function( app, tplPath ) {
 
-	app.directive( 'products', [ 'productsService', function( productsService ) {
+	app.directive( 'products', [ 'productsService',
+								 '$sce',
+								 '$filter', function( productsService,
+								 					  $sce,
+								 					  $filter ) {
 
 		return {
 			restrict: 'A',
@@ -11,6 +15,9 @@
 
 		function link( scope ) {
 			scope.categories = [];
+			scope.popover = {
+				content: 'loading...'
+			};
 
 			productsService.getCategories().then(
 				function( data ) {
@@ -18,9 +25,17 @@
 				}
 			);
 
-			scope.getAltId = function( productId ) {
-				return 'products.' + productId + '.imgAlt';
+			// Get the locale id of a property of a product.
+			scope.getId = function( productId, property ) {
+				return 'products.' + productId + '.' + property;
 			};
+
+			scope.updatePopoverContent = function( product ) {
+				var image = '<img class="img-rounded" src="' + product.img + '"/>',
+					description = $filter('translate')('products.' + product.id + '.description');
+				description = /\S*[.]\S*[.]\S*/.test( description ) ? '' : description;
+				scope.popover.content = $sce.trustAsHtml( image + '<br />' + description );
+			}
 
 			scope.getStyle = function( category ) {
 				var style = {
@@ -29,7 +44,6 @@
 					'background-position': '100%',
 					'background-size': 'auto 100px'
 				};
-				console.log( style );
 				return style;
 			};
 		}

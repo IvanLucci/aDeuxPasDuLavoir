@@ -1,7 +1,9 @@
 $bodyBackground: #222;
 $textColor: white;
 $inactiveText: #999;
-$activeBackground: black;
+$highlightColor: black;
+$highlightColorLight: #191919;
+$borderColor: #ccc;
 
 @font-face {
     font-family: Berry;
@@ -110,10 +112,18 @@ a {
 	    display: block;
 	    margin-left: -400px;
 	}
+
+}
+
+// Hide popovers on small screens
+@media (max-width: 991px) {
+	[uib-popover-popup].popover, [uib-popover-html-popup].popover, [uib-popover-template-popup].popover {
+		display: none !important;
+	}
 }
 
 .table > tbody > tr.active > td {
-	background-color: $activeBackground;
+	background-color: $highlightColor;
 }
 
 .item-thumbnail {
@@ -126,11 +136,14 @@ a {
 
 .panel {
 	background-color: $bodyBackground;
+	.panel-body.category-body {
+		padding: 0px;
+	}
 }
 
 .panel-default {
 	.panel-heading {
-		background-color: black;
+		background-color: $highlightColor;
 		color: white;
 		height: 70px;
 		line-height: 50px;
@@ -138,6 +151,24 @@ a {
 		.category-img {
 			height: 50px;
 		}
+	}
+}
+
+.product {
+	padding: 10px;
+	max-height: 100px;
+	cursor: pointer;
+	&:hover {
+		background-color: $highlightColorLight;
+	}
+}
+
+.popover {
+	background-color: $bodyBackground;
+	border: 1px solid $borderColor;
+	max-width: 400px;
+	.popover-title {
+		background-color: $highlightColor;
 	}
 }
 
@@ -163,6 +194,10 @@ a {
 	> li > a {
 		cursor: pointer;
 		color: $textColor;
+		&:focus, &:hover {
+			background-color: $highlightColorLight;
+			color: $textColor;
+		}
 	}
 	> .active > a {
 		&, &:focus, &:hover {
