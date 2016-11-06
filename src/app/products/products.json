@@ -1,7 +1,7 @@
 [
 	{
 		"id": "pastaLigorio",
-		"img": "almattarelloLogo.png",
+		"img": "almattarelloLogoOpa.png",
 		"products": [
 			{
 				"id": "conchiglioni4Sapori",
@@ -18,8 +18,8 @@
 		]
 	},
 	{
-		"id": "terraECielo",
-		"img": "terraCieloLogo2.jpg",
+		"id": "pastaTerraECielo",
+		"img": "terraCieloLogo2Opa.png",
 		"products": [
 			{
 				"id": "strozzapretiSC",
@@ -33,7 +33,7 @@
 	},
 	{
 		"id": "pastaFiore",
-		"img": "fioreLogo.png",
+		"img": "fioreLogoOpa.png",
 		"products": [
 			{
 				"id": "trofietteBasilico",

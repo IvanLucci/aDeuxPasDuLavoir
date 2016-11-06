@@ -20,7 +20,18 @@
 
 			scope.getAltId = function( productId ) {
 				return 'products.' + productId + '.imgAlt';
-			}
+			};
+
+			scope.getStyle = function( category ) {
+				var style = {
+					'background-image': 'url(' + category.img + ')',
+					'background-repeat': 'no-repeat',
+					'background-position': '100%',
+					'background-size': 'auto 100px'
+				};
+				console.log( style );
+				return style;
+			};
 		}
 
 	}]);

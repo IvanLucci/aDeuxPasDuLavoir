@@ -35,9 +35,9 @@
 			"name": "Pasta Ligorio",
 			"imgAlt": "@:productCategories.pastaLigorio.name"
 		},
-		"terraECielo": {
-			"name": "La Terra e il Cielo",
-			"imgAlt": "@:productCategories.terraECielo.name"
+		"pastaTerraECielo": {
+			"name": "Pasta Terra e il Cielo",
+			"imgAlt": "@:productCategories.pastaTerraECielo.name"
 		},
 		"pastaFiore": {
 			"name": "Pasta Fiore",

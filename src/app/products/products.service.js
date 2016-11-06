@@ -14,10 +14,7 @@
 		}
 
 		function fixUrl( item ) {
-			if ( item.img ) {
-				item.img = paths.prodImgPath + item.img;
-			}
-			//item.img = item.img && paths.prodImgPath + item.img;
+			item.img = item.img && paths.prodImgPath + item.img;
 		}
 
 		return {
