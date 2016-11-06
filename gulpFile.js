@@ -21,8 +21,14 @@ var depLibs = [
 	'bower_components/bootstrap/dist/js/bootstrap.min.js'
 ];
 
+//List of CSS dependencies
+var depCss = [
+	'bower_components/bootstrap/dist/css/bootstrap.min.css',
+	'bower_components/font-awesome/css/font-awesome.min.css'
+];
+
 //Default task
-gulp.task( 'default', [ 'sass', 'fonts', 'js', 'deps', 'views', 'html', 'tpl', 'content', 'locale', 'img' ]);
+gulp.task( 'default', [ 'sass', 'fonts', 'locale', 'js', 'deps', 'depsCss', 'depFonts', 'views', 'html', 'tpl', 'content', 'locale', 'img' ]);
 
 //Compile css and minify if production
 gulp.task( 'sass', function() {
@@ -39,11 +45,26 @@ gulp.task( 'js', function() {
 		.pipe( gulp.dest( 'public/app' ) );
 });
 
+//Concat and copy js dependencies
 gulp.task( 'deps', function() {
 	return gulp.src( depLibs )
 		.pipe( flatten() )
 		.pipe( concat( 'dependencies.js' ) )
 		.pipe( gulp.dest( 'public/app' ) );
+});
+
+//Concat and copy CSS dependencies
+gulp.task( 'depsCss', function() {
+	return gulp.src( depCss )
+		.pipe( flatten() )
+		.pipe( concat( 'dependencies.css' ) )
+		.pipe( gulp.dest( 'public/css' ) );
+});
+
+//Copy fonts
+gulp.task( 'depFonts', function() {
+	return gulp.src( 'bower_components/font-awesome/fonts/*' )
+		.pipe( gulp.dest( 'public/fonts/' ) );
 });
 
 //Copy html
@@ -71,14 +92,14 @@ gulp.task( 'content', function() {
 		.pipe( gulp.dest( 'public/app/content' ) );
 });
 
-//Copy locale folder
-gulp.task( 'locale', function() {
+//Copy fonts folder
+gulp.task( 'fonts', function() {
 	return gulp.src( 'src/sass/fonts/*' )
-		.pipe( gulp.dest( 'public/css/fonts' ) );
+		.pipe( gulp.dest( 'public/fonts' ) );
 });
 
-//Copy fonts
-gulp.task( 'fonts', function() {
+//Copy locales
+gulp.task( 'locale', function() {
 	return gulp.src( 'src/app/locale/*.json' )
 		.pipe( gulp.dest( 'public/app/content/locale' ) );
 });

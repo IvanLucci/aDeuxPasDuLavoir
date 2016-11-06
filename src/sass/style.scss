@@ -5,12 +5,12 @@ $activeBackground: black;
 
 @font-face {
     font-family: Berry;
-    src: url("fonts/Berry Rotunda.eot"); /* for IE */
+    src: url("../fonts/Berry Rotunda.eot"); /* for IE */
 }
 
 @font-face {
     font-family: Berry;
-    src: url("fonts/Berry Rotunda.ttf");
+    src: url("../fonts/Berry Rotunda.ttf");
 }
 
 body {
@@ -203,4 +203,8 @@ a {
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: 120px auto;
+}
+
+address .fa {
+	font-size: 18px;
 }
