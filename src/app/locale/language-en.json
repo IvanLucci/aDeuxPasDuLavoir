@@ -64,6 +64,12 @@
 		}
 	},
 
+	"pressing": {
+		"chemise": "Shirt",
+		"t-shirt": "T-shirt",
+		"pantalon": "Trousers"
+	},
+
 	"language": {
 		"en": "English",
 		"fr": "French",
@@ -92,5 +98,12 @@
 	"sat": "Sat",
 	"sun": "Sun",
 
-	"france": "France"
+	"france": "France",
+
+	"pricing": "Pricing",
+	"item": "Item",
+	"deliveryDay": "Delivery day",
+	"deliveryTime": "Delivery time",
+	"washing": "Washing",
+	"ironing": "Ironing"
 }

@@ -113,7 +113,8 @@ gulp.task( 'imgProducts', function() {
 
 //Copy service images
 gulp.task( 'imgServices', function() {
-	return gulp.src( 'src/app/services/img/*' )
+	return gulp.src( 'src/app/services/**/img/*' )
+		.pipe( flatten() )
 		.pipe( gulp.dest( 'public/app/content/services/img' ) );
 });
 

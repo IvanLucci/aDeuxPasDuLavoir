@@ -5,6 +5,7 @@ $linkColorHover: #c54815;
 $highlightColor: black;
 $highlightColorLight: #191919;
 $borderColor: #ccc;
+$oddRowColor: #1f1f1f;
 
 @font-face {
     font-family: Berry;
@@ -35,6 +36,14 @@ a {
 		color: $linkColorHover;
 		text-decoration: none;
 	}
+}
+
+th {
+	color: $linkColor;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+	background-color: $oddRowColor;
 }
 
 .container {
@@ -245,4 +254,9 @@ a {
 
 address .fa {
 	font-size: 18px;
+}
+
+.visibleBold {
+	color: $linkColor;
+	font-weight: bold;
 }

@@ -62,6 +62,12 @@
 		}
 	},
 
+	"pressing": {
+		"chemise": "Chemise",
+		"t-shirt": "T-shirt",
+		"pantalon": "Pantalon"
+	},
+
 	"language": {
 		"en": "Anglais",
 		"fr": "Francais",
@@ -90,5 +96,12 @@
 	"sat": "Sam",
 	"sun": "Dim",
 
-	"france": "France"
+	"france": "France",
+
+	"pricing": "Prixs",
+	"item": "Article",
+	"deliveryDay": "Jour de livraison",
+	"deliveryTime": "Heur de livraison",
+	"washing": "Lavage",
+	"ironing": "Repassage"
 }

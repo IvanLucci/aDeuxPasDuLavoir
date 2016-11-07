@@ -1,0 +1,41 @@
+<!-- Apply an accordion here -->
+<div class="panel panel-default">
+	
+	<div class="panel-heading">
+		<h3 data-translate="services.pressing.name"></h3>
+	</div>
+
+	<div class="panel-body">
+		<div class="row">
+			<div class="col-md-3">
+				<img ng-src="{{ info.img }}" />
+			</div>
+			<div class="col-md-9">
+				<p data-translate="services.pressing.description"></p>
+				<p>
+					<span class="visibleBold" data-translate="deliveryDay"></span>: {{ info.deliveryDay | translate }}
+				</p>
+				<p>
+					<span class="visibleBold" data-translate="deliveryTime"></span>: {{ info.deliveryTime }}
+				</p>
+			</div>
+		</div>
+
+		<h3 data-translate="pricing"></h3>
+
+		<table class="table table-condensed table-striped">
+			<thead>
+				<th data-translate="item"></th>
+				<th data-translate="washing"></th>
+				<th data-translate="ironing"></th>
+			</thead>
+			<tbody>
+				<tr data-ng-repeat="p in info.pricing">
+					<td data-translate="pressing.{{ p.id }}"></td>
+					<td>{{ p.wash | currency : '€ ' }}</td>
+					<td>{{ p.iron | currency : '€ ' }}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

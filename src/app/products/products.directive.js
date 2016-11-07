@@ -1,10 +1,6 @@
 (function( app, tplPath ) {
 
-	app.directive( 'products', [ 'productsService',
-								 '$sce',
-								 '$filter', function( productsService,
-								 					  $sce,
-								 					  $filter ) {
+	app.directive( 'products', [ 'productsService', '$sce', '$filter', function( productsService, $sce, $filter ) {
 
 		return {
 			restrict: 'A',

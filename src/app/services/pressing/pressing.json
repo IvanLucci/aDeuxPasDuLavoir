@@ -1,0 +1,24 @@
+{
+	"id": "pressing",
+	"deliveryDay": "wednesday",
+	"deliveryTime": "11:00",
+	"img": "pressing.jpg", 
+
+	"pricing": [
+		{
+			"id": "chemise",
+			"wash": "2.60",
+			"iron": "1.50"
+		},
+		{
+			"id": "t-shirt",
+			"wash": "1.20",
+			"iron": "1.20"
+		},
+		{
+			"id": "pantalon",
+			"wash": "3.40",
+			"iron": "1.00"
+		}
+	]
+}
