@@ -64,10 +64,8 @@
 		}
 	},
 
-	"pressing": {
-		"chemise": "Shirt",
-		"t-shirt": "T-shirt",
-		"pantalon": "Trousers"
+	"laundryItems": {
+		
 	},
 
 	"language": {
@@ -101,9 +99,11 @@
 	"france": "France",
 
 	"pricing": "Pricing",
+	"price": "Price",
 	"item": "Item",
 	"deliveryDay": "Delivery day",
 	"deliveryTime": "Delivery time",
-	"washing": "Washing",
-	"ironing": "Ironing"
+	"dryCleaning": "Dry cleaning",
+	"ironing": "Ironing",
+	"laundry": "Laundry"
 }

@@ -1,11 +1,11 @@
 $bodyBackground: #222;
 $textColor: white;
 $linkColor: #e8743b;
-$linkColorHover: #c54815;
+$linkColorHover: #ff5300;
 $highlightColor: black;
 $highlightColorLight: #191919;
 $borderColor: #ccc;
-$oddRowColor: #1f1f1f;
+$oddRowColor: #1d1d1d;
 
 @font-face {
     font-family: Berry;
@@ -38,9 +38,6 @@ a {
 	}
 }
 
-th {
-	color: $linkColor;
-}
 
 .table-striped > tbody > tr:nth-of-type(odd) {
 	background-color: $oddRowColor;
@@ -99,6 +96,9 @@ th {
 			    line-height: 50px;
 			    text-align: center;
 			    margin: 0px 4px;
+			    &:hover {
+			    	text-shadow: 0px 0px 8px;
+			    }
 			}
 
 			&.active > a {
@@ -259,4 +259,26 @@ address .fa {
 .visibleBold {
 	color: $linkColor;
 	font-weight: bold;
+}
+
+.nav-tabs {
+	> li.active {
+		> a {
+			&, &:focus, &:hover {
+				background-color: $bodyBackground;
+				border-bottom-color: $bodyBackground;
+				color: $linkColorHover;
+			}
+		} 
+	}
+}
+
+.nav {
+	> li {
+		> a {
+			&:focus, &:hover {
+				background-color: $bodyBackground;
+			}
+		}
+	}
 }

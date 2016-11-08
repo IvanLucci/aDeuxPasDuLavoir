@@ -62,10 +62,16 @@
 		}
 	},
 
-	"pressing": {
-		"chemise": "Chemise",
-		"t-shirt": "T-shirt",
-		"pantalon": "Pantalon"
+	"laundryItems": {
+		"blousonFin": "Blouson fin",
+		"blousonPlume": "Blouson plume",
+		"casquette": "Casquette",
+
+		"drap": "Drap",
+		"drapHousse": "Drap housse",
+
+		"blouse": "Blouse",
+		"canevaPetit": "Caneva petit"
 	},
 
 	"language": {
@@ -99,9 +105,11 @@
 	"france": "France",
 
 	"pricing": "Prixs",
+	"price": "Prix",
 	"item": "Article",
 	"deliveryDay": "Jour de livraison",
 	"deliveryTime": "Heur de livraison",
-	"washing": "Lavage",
-	"ironing": "Repassage"
+	"dryCleaning": "Pressing",
+	"ironing": "Repassage",
+	"laundry": "Blanchisserie"
 }

@@ -8,6 +8,7 @@ var gulp 	= require( 'gulp' ),
 	flatten	= require( 'gulp-flatten' );
 
 //List of dependency libraries
+// I don't need all. For example, from bootstrap I only need dropdown. But I could use ui.bootstrap.
 var depLibs = [
 	'bower_components/angular/angular.min.js',
 	'bower_components/jquery/dist/jquery.min.js',
@@ -19,7 +20,7 @@ var depLibs = [
 	'bower_components/angular-translate-storage-local/angular-translate-storage-local.min.js',
 	'bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js',
 	'bower_components/bootstrap/dist/js/bootstrap.min.js',
-	'bower_components/ui.bootstrap/ui-bootstrap-custom-tpls-2.2.0.min.js'
+	'bower_components/ui-bootstrap/ui-bootstrap-custom-tpls-2.2.0.min.js'
 ];
 
 //List of CSS dependencies

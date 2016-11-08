@@ -4,21 +4,196 @@
 	"deliveryTime": "11:00",
 	"img": "pressing.jpg", 
 
-	"pricing": [
-		{
-			"id": "chemise",
-			"wash": "2.60",
-			"iron": "1.50"
-		},
-		{
-			"id": "t-shirt",
-			"wash": "1.20",
-			"iron": "1.20"
-		},
-		{
-			"id": "pantalon",
-			"wash": "3.40",
-			"iron": "1.00"
-		}
-	]
+	"pricing": {
+		"dryCleaning": [
+			{
+				"id": "blousonFin",
+				"price": "6.60"
+			},
+			{
+				"id": "blousonPlume",
+				"price": "12.50"
+			},
+			{
+				"id": "casquette",
+				"price": "4.20"
+			},
+			{
+				"id": "chemise",
+				"price": "2.60"
+			},
+			{
+				"id": "t-shirt",
+				"price": "2.60"
+			},
+			{
+				"id": "corsage/chemisier",
+				"price": "4.40"
+			},
+			{
+				"id": "combinaisonSki",
+				"price": "12.50"
+			},
+			{
+				"id": "costume/tailleur2p",
+				"price": "11.20"
+			},
+			{
+				"id": "costume/tailleur3p",
+				"price": "14.10"
+			},
+			{
+				"id": "cravate",
+				"price": "2.80"
+			},
+			{
+				"id": "echarpe",
+				"price": "3.10"
+			},
+			{
+				"id": "foulard",
+				"price": "4.40"
+			},
+			{
+				"id": "impermeableCourt",
+				"price": "9.10"
+			},
+			{
+				"id": "impermeableLong",
+				"price": "9.80"
+			},
+			{
+				"id": "jupeSimple",
+				"price": "5.00"
+			},
+			{
+				"id": "jupeCulotteEtVague",
+				"price": "5.70"
+			},
+			{
+				"id": "jupePlissee",
+				"price": "7.00"
+			},
+			{
+				"id": "manteau",
+				"price": "9.40"
+			},
+			{
+				"id": "manteau3/4",
+				"price": "8.60"
+			},
+			{
+				"id": "manteauFourrure",
+				"price": "16.00"
+			},
+			{
+				"id": "pantalon",
+				"price": "5.00"
+			},
+			{
+				"id": "pantalonDeSki",
+				"price": "6.80"
+			},
+			{
+				"id": "parkaMatelasse",
+				"price": "8.60"
+			},
+			{
+				"id": "pelisseDoubleeSynt",
+				"price": "12.00"
+			},
+			{
+				"id": "pull/gilet",
+				"price": "4.40"
+			},
+			{
+				"id": "robe",
+				"price": "6.20"
+			},
+			{
+				"id": "robeDeChambre3/4",
+				"price": "7.60"
+			},
+			{
+				"id": "robeDeChambreLong",
+				"price": "8.40"
+			},
+			{
+				"id": "robeLongue",
+				"price": "7.50"
+			},
+			{
+				"id": "robePlissee",
+				"price": "10.50"
+			},
+			{
+				"id": "robeDeSoiree",
+				"price": "17.00"
+			},
+			{
+				"id": "robeDeCommunionAube",
+				"price": "17.00"
+			},
+			{
+				"id": "robeMariee",
+				"price": "35.00"
+			},
+			{
+				"id": "robeMariee2",
+				"price": "40.00"
+			},
+			{
+				"id": "robeMariee3",
+				"price": "50.00"
+			},
+			{
+				"id": "juponRobeDeMariee",
+				"price": "8.00"
+			},
+			{
+				"id": "treillis",
+				"price": "8.40"
+			},
+			{
+				"id": "costumeMilitaire",
+				"price": "8.40"
+			},
+			{
+				"id": "veste",
+				"price": "6.20"
+			},
+			{
+				"id": "veste3/4",
+				"price": "8.60"
+			},
+			{
+				"id": "veste3/4FourrureSynt",
+				"price": "12.00"
+			},
+			{
+				"id": "vesteLaine",
+				"price": "5.00"
+			}
+		],
+		"ironing": [
+			{
+				"id": "drap",
+				"price": "2.10"
+			},
+			{
+				"id": "drapHousse",
+				"price": "1.60"
+			}
+		],
+		"laundry": [
+			{
+				"id": "blouse",
+				"price": "4.20"
+			},
+			{
+				"id": "canevaPetit",
+				"price": "5.00"
+			}
+		]
+	}
 }

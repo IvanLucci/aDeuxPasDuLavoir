@@ -12,7 +12,6 @@
 				return $http.get( paths.contentPath + 'services/pressing/pressing.json' ).then(
 					function( res ) {
 						fixUrl( res.data );
-						console.log( res.data );
 						return res.data;
 					},
 					function( error ) {

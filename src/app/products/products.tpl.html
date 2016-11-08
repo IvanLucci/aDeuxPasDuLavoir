@@ -8,11 +8,11 @@
 
 				<div class="panel-body category-body">
 					<div data-ng-repeat="p in c.products track by p.id" class="product"
-						 ng-click="updatePopoverContent( p )"
+						 ng-mouseover="updatePopoverContent( p )"
 						 popover-title="{{ getId( p.id, 'name' ) | translate }}"
 						 uib-popover-html="popover.content"
 						 popover-placement="auto right"
-						 popover-trigger="'outsideClick'">
+						 popover-trigger="'mouseenter'">
 						<div class="media-left">
 							<img class="pull-left media-object img-thumbnail item-thumbnail-sm"
 								 data-ng-src="{{ p.img }}"

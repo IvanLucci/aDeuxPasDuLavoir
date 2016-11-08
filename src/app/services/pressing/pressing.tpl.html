@@ -23,19 +23,61 @@
 
 		<h3 data-translate="pricing"></h3>
 
-		<table class="table table-condensed table-striped">
-			<thead>
-				<th data-translate="item"></th>
-				<th data-translate="washing"></th>
-				<th data-translate="ironing"></th>
-			</thead>
-			<tbody>
-				<tr data-ng-repeat="p in info.pricing">
-					<td data-translate="pressing.{{ p.id }}"></td>
-					<td>{{ p.wash | currency : '€ ' }}</td>
-					<td>{{ p.iron | currency : '€ ' }}</td>
-				</tr>
-			</tbody>
-		</table>
+		<uib-tabset>
+			
+			<uib-tab heading="{{ 'dryCleaning' | translate }}">
+				<table class="table table-condensed table-striped">
+					<thead>
+						<th data-translate="item"></th>
+						<th data-translate="price"></th>
+					</thead>
+					<tbody>
+						<tr data-ng-repeat="p in info.pricing.dryCleaning.slice( ( ( currentPage - 1 ) * itemsPerPage ), ( ( currentPage ) * itemsPerPage ) )">
+							<td data-translate="laundryItems.{{ p.id }}"
+								data-translate-default="{{ p.id }}"></td>
+							<td>{{ p.price | currency : '€ ' }}</td>
+						</tr>
+					</tbody>
+				</table>
+				<ul uib-pager
+					total-items="info.pricing.dryCleaning.length"
+					items-per-page="itemsPerPage"
+					ng-model="currentPage"></ul>
+			</uib-tab>
+
+			<uib-tab heading="{{ 'ironing' | translate }}">
+				<table class="table table-condensed table-striped">
+					<thead>
+						<th data-translate="item"></th>
+						<th data-translate="price"></th>
+					</thead>
+					<tbody>
+						<tr data-ng-repeat="p in info.pricing.ironing">
+							<td data-translate="laundryItems.{{ p.id }}"
+								data-translate-default="{{ p.id }}"></td>
+							<td>{{ p.price | currency : '€ ' }}</td>
+						</tr>
+					</tbody>
+				</table>
+			</uib-tab>
+
+			<uib-tab heading="{{ 'laundry' | translate }}">
+				<table class="table table-condensed table-striped">
+					<thead>
+						<th data-translate="item"></th>
+						<th data-translate="price"></th>
+					</thead>
+					<tbody>
+						<tr data-ng-repeat="p in info.pricing.laundry">
+							<td data-translate="laundryItems.{{ p.id }}"
+								data-translate-default="{{ p.id }}"></td>
+							<td>{{ p.price | currency : '€ ' }}</td>
+						</tr>
+					</tbody>
+				</table>
+			</uib-tab>
+
+		</uib-tabset>
+
 	</div>
 </div>

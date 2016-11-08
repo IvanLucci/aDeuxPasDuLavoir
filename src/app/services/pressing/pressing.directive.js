@@ -11,10 +11,11 @@
 
 		function link( scope ) {
 			scope.info = {};
+			scope.currentPage = 1;
+			scope.itemsPerPage = 6;
 
 			pressingService.getInfo().then(
 				function( data ) {
-					console.log( data );
 					scope.info = data;
 				}
 			);
