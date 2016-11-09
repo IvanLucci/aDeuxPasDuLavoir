@@ -31,15 +31,15 @@
 				"price": "4.40"
 			},
 			{
-				"id": "combinaisonSki",
+				"id": "combinaisonDeSki",
 				"price": "12.50"
 			},
 			{
-				"id": "costume/tailleur2p",
+				"id": "costume/tailleur2P",
 				"price": "11.20"
 			},
 			{
-				"id": "costume/tailleur3p",
+				"id": "costume/tailleur3P",
 				"price": "14.10"
 			},
 			{
@@ -115,7 +115,7 @@
 				"price": "7.60"
 			},
 			{
-				"id": "robeDeChambreLong",
+				"id": "robeDeChambreLongue",
 				"price": "8.40"
 			},
 			{
@@ -183,6 +183,62 @@
 			{
 				"id": "drapHousse",
 				"price": "1.60"
+			},
+			{
+				"id": "chemise",
+				"price": "2.10"
+			},
+			{
+				"id": "t-shirt",
+				"price": "0.80"
+			},
+			{
+				"id": "poloMancheLongue",
+				"price": "1.00"
+			},
+			{
+				"id": "pantalonDroit",
+				"price": "2.00"
+			},
+			{
+				"id": "pantalonAvecPli",
+				"price": "2.50"
+			},
+			{
+				"id": "robe",
+				"price": "3.10"
+			},
+			{
+				"id": "jupe",
+				"price": "2.50"
+			},
+			{
+				"id": "housseDeCouette1P",
+				"price": "2.80"
+			},
+			{
+				"id": "housseDeCouette2P",
+				"price": "3.70"
+			},
+			{
+				"id": "petiteNappe",
+				"price": "4.00"
+			},
+			{
+				"id": "nappe12Personnes",
+				"price": "7.00"
+			},
+			{
+				"id": "serviette",
+				"price": "0.40"
+			},
+			{
+				"id": "taieD'oreiller",
+				"price": "1.20"
+			},
+			{
+				"id": "veste",
+				"price": "3.10"
 			}
 		],
 		"laundry": [
@@ -193,6 +249,154 @@
 			{
 				"id": "canevaPetit",
 				"price": "5.00"
+			},
+			{
+				"id": "canevaMoyen",
+				"price": "6.00"
+			},
+			{
+				"id": "petitTapis",
+				"price": "10.00"
+			},
+			{
+				"id": "canevaGrand",
+				"price": "7.00"
+			},
+			{
+				"id": "couvertureLaineOuSynt1P",
+				"price": "12.00"
+			},
+			{
+				"id": "couvertureLaineOuSynt2P",
+				"price": "17.00"
+			},
+			{
+				"id": "couverturePiquee1P",
+				"price": "21.00"
+			},
+			{
+				"id": "couverturePiquee2P",
+				"price": "23.00"
+			},
+			{
+				"id": "couetteSynth1P",
+				"price": "15.00"
+			},
+			{
+				"id": "couetteSynth2P",
+				"price": "18.00"
+			},
+			{
+				"id": "couettePlume1P",
+				"price": "21.00"
+			},
+			{
+				"id": "couettePlume2P",
+				"price": "27.00"
+			},
+			{
+				"id": "edredonPlume",
+				"price": "18.00"
+			},
+			{
+				"id": "couetteLavage",
+				"price": "10.00"
+			},
+			{
+				"id": "couvreLit",
+				"price": "18.00"
+			},
+			{
+				"id": "couvreLitEnCrochet",
+				"price": "20.00"
+			},
+			{
+				"id": "couvertureCheval",
+				"price": "18.00"
+			},
+			{
+				"id": "tapisCheval",
+				"price": "9.00"
+			},
+			{
+				"id": "drap",
+				"price": "4.20"
+			},
+			{
+				"id": "drapHousse",
+				"price": "3.20"
+			},
+			{
+				"id": "duvet",
+				"price": "12.00"
+			},
+			{
+				"id": "duvetPlume",
+				"price": "21.00"
+			},
+			{
+				"id": "housseDeCanape/clic-clac",
+				"price": "21.00"
+			},
+			{
+				"id": "housseDeCouette1P",
+				"price": "5.60"
+			},
+			{
+				"id": "housseDeCouette2P",
+				"price": "7.50"
+			},
+			{
+				"id": "housseDeCoussin",
+				"price": "6.00"
+			},
+			{
+				"id": "housseDeMatelas1P",
+				"price": "16.00"
+			},
+			{
+				"id": "housseDeMatelas2P",
+				"price": "26.00"
+			},
+			{
+				"id": "nappe12Personnes",
+				"price": "14.00"
+			},
+			{
+				"id": "petiteNappe",
+				"price": "10.00"
+			},
+			{
+				"id": "oreillerSynt/coussin",
+				"price": "10.00"
+			},
+			{
+				"id": "oreillerPlumes",
+				"price": "14.00"
+			},
+			{
+				"id": "servietteL'unite",
+				"price": "0.80"
+			},
+			{
+				"id": "servietteEpongeL'unite",
+				"price": "0.80"
+			},
+			{
+				"id": "tablier",
+				"price": "4.20"
+			},
+			{
+				"id": "taieD'oreiller",
+				"price": "2.50"
+			},
+			{
+				"id": "tentures(auMetreCarre)",
+				"price": "3.90"
+			},
+			{
+				"id": "voilage(auMetreCarre)",
+				"price": "3.90"
 			}
 		]
 	}
