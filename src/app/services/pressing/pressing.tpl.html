@@ -1,11 +1,10 @@
-<!-- Apply an accordion here -->
-<div class="panel panel-default">
+<!--<div class="panel panel-default pressing">
 	
 	<div class="panel-heading">
 		<h3 data-translate="services.pressing.name"></h3>
 	</div>
 
-	<div class="panel-body">
+	<div class="panel-body">-->
 		<div class="row">
 			<div class="col-md-3">
 				<img ng-src="{{ info.img }}" />
@@ -23,9 +22,9 @@
 
 		<h3 data-translate="pricing"></h3>
 
-		<uib-tabset>
+		<uib-tabset type="pills" justified="true">
 			
-			<uib-tab heading="{{ 'dryCleaning' | translate }}" select="tabChange()">
+			<uib-tab heading="{{ 'dryCleaning' | translate }}">
 				<div data-ng-style="{{ dynamicStyle }}">
 					<table class="table table-condensed table-striped">
 						<thead>
@@ -48,7 +47,7 @@
 					ng-model="currentPage1"></ul>
 			</uib-tab>
 
-			<uib-tab heading="{{ 'ironing' | translate }}" select="tabChange()">
+			<uib-tab heading="{{ 'ironing' | translate }}">
 				<div data-ng-style="{{ dynamicStyle }}">
 					<table class="table table-condensed table-striped">
 						<thead>
@@ -71,7 +70,7 @@
 					ng-model="currentPage2"></ul>
 			</uib-tab>
 
-			<uib-tab heading="{{ 'laundry' | translate }}" select="tabChange()">
+			<uib-tab heading="{{ 'laundry' | translate }}">
 				<div data-ng-style="{{ dynamicStyle }}">
 					<table class="table table-condensed table-striped">
 						<thead>
@@ -96,5 +95,5 @@
 
 		</uib-tabset>
 
-	</div>
-</div>
+	<!--</div>
+</div>-->

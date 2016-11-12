@@ -22,12 +22,8 @@
 			);
 
 			function getHeight() {
-				return (scope.itemsPerPage * 37 + 50).toString() + 'px';
+				return (scope.itemsPerPage * 31 + 50).toString() + 'px';
 			}
-
-			scope.tabChange = function() {
-				scope.$broadcast('resetPage');
-			};
 
 		}
 

@@ -1,4 +1,7 @@
 .holy-pager {
+	* {
+		@include animation-ease( 0.2s );
+	}
 	.page-display {
 		display: inline-block;
 		padding: 0px 16px;

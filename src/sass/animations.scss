@@ -29,3 +29,10 @@
     opacity: 1;
     margin-top: 0px;
 }
+
+@mixin animation-ease( $time ) {
+    -webkit-transition: all $time ease;
+    -moz-transition:    all $time ease;
+    -ms-transition:     all $time ease;
+    -o-transition:      all $time ease;
+}
