@@ -16,6 +16,10 @@
 		"text": "A Deux Pas du Lavoir © 2016"
 	},
 
+	"texts": {
+		"home": "<p>Le commerce se compose de deux surfaces: une zone alimentaire qui partagera l'espace avec des produits artisanaux & artistiques et une salle de thé/café à l’étage.</p><p>Nous vous proposons aussi quelques services hebdomadaires inattendus comme la vente de paniers de légumes biologiques, dépôt-pressing, point de presse, relais colis, service manucure/pédicure, livraison à domicile pour les personnes âgées, services administratifs, petite librairie/livres d’occasion, etc, etc. Nous ferons notre possible pour permettre aux habitants de limiter leurs déplacements.</p><p>Ce concept englobe l’épicerie (sèche) avec quelques rayons dédiés installés au RDC du magasin; à l’étage la salle de café/thé se transformera à l’occasion en atelier ou en salle d'exposition pour des artistes ou artisans, des originalités que vous allez découvrir bientôt!</p><p>Nous vous invitons à pousser la porte, même si c'est juste pour boire un café. A découvrir absolument! L'accueil est chaleureux, vous reviendrez! <strong>Attention, vous pourriez y prendre des habitudes…</strong></p>"
+	},
+
 	"products": {
 		"conchiglioni4Sapori": {
 			"name": "Conchiglioni Quatre Saveurs",
@@ -162,8 +166,8 @@
 	},
 
 	"timetable": "Horaires",
-	"nowOpen": "Maintenant ouvert",
-	"nowClosed": "Maintenant fermé",
+	"nowOpen": "Actuellement ouvert",
+	"nowClosed": "Actuellement fermé",
 
 	"monday": "Lundi",
 	"tuesday": "Mardi",

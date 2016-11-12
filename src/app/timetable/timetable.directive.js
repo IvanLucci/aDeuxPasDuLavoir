@@ -31,13 +31,13 @@
 			}
 
 			scope.getMorningTime = function( day ) {
-				var morning = timetable[ day ].morning;
-				return morning.from + ' - ' + morning.to;
+				var morning = timetable[ day ].morning || '';
+				return morning && morning.from + ' - ' + morning.to;
 			}
 
 			scope.getAfternoonTime = function( day ) {
-				var afternoon = timetable[ day ].afternoon;
-				return afternoon.from + ' - ' + afternoon.to;
+				var afternoon = timetable[ day ].afternoon || '';
+				return afternoon && afternoon.from + ' - ' + afternoon.to;
 			}
 
 			scope.isCurrentWeekDay = function( day ) {

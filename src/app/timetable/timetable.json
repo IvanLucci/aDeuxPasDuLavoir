@@ -3,71 +3,67 @@
 		"monday": {
 			"morning": {
 				"from": "09:00",
-				"to": "12:00"
+				"to": "12:30"
 			},
 			"afternoon": {
-				"from": "16:00",
+				"from": "15:30",
 				"to": "19:00"
 			}
 		},
 		"tuesday": {
 			"morning": {
 				"from": "09:00",
-				"to": "12:00"
+				"to": "12:30"
 			},
 			"afternoon": {
-				"from": "16:00",
+				"from": "15:30",
 				"to": "19:00"
 			}
 		},
 		"wednesday": {
 			"morning": {
 				"from": "09:00",
-				"to": "12:00"
+				"to": "12:30"
 			},
 			"afternoon": {
-				"from": "16:00",
+				"from": "15:30",
 				"to": "19:00"
 			}
 		},
 		"thursday": {
 			"morning": {
 				"from": "09:00",
-				"to": "12:00"
+				"to": "12:30"
 			},
 			"afternoon": {
-				"from": "16:00",
+				"from": "15:30",
 				"to": "19:00"
 			}
 		},
 		"friday": {
 			"morning": {
 				"from": "09:00",
-				"to": "12:00"
+				"to": "12:30"
 			},
 			"afternoon": {
-				"from": "16:00",
+				"from": "15:30",
 				"to": "19:00"
 			}
 		},
 		"saturday": {
 			"morning": {
-				"from": "10:00",
-				"to": "12:00"
+				"from": "9:00",
+				"to": "12:30"
 			},
 			"afternoon": {
-				"from": "16:00",
+				"from": "15:30",
 				"to": "19:00"
 			}
 		},
 		"sunday": {
 			"morning": {
-				"from": "10:00",
-				"to": "12:00"
-			},
-			"afternoon": {
-				"from": "16:00",
-				"to": "19:00"
+				"from": "9:00",
+				"to": "13:00"
 			}
 		}
 	},
@@ -75,71 +71,67 @@
 		"monday": {
 			"morning": {
 				"from": "09:00",
-				"to": "12:00"
+				"to": "12:30"
 			},
 			"afternoon": {
-				"from": "16:00",
-				"to": "18:00"
+				"from": "15:30",
+				"to": "19:00"
 			}
 		},
 		"tuesday": {
 			"morning": {
 				"from": "09:00",
-				"to": "12:00"
+				"to": "12:30"
 			},
 			"afternoon": {
-				"from": "16:00",
-				"to": "18:00"
+				"from": "15:30",
+				"to": "19:00"
 			}
 		},
 		"wednesday": {
 			"morning": {
 				"from": "09:00",
-				"to": "12:00"
+				"to": "12:30"
 			},
 			"afternoon": {
-				"from": "16:00",
-				"to": "18:00"
+				"from": "15:30",
+				"to": "19:00"
 			}
 		},
 		"thursday": {
 			"morning": {
 				"from": "09:00",
-				"to": "12:00"
+				"to": "12:30"
 			},
 			"afternoon": {
-				"from": "16:00",
-				"to": "18:00"
+				"from": "15:30",
+				"to": "19:00"
 			}
 		},
 		"friday": {
 			"morning": {
 				"from": "09:00",
-				"to": "12:00"
+				"to": "12:30"
 			},
 			"afternoon": {
-				"from": "16:00",
-				"to": "18:00"
+				"from": "15:30",
+				"to": "19:00"
 			}
 		},
 		"saturday": {
 			"morning": {
-				"from": "09:00",
-				"to": "12:00"
+				"from": "9:00",
+				"to": "12:30"
 			},
 			"afternoon": {
-				"from": "16:00",
-				"to": "18:00"
+				"from": "15:30",
+				"to": "19:00"
 			}
 		},
 		"sunday": {
 			"morning": {
-				"from": "09:00",
-				"to": "12:00"
-			},
-			"afternoon": {
-				"from": "16:00",
-				"to": "18:00"
+				"from": "9:00",
+				"to": "13:00"
 			}
 		}
 	}

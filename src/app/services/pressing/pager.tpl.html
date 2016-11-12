@@ -1,0 +1,21 @@
+<div class="text-center holy-pager">
+	
+	<button class="btn btn-default"
+			ng-class="{disabled: noPrevious()||ngDisabled, previous: align}"
+			ng-disabled="noPrevious()||ngDisabled"
+			ng-click="selectPage(page - 1, $event)"
+			uib-tabindex-toggle>
+		<i class="fa fa-chevron-left"></i>
+	</button>
+
+	<div class="page-display">{{ page }} / {{ totalPages }}</div>
+
+	<button class="btn btn-default"
+			ng-class="{disabled: noNext()||ngDisabled, next: align}"
+			ng-disabled="noNext()||ngDisabled"
+			ng-click="selectPage(page + 1, $event)"
+			uib-tabindex-toggle>
+		<i class="fa fa-chevron-right"></i>
+	</button>
+	
+</div>
