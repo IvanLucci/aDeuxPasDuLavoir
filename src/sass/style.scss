@@ -10,7 +10,8 @@ $oddRowColor: #1d1d1d;
 $titleFont: NoirEtBlanc;
 
 // Background paths
-$pressingBg: '../app/content/services/img/pressingBgOpa.png';
+$pressingBgOpa: '../app/content/services/img/pressingBgOpa.png';
+$pressingBg: '../app/content/services/img/pressingBg.png';
 
 @font-face {
     font-family: $titleFont;
@@ -329,11 +330,32 @@ address .fa {
 	}
 }
 
-.pressing {
-	> .panel-heading {
-		background-image: url( $pressingBg );
+.panel-heading-services {
+	padding: 0px;
+}
+
+.service-toggle {
+	height: 100%;
+	font-size: 24px;
+	padding: 10px 15px;
+	@extend h3;
+	@include animation-ease( 0.4s );
+	&:hover, &:focus {
+		text-shadow: 0px 0px 10px white;
+    	box-shadow: inset 0px 0px 10px white;
+	}
+}
+
+.panel-pressing {
+	.service-toggle {
+		background-image: url( $pressingBgOpa );
     	background-repeat: no-repeat;
    		background-position: 100% top;
     	background-size: auto 140px;
+    	&:hover, &:focus {
+    		background-image: url( $pressingBg );
+    	}
 	}
 }
+
+
