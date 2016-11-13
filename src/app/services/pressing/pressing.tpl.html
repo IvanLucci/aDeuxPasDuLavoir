@@ -1,99 +1,89 @@
-<!--<div class="panel panel-default pressing">
-	
-	<div class="panel-heading">
-		<h3 data-translate="services.pressing.name"></h3>
+<div class="row">
+	<div class="col-md-3">
+		<img ng-src="{{ info.img }}" />
 	</div>
+	<div class="col-md-9">
+		<p data-translate="services.laundryService.description"></p>
+		<p>
+			<span class="visibleBold" data-translate="deliveryDay"></span>: {{ info.deliveryDay | translate }}
+		</p>
+		<p>
+			<span class="visibleBold" data-translate="deliveryTime"></span>: {{ info.deliveryTime }}
+		</p>
+	</div>
+</div>
 
-	<div class="panel-body">-->
-		<div class="row">
-			<div class="col-md-3">
-				<img ng-src="{{ info.img }}" />
-			</div>
-			<div class="col-md-9">
-				<p data-translate="services.pressing.description"></p>
-				<p>
-					<span class="visibleBold" data-translate="deliveryDay"></span>: {{ info.deliveryDay | translate }}
-				</p>
-				<p>
-					<span class="visibleBold" data-translate="deliveryTime"></span>: {{ info.deliveryTime }}
-				</p>
-			</div>
+<h3 data-translate="pricing"></h3>
+
+<uib-tabset type="pills" justified="true">
+	
+	<uib-tab heading="{{ 'dryCleaning' | translate }}">
+		<div data-ng-style="{{ dynamicStyle }}">
+			<table class="table table-condensed table-striped">
+				<thead>
+					<th data-translate="item"></th>
+					<th data-translate="price"></th>
+				</thead>
+				<tbody>
+					<tr data-ng-repeat="p in info.pricing.dryCleaning.slice( ( ( currentPage1 - 1 ) * itemsPerPage ), ( ( currentPage1 ) * itemsPerPage ) )">
+						<td data-translate="laundryItems.{{ p.id }}"
+							data-translate-default="{{ p.id }}"></td>
+						<td>{{ p.price | currency : '€ ' }}</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
+		<ul uib-pager
+			total-items="info.pricing.dryCleaning.length"
+			items-per-page="itemsPerPage"
+			template-url="app/tpl/pager.tpl.html"
+			ng-model="currentPage1"></ul>
+	</uib-tab>
 
-		<h3 data-translate="pricing"></h3>
+	<uib-tab heading="{{ 'ironing' | translate }}">
+		<div data-ng-style="{{ dynamicStyle }}">
+			<table class="table table-condensed table-striped">
+				<thead>
+					<th data-translate="item"></th>
+					<th data-translate="price"></th>
+				</thead>
+				<tbody>
+					<tr data-ng-repeat="p in info.pricing.ironing.slice( ( ( currentPage2 - 1 ) * itemsPerPage ), ( ( currentPage2 ) * itemsPerPage ) )">
+						<td data-translate="laundryItems.{{ p.id }}"
+							data-translate-default="{{ p.id }}"></td>
+						<td>{{ p.price | currency : '€ ' }}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<ul uib-pager
+			total-items="info.pricing.ironing.length"
+			items-per-page="itemsPerPage"
+			template-url="app/tpl/pager.tpl.html"
+			ng-model="currentPage2"></ul>
+	</uib-tab>
 
-		<uib-tabset type="pills" justified="true">
-			
-			<uib-tab heading="{{ 'dryCleaning' | translate }}">
-				<div data-ng-style="{{ dynamicStyle }}">
-					<table class="table table-condensed table-striped">
-						<thead>
-							<th data-translate="item"></th>
-							<th data-translate="price"></th>
-						</thead>
-						<tbody>
-							<tr data-ng-repeat="p in info.pricing.dryCleaning.slice( ( ( currentPage1 - 1 ) * itemsPerPage ), ( ( currentPage1 ) * itemsPerPage ) )">
-								<td data-translate="laundryItems.{{ p.id }}"
-									data-translate-default="{{ p.id }}"></td>
-								<td>{{ p.price | currency : '€ ' }}</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<ul uib-pager
-					total-items="info.pricing.dryCleaning.length"
-					items-per-page="itemsPerPage"
-					template-url="app/tpl/pager.tpl.html"
-					ng-model="currentPage1"></ul>
-			</uib-tab>
+	<uib-tab heading="{{ 'laundry' | translate }}">
+		<div data-ng-style="{{ dynamicStyle }}">
+			<table class="table table-condensed table-striped">
+				<thead>
+					<th data-translate="item"></th>
+					<th data-translate="price"></th>
+				</thead>
+				<tbody>
+					<tr data-ng-repeat="p in info.pricing.laundry.slice( ( ( currentPage3 - 1 ) * itemsPerPage ), ( ( currentPage3 ) * itemsPerPage ) )">
+						<td data-translate="laundryItems.{{ p.id }}"
+							data-translate-default="{{ p.id }}"></td>
+						<td>{{ p.price | currency : '€ ' }}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<ul uib-pager
+			total-items="info.pricing.laundry.length"
+			items-per-page="itemsPerPage"
+			template-url="app/tpl/pager.tpl.html"
+			ng-model="currentPage3"></ul>
+	</uib-tab>
 
-			<uib-tab heading="{{ 'ironing' | translate }}">
-				<div data-ng-style="{{ dynamicStyle }}">
-					<table class="table table-condensed table-striped">
-						<thead>
-							<th data-translate="item"></th>
-							<th data-translate="price"></th>
-						</thead>
-						<tbody>
-							<tr data-ng-repeat="p in info.pricing.ironing.slice( ( ( currentPage2 - 1 ) * itemsPerPage ), ( ( currentPage2 ) * itemsPerPage ) )">
-								<td data-translate="laundryItems.{{ p.id }}"
-									data-translate-default="{{ p.id }}"></td>
-								<td>{{ p.price | currency : '€ ' }}</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<ul uib-pager
-					total-items="info.pricing.ironing.length"
-					items-per-page="itemsPerPage"
-					template-url="app/tpl/pager.tpl.html"
-					ng-model="currentPage2"></ul>
-			</uib-tab>
-
-			<uib-tab heading="{{ 'laundry' | translate }}">
-				<div data-ng-style="{{ dynamicStyle }}">
-					<table class="table table-condensed table-striped">
-						<thead>
-							<th data-translate="item"></th>
-							<th data-translate="price"></th>
-						</thead>
-						<tbody>
-							<tr data-ng-repeat="p in info.pricing.laundry.slice( ( ( currentPage3 - 1 ) * itemsPerPage ), ( ( currentPage3 ) * itemsPerPage ) )">
-								<td data-translate="laundryItems.{{ p.id }}"
-									data-translate-default="{{ p.id }}"></td>
-								<td>{{ p.price | currency : '€ ' }}</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<ul uib-pager
-					total-items="info.pricing.laundry.length"
-					items-per-page="itemsPerPage"
-					template-url="app/tpl/pager.tpl.html"
-					ng-model="currentPage3"></ul>
-			</uib-tab>
-
-		</uib-tabset>
-
-	<!--</div>
-</div>-->
+</uib-tabset>

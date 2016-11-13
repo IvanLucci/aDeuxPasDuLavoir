@@ -12,6 +12,10 @@ $titleFont: NoirEtBlanc;
 // Background paths
 $pressingBgOpa: '../app/content/services/img/pressingBgOpa.png';
 $pressingBg: '../app/content/services/img/pressingBg.png';
+$deliveryCenterBgOpa: '../app/content/services/img/deliveryCenterBgOpa.png';
+$deliveryCenterBg: '../app/content/services/img/deliveryCenterBg.png';
+$pressPointBgOpa: '../app/content/services/img/pressPointBgOpa.png';
+$pressPointBg: '../app/content/services/img/pressPointBg.png';
 
 @font-face {
     font-family: $titleFont;
@@ -131,12 +135,7 @@ a {
 
 }
 
-// Hide popovers on small screens
-@media (max-width: 991px) {
-	[uib-popover-popup].popover, [uib-popover-html-popup].popover, [uib-popover-template-popup].popover {
-		display: none !important;
-	}
-}
+
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
 	background-color: $highlightColorLight;
@@ -152,6 +151,129 @@ a {
 
 .item-thumbnail-sm {
 	width: 100px;
+}
+
+
+
+.btn-default {
+    &, &.disabled:hover {
+    	color: $textColor;
+    	background-color: $bodyBackground;
+    }
+    &:focus, &:hover, &.active, &:active {
+    	@extend .btn-default;
+    	background-color: $highlightColorLight;
+    }
+}
+
+.dropdown-toggle {
+	&:hover, &:focus {
+		background-color: $bodyBackground;
+		color: $textColor;
+	}
+}
+
+.open > .dropdown-toggle.btn-default {
+	@extend .btn-default.active;
+}
+
+.dropdown-menu {
+	> li > a {
+		cursor: pointer;
+		color: $textColor;
+		&:focus, &:hover {
+			background-color: $highlightColorLight;
+			color: $textColor;
+		}
+	}
+	> .active > a {
+		&, &:focus, &:hover {
+			background-color: $bodyBackground;
+		}
+		&:after {
+			font-family: FontAwesome;
+   			content: "\f00c";
+		}
+	}
+
+	background-color: $bodyBackground;
+	border: 1px solid $borderColor;
+}
+
+.btn-default.active.focus,
+.btn-default.active:focus, 
+.btn-default.active:hover, 
+.btn-default:active.focus, 
+.btn-default:active:focus, 
+.btn-default:active:hover, 
+.open>.dropdown-toggle.btn-default.focus, 
+.open>.dropdown-toggle.btn-default:focus, 
+.open>.dropdown-toggle.btn-default:hover {
+	background-color: $bodyBackground;
+	color: $textColor;
+}
+
+.visibleBold {
+	color: $linkColor;
+	font-weight: bold;
+}
+
+.hidden {
+	display: none;
+}
+
+
+
+// language selection -----------------------------------------
+
+.language-flag {
+	vertical-align: initial;
+}
+
+.btn-language {
+    border-color: transparent;
+}
+
+#language-container {
+	position: relative;
+}
+
+#language-selection {
+    float: right;
+}
+
+
+
+// contacts ----------------------------------------------------
+
+address .fa {
+	font-size: 18px;
+}
+
+
+
+// time table ---------------------------------------------------
+
+#timetable-container {
+	background-image: url("../img/clock.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 120px auto;
+    tr {
+    	text-shadow: 0px 0px 4px black;
+    }
+}
+
+
+
+
+// products ----------------------------------------------------
+
+// Hide popovers on small screens
+@media (max-width: 991px) {
+	[uib-popover-popup].popover, [uib-popover-html-popup].popover, [uib-popover-template-popup].popover {
+		display: none !important;
+	}
 }
 
 .panel {
@@ -195,110 +317,9 @@ a {
 	}
 }
 
-.language-flag {
-	vertical-align: initial;
-}
 
-.btn-language {
-    border-color: transparent;
-}
 
-.btn-default {
-    &, &.disabled:hover {
-    	color: $textColor;
-    	background-color: $bodyBackground;
-    }
-    &:focus, &:hover, &.active, &:active {
-    	@extend .btn-default;
-    	background-color: $highlightColorLight;
-    }
-}
-
-.open > .dropdown-toggle.btn-default {
-	@extend .btn-default.active;
-}
-
-#language-container {
-	position: relative;
-}
-
-#language-selection {
-    float: right;
-}
-
-.dropdown-menu {
-	> li > a {
-		cursor: pointer;
-		color: $textColor;
-		&:focus, &:hover {
-			background-color: $highlightColorLight;
-			color: $textColor;
-		}
-	}
-	> .active > a {
-		&, &:focus, &:hover {
-			background-color: $bodyBackground;
-		}
-		&:after {
-			font-family: FontAwesome;
-   			content: "\f00c";
-		}
-	}
-
-	background-color: $bodyBackground;
-	border: 1px solid $borderColor;
-}
-
-.dropdown-toggle {
-	&:hover, &:focus {
-		background-color: $bodyBackground;
-		color: $textColor;
-	}
-}
-
-.btn-default.active.focus,
-.btn-default.active:focus, 
-.btn-default.active:hover, 
-.btn-default:active.focus, 
-.btn-default:active:focus, 
-.btn-default:active:hover, 
-.open>.dropdown-toggle.btn-default.focus, 
-.open>.dropdown-toggle.btn-default:focus, 
-.open>.dropdown-toggle.btn-default:hover {
-	background-color: $bodyBackground;
-	color: $textColor;
-}
-
-#timetable-container {
-	background-image: url("../img/clock.png");
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: 120px auto;
-    tr {
-    	text-shadow: 0px 0px 4px black;
-    }
-}
-
-address .fa {
-	font-size: 18px;
-}
-
-.visibleBold {
-	color: $linkColor;
-	font-weight: bold;
-}
-
-.nav-tabs {
-	> li.active {
-		> a {
-			&, &:focus, &:hover {
-				background-color: $bodyBackground;
-				border-bottom-color: $bodyBackground;
-				color: $linkColorHover;
-			}
-		} 
-	}
-}
+// services -----------------------------------------------------
 
 .nav-pills {
 	> li {
@@ -334,28 +355,50 @@ address .fa {
 	padding: 0px;
 }
 
-.service-toggle {
-	height: 100%;
-	font-size: 24px;
-	padding: 10px 15px;
-	@extend h3;
-	@include animation-ease( 0.4s );
+@mixin accordion-heading-toggle( $bgUrl, $bgUrlActive, $right, $top ) {
+	.service-toggle {
+   		background-image: url( $bgUrl );
+		background-repeat: no-repeat;
+		background-position: right $right top $top;
+   		&:hover, &:focus {
+			background-image: url( $bgUrlActive );
+		}
+	}
+	&.panel-open {
+		.service-toggle {
+			text-shadow: 0px 0px 10px white;
+			background-image: url( $bgUrlActive );
+		}
+	}
+}
+
+@mixin panel-heading-hover() {
 	&:hover, &:focus {
 		text-shadow: 0px 0px 10px white;
     	box-shadow: inset 0px 0px 10px white;
 	}
 }
 
-.panel-pressing {
-	.service-toggle {
-		background-image: url( $pressingBgOpa );
-    	background-repeat: no-repeat;
-   		background-position: 100% top;
-    	background-size: auto 140px;
-    	&:hover, &:focus {
-    		background-image: url( $pressingBg );
-    	}
+.service-toggle {
+	@extend h3;
+	@include animation-ease( 0.3s );
+	@include panel-heading-hover();
+	height: 100%;
+	font-size: 24px;
+	padding: 10px 15px;
+	.chevron {
+		line-height: 50px;
 	}
+}
+
+.panel-pressing {
+	@include accordion-heading-toggle( $pressingBgOpa, $pressingBg, 30px, 0px );
+}
+.panel-delivery {
+	@include accordion-heading-toggle( $deliveryCenterBgOpa, $deliveryCenterBg, 70px, -15px );
+}
+.panel-press {
+	@include accordion-heading-toggle( $pressPointBgOpa, $pressPointBg, 50px, -15px );
 }
 
 

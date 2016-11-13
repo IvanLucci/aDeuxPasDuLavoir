@@ -1,46 +1,54 @@
 <div class="content-container">
 
+	<img class="hidden" src="app/content/services/img/pressingBg.png" />
+	<img class="hidden" src="app/content/services/img/deliveryCenterBg.png" />
+	<img class="hidden" src="app/content/services/img/pressPointBg.png" />
+
 	<h1 data-translate="menu.services"></h1>
-	
-	<!--<div data-pressing></div>-->
 
-	<uib-accordion>
-		
-		<div uib-accordion-group
-			 class="panel-default panel-pressing"
-			 template-url="app/tpl/accordion-group.tpl.html"
-			 is-open="true">
-			<uib-accordion-heading>
-				Pressing
-			</uib-accordion-heading>
-			<div data-pressing></div>
-		</div>
-
-		<div uib-accordion-group
-			 class="panel-default"
-			 template-url="app/tpl/accordion-group.tpl.html">
-			<uib-accordion-heading>
-				Relais Colis
-			</uib-accordion-heading>
-			<div class="row">
-				<div class="col-md-2">
-					<img src="app/content/services/img/logoRelaisColis.jpg" />
-				</div>
-				<div class="col-md-10">
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-				</div>	
+	<div data-ng-controller="serviceAccordionController">
+		<uib-accordion>
+			
+			<div uib-accordion-group
+				 class="panel-default panel-pressing"
+				 template-url="app/tpl/accordion-group.tpl.html"
+				 is-open="open.laundry">
+				<uib-accordion-heading>
+					{{ 'services.laundryService.name' | translate }}
+					<i class="pull-right fa fa-x2 chevron" data-ng-class="{ 'fa-chevron-right': !open.laundry, 'fa-chevron-down': open.laundry }"></i>
+				</uib-accordion-heading>
+				<div data-pressing></div>
 			</div>
-		</div>
 
-		<div uib-accordion-group
-			 class="panel-default"
-			 template-url="app/tpl/accordion-group.tpl.html">
-			<uib-accordion-heading>
-				Quotidien
-			</uib-accordion-heading>
-			Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
-		</div>
+			<div uib-accordion-group
+				 class="panel-default panel-delivery"
+				 template-url="app/tpl/accordion-group.tpl.html"
+				 is-open="open.delivery">
+				<uib-accordion-heading>
+					{{ 'services.deliveryCenter.name' | translate }}
+					<i class="pull-right fa fa-x2 chevron" data-ng-class="{ 'fa-chevron-right': !open.delivery, 'fa-chevron-down': open.delivery }"></i>
+				</uib-accordion-heading>
+				<div class="row">
+					<div class="col-md-2">
+						<img src="app/content/services/img/logoRelaisColis.jpg" />
+					</div>
+					<div class="col-md-10">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+					</div>	
+				</div>
+			</div>
 
-	</uib-accordion>
+			<div uib-accordion-group
+				 class="panel-default panel-press"
+				 template-url="app/tpl/accordion-group.tpl.html"
+				 is-open="open.press">
+				<uib-accordion-heading>
+					{{ 'services.pressPoint.name' | translate }}
+					<i class="pull-right fa fa-x2 chevron" data-ng-class="{ 'fa-chevron-right': !open.press, 'fa-chevron-down': open.press }"></i>
+				</uib-accordion-heading>
+				Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+			</div>
 
+		</uib-accordion>
+	</div>
 </div>

@@ -52,15 +52,20 @@
 	},
 
 	"services": {
-		"relaisColis": {
+		"deliveryCenter": {
 			"name": "Delivery Center",
 			"description": "Delivery center service. Come get your deliveries here.",
 			"imgAlt": "@:services.relaisColis.name"
 		},
-		"pressing": {
+		"laundryService": {
 			"name": "Laundry Service",
 			"description": "Bring us your laundry. Once per week we bring it to Hettange to Prestonet. After one week, come back to us and your laundry will be ready: clean, ironed and folded.",
 			"imgAlt": "@:services.pressing.name"
+		},
+		"pressPoint": {
+			"name": "Press Point",
+			"description": "",
+			"imgAlt": "@:services.pressPoint.name"
 		}
 	},
 
