@@ -1,7 +1,12 @@
+$textColor: #777;
+
 footer {
 	padding-top: 6px;
 	margin-top: 20px;
-	color: grey;
+	color: $textColor;
 	border-top: 1px solid #ccc;
 	min-height: 100px;
+	#flag-counter {
+		margin-left: 40px;
+	}
 }
