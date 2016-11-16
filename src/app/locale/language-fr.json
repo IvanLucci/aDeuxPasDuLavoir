@@ -66,7 +66,7 @@
 		},
 		"pressPoint": {
 			"name": "Point de Presse",
-			"description": "",
+			"description": "Description du point de presse.",
 			"imgAlt": "@:services.pressPoint.name"
 		}
 	},
@@ -199,5 +199,7 @@
 	"deliveryTime": "Heur de livraison",
 	"dryCleaning": "Pressing",
 	"ironing": "Repassage",
-	"laundry": "Blanchisserie"
+	"laundry": "Blanchisserie",
+
+	"underConstruction": "En construction"
 }

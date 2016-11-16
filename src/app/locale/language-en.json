@@ -64,7 +64,7 @@
 		},
 		"pressPoint": {
 			"name": "Press Point",
-			"description": "",
+			"description": "Press point description",
 			"imgAlt": "@:services.pressPoint.name"
 		}
 	},
@@ -110,5 +110,7 @@
 	"deliveryTime": "Delivery time",
 	"dryCleaning": "Dry cleaning",
 	"ironing": "Ironing",
-	"laundry": "Laundry"
+	"laundry": "Laundry",
+
+	"underConstruction": "Under construction"
 }
