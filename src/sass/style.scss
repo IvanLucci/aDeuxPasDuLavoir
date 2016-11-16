@@ -368,6 +368,7 @@ address .fa {
 		.service-toggle {
 			text-shadow: 0px 0px 10px white;
 			background-image: url( $bgUrlActive );
+			background-position: right 50% top $top;
 		}
 	}
 }
