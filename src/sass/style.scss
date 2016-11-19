@@ -156,6 +156,7 @@ a {
 
 
 .btn-default {
+	@include animation-ease( 0.3s );
     &, &.disabled:hover {
     	color: $textColor;
     	background-color: $bodyBackground;
@@ -179,9 +180,11 @@ a {
 
 .dropdown-menu {
 	> li > a {
+		@include animation-ease( 0.3s );
 		cursor: pointer;
 		color: $textColor;
 		&:focus, &:hover {
+			//@include animation-ease( 0.3s );
 			background-color: $highlightColorLight;
 			color: $textColor;
 		}
@@ -195,7 +198,6 @@ a {
    			content: "\f00c";
 		}
 	}
-
 	background-color: $bodyBackground;
 	border: 1px solid $borderColor;
 }
