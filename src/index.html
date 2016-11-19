@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-
 <!--
 A Deux Pas Du Lavoir
 Author: Ivan Lucci
 -->
-
 <html>
 	<head>
 		<title>A Deux Pas du Lavoir</title>
@@ -12,27 +10,16 @@ Author: Ivan Lucci
 		<meta name="description" content="L'Epicerie multi-service de Rodemack">
 		<link rel="stylesheet" href="css/dependencies.css" />
 		<link rel="stylesheet" href="css/main.css" />
-
 	</head>
 	<body data-ng-app="adpdl">
-		
 		<div class="container">
 			<header></header>
 			<div data-menu></div>
 			<div data-language-selection></div>
 			<section data-ng-view></section>
-			<footer>
-				<p class="text-center" data-translate="footer.text"></p>
-				<p class="text-center">
-					<a id="flag-counter" href="http://s05.flagcounter.com/more/QQW">
-						<img src="http://s05.flagcounter.com/mini/QQW/bg_222222/txt_777777/border_222222/flags_0/" alt="Flag Counter" border="0">
-					</a>
-				</p>
-			</footer>
+			<div data-footer></div>
 		</div>
-
 	</body>
-
 	<script type="text/javascript" src="app/dependencies.js"></script>
 	<script type="text/javascript" src="app/app.js"></script>
 </html>

@@ -6,6 +6,7 @@ $linkColorHover: #ff5300;
 $highlightColor: #191919;
 $highlightColorLight: #191919;
 $borderColor: #ddd;
+$borderColorDark: #2b2b2b;
 $oddRowColor: #1d1d1d;
 $titleFont: NoirEtBlanc;
 
@@ -35,8 +36,12 @@ body {
 	font-family: Helvetica, Sans-Serif;
 }
 
-h1, h2, h3 {
+h4 {
 	font-family: $titleFont, Helvetica, Sans-Serif;
+}
+
+h1, h2, h3 {
+	@extend h4;
 	text-shadow: 0px 0px 8px orange;
 }
 
@@ -48,6 +53,9 @@ a {
 	}
 }
 
+.no-shadow {
+	text-shadow: none;
+}
 
 .table-striped > tbody > tr:nth-of-type(odd) {
 	background-color: $oddRowColor;
@@ -184,7 +192,6 @@ a {
 		cursor: pointer;
 		color: $textColor;
 		&:focus, &:hover {
-			//@include animation-ease( 0.3s );
 			background-color: $highlightColorLight;
 			color: $textColor;
 		}
@@ -200,6 +207,22 @@ a {
 	}
 	background-color: $bodyBackground;
 	border: 1px solid $borderColor;
+}
+
+.dropdown .dropdown-menu{
+    display: block;
+    opacity: 0;
+    > li > a {
+    	cursor: default;
+    }
+    @include animation-ease( 0.4s );
+}
+.dropdown.open .dropdown-menu {
+    display: block;
+    opacity: 1;
+    > li > a {
+    	cursor: pointer;
+    }
 }
 
 .btn-default.active.focus,
@@ -224,6 +247,17 @@ a {
 	display: none;
 }
 
+.artist-img {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+}
+
+.text-box {
+	border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0px 5px 8px $highlightColorLight;
+}
 
 
 // language selection -----------------------------------------
@@ -405,3 +439,10 @@ address .fa {
 }
 
 
+// Monthly artist
+
+.artist-header {
+	padding: 8px;
+	border-radius: 4px;
+	margin-bottom: 8px;
+}
