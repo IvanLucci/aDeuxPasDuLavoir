@@ -73,6 +73,17 @@
 		
 	},
 
+	"monthlyArtist": {
+		"title": "Artist of the month",
+		"noArtist": "No artist this month.",
+		"morrison": {
+			"description": "Originaire de Thionville, aujourd’hui installé à la frontière Luxembourgeoise, dans son « l’Atelier l’Art c’est Sérieux », Mo. reste un autodidacte à la recherche artistique perpétuelle."
+		},
+		"simonPage": {
+			"description": "Some description of Simon Page"
+		}
+	},
+
 	"language": {
 		"en": "English",
 		"fr": "French",

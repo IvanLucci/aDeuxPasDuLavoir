@@ -162,6 +162,17 @@
 		"voilage(auMetreCarre)": "Voilage (au mètre carré)"
 	},
 
+	"monthlyArtist": {
+		"title": "Artist du mois",
+		"noArtist": "Pas d'artistes ce mois.",
+		"morrison": {
+			"description": "Originaire de Thionville, aujourd’hui installé à la frontière Luxembourgeoise, dans son « l’Atelier l’Art c’est Sérieux », Mo. reste un autodidacte à la recherche artistique perpétuelle."
+		},
+		"simonPage": {
+			"description": "Some description of Simon Page"
+		}
+	},
+
 	"language": {
 		"en": "Anglais",
 		"fr": "Francais",

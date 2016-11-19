@@ -1,0 +1,15 @@
+<h3 data-translate="monthlyArtist.title"></h3>
+
+<div data-ng-if="!noArtist"> 
+	<div class="text-right">
+		<h4>{{ current.name }}</h4>
+		<a href="{{ current.link }}" target="_blank">{{ current.link }}</a>
+	</div>
+	<p data-translate="monthlyArtist.{{ current.id }}.description"></p>
+
+	<img data-ng-src="{{ current.img }}" />
+</div>
+
+<div data-ng-if="noArtist">
+	<p data-translate="monthlyArtist.noArtist"></p>
+</div>

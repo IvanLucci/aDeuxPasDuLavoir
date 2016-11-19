@@ -119,6 +119,13 @@ gulp.task( 'imgServices', function() {
 		.pipe( gulp.dest( 'public/app/content/services/img' ) );
 });
 
+//Copy service images
+gulp.task( 'imgArtists', function() {
+	return gulp.src( 'src/app/monthlyArtist/**/img/*' )
+		.pipe( flatten() )
+		.pipe( gulp.dest( 'public/app/content/monthlyArtist/img' ) );
+});
+
 //Copy multilanguage flag images
 gulp.task( 'imgFlags', function() {
 	return gulp.src( 'src/app/multilanguage/flags/*' )
@@ -132,4 +139,4 @@ gulp.task( 'imgStyle', function() {
 });
 
 //Copy images
-gulp.task( 'img', [ 'imgProducts', 'imgServices', 'imgFlags', 'imgStyle' ]);
+gulp.task( 'img', [ 'imgProducts', 'imgServices', 'imgArtists', 'imgFlags', 'imgStyle' ]);
