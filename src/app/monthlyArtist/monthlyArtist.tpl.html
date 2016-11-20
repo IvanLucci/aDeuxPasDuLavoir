@@ -1,13 +1,15 @@
-<div data-ng-if="!noArtist"> 
-	<div class="text-center artist-header">
-		<h3 class="no-shadow">{{ current.name }}</h3>
-		<a href="{{ current.link }}" target="_blank">{{ current.link }}</a>
+<div class="text-box">
+	<div data-ng-if="!noArtist"> 
+		<div class="text-center artist-header">
+			<h3 class="no-shadow">{{ current.name }}</h3>
+			<a href="{{ current.link }}" target="_blank">{{ current.link }}</a>
+		</div>
+		<p data-translate="monthlyArtist.{{ current.id }}.description"></p>
+
+		<img class="artist-img img-thumbnail" data-ng-src="{{ current.img }}" />
 	</div>
-	<p data-translate="monthlyArtist.{{ current.id }}.description"></p>
 
-	<img class="artist-img img-thumbnail" data-ng-src="{{ current.img }}" />
-</div>
-
-<div data-ng-if="noArtist">
-	<p data-translate="monthlyArtist.noArtist"></p>
+	<div data-ng-if="noArtist">
+		<p data-translate="monthlyArtist.noArtist"></p>
+	</div>
 </div>
