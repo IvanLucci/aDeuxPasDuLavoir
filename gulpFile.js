@@ -90,7 +90,7 @@ gulp.task( 'tpl', function() {
 
 //Copy the content JSON files
 gulp.task( 'content', function() {
-	return gulp.src( 'src/app/**/*.json' )
+	return gulp.src([ 'src/app/**/*.json', 'src/app/**/*.txt' ])
 		.pipe( gulp.dest( 'public/app/content' ) );
 });
 

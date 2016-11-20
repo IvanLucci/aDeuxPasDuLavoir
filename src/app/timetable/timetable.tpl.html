@@ -3,20 +3,22 @@
 	<div class="label label-danger" ng-if="!isOpen" translate="nowClosed"></div>
 </div>
 
-<table class="table table-condensed time-table">
+<div class="text-box no-padding no-border-top">
+	<table class="table table-condensed time-table">
 
-	<tbody>
-		<tr data-ng-repeat="day in days" ng-class="{ active: isCurrentWeekDay( day ) }">
-			<td class="col-lg-2">
-				<strong data-translate="{{ day }}"></strong>
-			</td>
-			<td>
-				{{ getMorningTime( day ) }}
-			</td>
-			<td>
-				{{ getAfternoonTime( day ) }}
-			</td>
-		</tr>
-	</tbody>
+		<tbody>
+			<tr data-ng-repeat="day in days" ng-class="{ active: isCurrentWeekDay( day ) }">
+				<td class="col-lg-2">
+					<strong data-translate="{{ day }}"></strong>
+				</td>
+				<td>
+					{{ getMorningTime( day ) }}
+				</td>
+				<td>
+					{{ getAfternoonTime( day ) }}
+				</td>
+			</tr>
+		</tbody>
 
-</table>
+	</table>
+</div>
