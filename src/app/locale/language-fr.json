@@ -215,8 +215,8 @@
 	},
 
 	"monthlyArtist": {
-		"title": "Artist du mois",
-		"noArtist": "Pas d'artistes ce mois.",
+		"title": "Artiste du mois",
+		"noArtist": "Aucun artiste ce mois-ci.",
 		"morrison": {
 			"description": "Originaire de Thionville, aujourd’hui installé à la frontière Luxembourgeoise, dans son « l’Atelier l’Art c’est Sérieux », Mo. reste un autodidacte à la recherche artistique perpétuelle."
 		},
