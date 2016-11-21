@@ -6,7 +6,7 @@
 			if ( !info ) {
 				return false;
 			}
-			info.img = contentPath + 'monthlyArtist/img/' + info.img;
+			info.img = info.img && contentPath + 'monthlyArtist/img/' + info.img;
 			return info;
 		}
 

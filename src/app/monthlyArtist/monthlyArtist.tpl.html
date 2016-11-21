@@ -2,11 +2,11 @@
 	<div data-ng-if="!noArtist"> 
 		<div class="text-center artist-header">
 			<h3 class="no-shadow">{{ current.name }}</h3>
-			<a href="{{ current.link }}" target="_blank">{{ current.link }}</a>
+			<a data-ng-if="current.link" href="{{ current.link }}" target="_blank">{{ current.link }}</a>
 		</div>
-		<p data-translate="monthlyArtist.{{ current.id }}.description"></p>
+		<p data-ng-if="current.description" data-translate="monthlyArtist.{{ current.id }}.description"></p>
 
-		<img class="artist-img img-thumbnail" data-ng-src="{{ current.img }}" />
+		<img data-ng-if="current.img" class="artist-img img-thumbnail" data-ng-src="{{ current.img }}" />
 	</div>
 
 	<div data-ng-if="noArtist">

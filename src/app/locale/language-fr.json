@@ -21,22 +21,74 @@
 	},
 
 	"products": {
-		"conchiglioni4Sapori": {
-			"name": "Conchiglioni Quatre Saveurs",
-			"abstract": "Speciale tipe de pasta aux quatre saveurs differentes.",
-			"description": "Speciale tipe de pasta aux quatre saveurs differentes.",
-			"imgAlt": "@:products.conchiglioni4Sapori.name"
+
+		"vinoPrimitivo": {
+			"name": "Tagliolini Vino Primitivo",
+			"imgAlt": "@:products.vinoPrimitivo.name",
+			"abstract": "Pâte Ligorio",
+			"description": ""
 		},
-		"trofietteBasilico": {
-			"name": "Troffiette Basilique",
-			"abstract": "Specialité de Ligurie.",
-			"description": "Specialité de Ligurie. Ces trofie aux saveur basilique tu ne peux pas les louper!",
-			"imgAlt": "@:products.trofietteBasilico.name"
+		"spaghettiAglioBasilico": {
+			"name": "Spaghetti Aglio e Basilico",
+			"imgAlt": "@:products.spaghettiAglioBasilico.name",
+			"abstract": "Pâte Ligorio",
+			"description": ""
 		},
-		"linguineI": {
-			"name": "linguine Terra e Arte",
-			"abstract": "Linguine",
-			"imgAlt": "@:products.linguineI.name"
+		"spaghettiLimone": {
+			"name": "Spaghetti al Limone",
+			"imgAlt": "@:products.spaghettiLimone.name",
+			"abstract": "Pâte Ligorio",
+			"description": ""
+		},
+		"spaghettiPiccanti": {
+			"name": "Spaghetti Piccanti",
+			"imgAlt": "@:products.spaghettiPiccanti.name",
+			"abstract": "Pâte Ligorio",
+			"description": ""
+		},
+		"spaghettiRucolaPeperoncino": {
+			"name": "Spaghetti Rucola Peperoncino",
+			"imgAlt": "@:products.spaghettiRucolaPeperoncino.name",
+			"abstract": "Pâte Ligorio",
+			"description": ""
+		},
+		"taglioliniNeroSeppia": {
+			"name": "Spaghetti al Nero di Seppia",
+			"imgAlt": "@:products.taglioliniNeroSeppia.name",
+			"abstract": "Pâte Ligorio",
+			"description": ""
+		},
+		"taglioliniMenta": {
+			"name": "Tagliolini alla Menta",
+			"imgAlt": "@:products.taglioliniMenta.name",
+			"abstract": "Pâte Ligorio",
+			"description": ""
+		},
+		"taglioliniFunghiPorcini": {
+			"name": "Tagliolini ai Funghi Porcini",
+			"imgAlt": "@:products.taglioliniFunghiPorcini.name",
+			"abstract": "Pâte Ligorio",
+			"description": ""
+		},
+		
+
+		"SCchitarrine": {
+			"name": "Chitarrine",
+			"imgAlt": "@:products.SCchitarrine.name",
+			"abstract": "Pâte Senatore Cappelli",
+			"description": "Ses tiges culminent à 2 mètres et ses épis blonds sont carrés et ont de longues moustaches. Sa sensibilité à la verse lui a value d'être abandonné par les sélectionneurs à la fin des années soixante. Mais cette variété de blé dur a des qualités organoleptiques exceptionnelles, c'est pourquoi, \"La Terra e il Cielo\" a créé cette gamme de produits : Pâtes \"Cheveux du sénateur\". L'attention particulière que nous portons à l'obtention de la farine, la filature au bronze qui lui donne cet aspect rugueux et poreux et le séchage à basse température lui donne un délicieux goût épicé. Elles s'accompagnent de tous types de sauces, des plus simples aux plus épicées."
+		},
+		"SCpenne": {
+			"name": "Penne",
+			"imgAlt": "@:products.SCpenne.name",
+			"abstract": "Pâte Senatore Cappelli",
+			"description": "@:products.SCchitarrine.description"
+		},
+		"SCstrozzapreti": {
+			"name": "Strozzapreti",
+			"imgAlt": "@:products.SCstrozzapreti.name",
+			"abstract": "Pâte Senatore Cappelli",
+			"description": "@:products.SCchitarrine.description"
 		}
 	},
 

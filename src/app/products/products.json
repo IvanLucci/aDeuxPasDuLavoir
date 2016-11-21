@@ -4,44 +4,55 @@
 		"img": "almattarelloLogoOpa.png",
 		"products": [
 			{
-				"id": "conchiglioni4Sapori",
-				"img": "conchiglioni_4_sapori.jpg"
+				"id": "vinoPrimitivo",
+				"img": "pastaLigorio/vino primitivo.jpg"
 			},
 			{
-				"id": "trofietteBasilico",
-				"img": "trofiette_basilico.jpg"
+				"id": "spaghettiAglioBasilico",
+				"img": "pastaLigorio/spaghetti aglio e basilico.jpg"
 			},
 			{
-				"id": "linguineI",
-				"img": "linguineI.jpg"
+				"id": "spaghettiLimone",
+				"img": "pastaLigorio/spaghetti al limone.jpg"
+			},
+			{
+				"id": "spaghettiPiccanti",
+				"img": "pastaLigorio/spaghetti piccanti.jpg"
+			},
+			{
+				"id": "spaghettiRucolaPeperoncino",
+				"img": "pastaLigorio/spaghetti rucola e peperoncino.jpg"
+			},
+			{
+				"id": "taglioliniNeroSeppia",
+				"img": "pastaLigorio/taglioline al nero di seppia.jpg"
+			},
+			{
+				"id": "taglioliniMenta",
+				"img": "pastaLigorio/taglioline alla menta.jpg"
+			},
+			{
+				"id": "taglioliniFunghiPorcini",
+				"img": "pastaLigorio/tagliolini ai funghi porcini.jpg"
 			}
 		]
 	},
+
 	{
 		"id": "pastaTerraECielo",
 		"img": "terraCieloLogo2Opa.png",
 		"products": [
 			{
-				"id": "strozzapretiSC",
-				"img": "strozzapretiSC.jpg"
+				"id": "SCchitarrine",
+				"img": "pastaterraCielo/SCchitarrine.jpg"
 			},
 			{
-				"id": "conchiglioni4Sapori",
-				"img": "conchiglioni_4_sapori.jpg"
-			}
-		]
-	},
-	{
-		"id": "pastaFiore",
-		"img": "fioreLogoOpa.png",
-		"products": [
-			{
-				"id": "trofietteBasilico",
-				"img": "trofiette_basilico.jpg"
+				"id": "SCpenne",
+				"img": "pastaterraCielo/SCpenne.jpg"
 			},
 			{
-				"id": "linguineI",
-				"img": "linguineI.jpg"
+				"id": "SCstrozzapreti",
+				"img": "pastaterraCielo/SCstrozzapreti.jpg"
 			}
 		]
 	}

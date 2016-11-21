@@ -108,7 +108,7 @@ gulp.task( 'locale', function() {
 
 //Copy product images
 gulp.task( 'imgProducts', function() {
-	return gulp.src( 'src/app/products/img/*' )
+	return gulp.src( 'src/app/products/img/**/*' )
 		.pipe( gulp.dest( 'public/app/content/products/img' ) );
 });
 

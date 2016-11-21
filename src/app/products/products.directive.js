@@ -26,11 +26,18 @@
 				return 'products.' + productId + '.' + property;
 			};
 
+			scope.getName = function( productId ) {
+				var transId = 'products.' + productId + '.name',
+				name = $filter('translate')( transId );
+				return name !== transId ? name : productId;
+			};
+
 			scope.updatePopoverContent = function( product ) {
 				var image = '<img class="img-rounded" src="' + product.img + '"/>',
-					description = $filter('translate')('products.' + product.id + '.description');
-				description = /\S*[.]\S*[.]\S*/.test( description ) ? '' : description;
-				scope.popover.content = $sce.trustAsHtml( image + '<br />' + description );
+				transId = 'products.' + product.id + '.description',
+				description = $filter('translate')( transId );
+				description = description !== transId ? description : '';
+				scope.popover.content = $sce.trustAsHtml( image + '<br /><br />' + description );
 			}
 
 			scope.getStyle = function( category ) {
