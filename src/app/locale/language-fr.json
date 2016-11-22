@@ -75,35 +75,270 @@
 		"SCchitarrine": {
 			"name": "Chitarrine",
 			"imgAlt": "@:products.SCchitarrine.name",
-			"abstract": "Pâte Senatore Cappelli",
+			"abstract": "Pâte au blé Senatore Cappelli",
 			"description": "Ses tiges culminent à 2 mètres et ses épis blonds sont carrés et ont de longues moustaches. Sa sensibilité à la verse lui a value d'être abandonné par les sélectionneurs à la fin des années soixante. Mais cette variété de blé dur a des qualités organoleptiques exceptionnelles, c'est pourquoi, \"La Terra e il Cielo\" a créé cette gamme de produits : Pâtes \"Cheveux du sénateur\". L'attention particulière que nous portons à l'obtention de la farine, la filature au bronze qui lui donne cet aspect rugueux et poreux et le séchage à basse température lui donne un délicieux goût épicé. Elles s'accompagnent de tous types de sauces, des plus simples aux plus épicées."
 		},
 		"SCpenne": {
 			"name": "Penne",
 			"imgAlt": "@:products.SCpenne.name",
-			"abstract": "Pâte Senatore Cappelli",
+			"abstract": "@:products.SCchitarrine.abstract",
 			"description": "@:products.SCchitarrine.description"
 		},
 		"SCstrozzapreti": {
 			"name": "Strozzapreti",
 			"imgAlt": "@:products.SCstrozzapreti.name",
-			"abstract": "Pâte Senatore Cappelli",
+			"abstract": "@:products.SCchitarrine.abstract",
 			"description": "@:products.SCchitarrine.description"
+		},
+		"taganrogPenne": {
+			"name": "Penne Taganrog",
+			"imgAlt": "@:products.taganrogPenne.name",
+			"abstract": "Pâtes de semoule de blé dur tréfilées au bronze Taganrog",
+			"description": "Le blé dur Taganrog est une céréale amenée au VIIIème siècle en Italie de la ville homonyme, située sur la rive de la mer d'Azov, afin d'améliorer la qualité des semoules utilisées pour la production de pâtes. Par rapport aux blés durs modernes, le Taganrog est exceptionnellement riche en protéines, lipides et sels minéraux. Il se caractérise en outre par des épis très longs et par des chaumes atteignant une hauteur de 130 cm environ. Son rendement est réduit : un hectare de terre à Taganrog produit 18 quintaux de blé par rapport aux 30-35 quintaux obtenus habituellement avec d'autres variétés de blé dur bio. Cela fait désormais vingt ans que les exploitations agricoles associées de la coopérative La Terra e il Cielo sélectionnent et cultivent le Taganrog sur les collines des Marches, le but étant d'exalter davantage ses excellentes caractéristiques meunières. Un blé dur de qualité supérieure tel que le Taganrog donne des pâtes de semoule aromatiques et dorées, à teneur élevée en protéines, tenant très bien la cuisson. On peut goûter les pâtes de blé Taganrog en forme de pennes. Elles sont tréfilées aux bronze et séchées à basse températures, ce qui donne à leur surface un petit aspect poreux. Cette caractéristique permet aux pâtes de mieux capturer les sauces et d'exalter parfaitement le goût du blé."
+		},
+		"taganrogSpaghetti": {
+			"name": "Spaghetti Taganrog",
+			"imgAlt": "@:products.taganrogSpaghetti.name",
+			"abstract": "@:products.taganrogPenne.abstract",
+			"description": "@:products.taganrogPenne.description"
+		},
+
+
+		"cavatappiSGD": {
+			"name": "Cavatappi",
+			"imgAlt": "@:products.cavatappiSGD.name",
+			"abstract": "Pâte à la farine de blé dur",
+			"description": "Elle est moulue sur cylindres, le blé dur est produit dans les fermes de la coopérative. Il se distingue du blé tendre par sa granulométrie plus accentuée et sa couleur jaune. On l'utilise pour le pain et les pâtes."
+		},
+		"farfalleSGD": {
+			"name": "Farfalle",
+			"imgAlt": "@:products.farfalleSGD.name",
+			"abstract": "@:products.cavatappiSGD.abstract",
+			"description": "@:products.cavatappiSGD.description"
+		},
+		"linguineSGD": {
+			"name": "Linguine",
+			"imgAlt": "@:products.linguineSGD.name",
+			"abstract": "@:products.cavatappiSGD.abstract",
+			"description": "@:products.cavatappiSGD.description"
+		},
+		"penneRigateSGD": {
+			"name": "Penne Rigate",
+			"imgAlt": "@:products.penneRigateSGD.name",
+			"abstract": "@:products.cavatappiSGD.abstract",
+			"description": "@:products.cavatappiSGD.description"
+		},
+		"spaghettiSGD": {
+			"name": "Spaghetti",
+			"imgAlt": "@:products.spaghettiSGD.name",
+			"abstract": "@:products.cavatappiSGD.abstract",
+			"description": "@:products.cavatappiSGD.description"
+		},
+		"pappardelleSGD": {
+			"name": "Pappardelle",
+			"imgAlt": "@:products.pappardelleSGD.name",
+			"abstract": "@:products.cavatappiSGD.abstract",
+			"description": "@:products.cavatappiSGD.description"
+		},
+		"tagliatelleSGD": {
+			"name": "Tagliatelle",
+			"imgAlt": "@:products.tagliatelleSGD.name",
+			"abstract": "@:products.cavatappiSGD.abstract",
+			"description": "@:products.cavatappiSGD.description"
+		},
+		"pizzichiFavaSGD": {
+			"name": "Pizzichi di Fava",
+			"imgAlt": "@:products.pizzichiFavaSGD.name",
+			"abstract": "Specialité alimentaire à la farine de fève",
+			"description": "L'origine des pâtes de fève remonte à l'époque des \"Mezzadria\" des Marches. Les paysans cultivaient la terre des nobles et chacun recevait la moitié de la récolte. Quand après la guerre, la farine de blé dur ne suffisait pas à nourrir toute la famille jusqu'à la prochaine récolte, on ajouta alors de la farine de fève à la farine de froment pour le pain et les pâtes sans avoir conscience de l'exceptionnel apport nutritionnel de ce mélange."
+		},
+
+
+		"caserecceGranoro": {
+			"name": "Caserecce",
+			"imgAlt": "@:products.caserecceGranoro.name",
+			"abstract": "Pâte sans gluten avec farine de quinoa",
+			"description": "<p>Ingrédients: Farine de maïs, farine de riz, farine de quinoa (3%), émulsifiants : mono et diglycérides d’acides gras.</p><p>Peut contenir des traces de lupin et de soja.</p><p>Conserver loin de toute source de chaleur et à l’abri de l’humidité.</p><p></p>Recyclable : collecte du papier."
+		},
+		"fusilliGranoro": {
+			"name": "Fusilli",
+			"imgAlt": "@:products.fusilliGranoro.name",
+			"abstract": "@:products.caserecceGranoro.abstract",
+			"description": "@:products.caserecceGranoro.abstract"
+		},
+		"penneRigateGranoro": {
+			"name": "Penne Rigate",
+			"imgAlt": "@:products.penneRigateGranoro.name",
+			"abstract": "@:products.caserecceGranoro.abstract",
+			"description": "@:products.caserecceGranoro.abstract"
+		},
+		"sedaniGranoro": {
+			"name": "Sedani",
+			"imgAlt": "@:products.sedaniGranoro.name",
+			"abstract": "@:products.caserecceGranoro.abstract",
+			"description": "@:products.caserecceGranoro.abstract"
+		},
+		"spaghettiGranoro": {
+			"name": "Spaghetti",
+			"imgAlt": "@:products.spaghettiGranoro.name",
+			"abstract": "@:products.caserecceGranoro.abstract",
+			"description": "@:products.caserecceGranoro.abstract"
+		},
+
+
+		"conchiglioniTB": {
+			"name": "Conchiglioni",
+			"imgAlt": "@:products.conchiglioniTB.name",
+			"abstract": "Pâte au blé dur tréfilée au bronze",
+			"description": "Réalisées avec expérience et savoir-faire, la farine est pétrie avec de l'eau de source. Ces pâtes sont tréfilées au bronze. En plus d'une haute teneur en protéines et d'un gluten de qualité, elles sont dotées de caractéristiques nutritionnelles exceptionnelles. Elles sont poreuses et rugueuse, ce qui leur permet d'absorber la sauce et leur confère une meilleure tenue à la cuisson. Les pâtes tréfilées au bronze se marient à merveille avec des sauces traditionnelles ou avec les condiments les plus simples comme les pulpes ou purées de tomates."
+		},
+		"fusilliTB": {
+			"name": "Fusilli",
+			"imgAlt": "@:products.fusilliTB.name",
+			"abstract": "@:products.conchiglioniTB.abstract",
+			"description": "@:products.conchiglioniTB.description"
+		},
+		"linguineTB": {
+			"name": "Linguine",
+			"imgAlt": "@:products.linguineTB.name",
+			"abstract": "@:products.conchiglioniTB.abstract",
+			"description": "@:products.conchiglioniTB.description"
+		},
+		"lumacheTB": {
+			"name": "Lumache",
+			"imgAlt": "@:products.lumacheTB.name",
+			"abstract": "@:products.conchiglioniTB.abstract",
+			"description": "@:products.conchiglioniTB.description"
+		},
+		"mezzeManicheTB": {
+			"name": "Mezze Maniche",
+			"imgAlt": "@:products.mezzeManicheTB.name",
+			"abstract": "@:products.conchiglioniTB.abstract",
+			"description": "@:products.conchiglioniTB.description"
+		},
+		"reginetteTB": {
+			"name": "Reginette",
+			"imgAlt": "@:products.reginetteTB.name",
+			"abstract": "@:products.conchiglioniTB.abstract",
+			"description": "@:products.conchiglioniTB.description"
+		},
+		"spaghettiTB": {
+			"name": "Spaghetti",
+			"imgAlt": "@:products.spaghettiTB.name",
+			"abstract": "@:products.conchiglioniTB.abstract",
+			"description": "@:products.conchiglioniTB.description"
+		},
+		"trenneTB": {
+			"name": "Trenne",
+			"imgAlt": "@:products.trenneTB.name",
+			"abstract": "@:products.conchiglioniTB.abstract",
+			"description": "@:products.conchiglioniTB.description"
+		},
+
+
+		"fusilliEpeautre": {
+			"name": "Fusilli",
+			"imgAlt": "@:products.fusilliEpeautre.name",
+			"abstract": "Pâte semi intégrale 100% epeautre",
+			"description": "Pâte monovariétale, de la variété Triricum Dicoccum, particulièrement adaptée à la production de pâtes alimentaires sèches, intégrales et semi intégrales. L’épeautre est un céréale à l’origine très ancienne, présent également dans la culture égyptienne et grecque et qui jouissait d’un grand prestige dans le monde romain, constituant leur base nutritionnelle par excellence. Elle était très estimée au Moyen-Age. La sainte, devin et guérisseuse Hildegard von Bingen (Hildegarde) la recommandait comme base d’une alimentation saine. Dans les Marches cette culture, à la limite de la disparition, n’a jamais été abandonné par tous, tant par la présence d’une tradition gastronomique, qu’artisanale (avec des chapeaux et des paniers tressés d’épeautre). Pour nous, les agriculteurs biologiques de la région, il a était naturel de en faire, depuis des décennies, une culture de première importance. L’épeautre est un aliment équilibré dans chaque composants (acides, graisses, vitamines, protéines, oligo-éléments etc.). Riche en vitamine A, B, C, E et en sels minéraux (zinc, cuivre, manganèse, sélénium, fer, etc.). Il fournit une nourriture savoureuse et énergétique sans alourdir l’intestin et en encourageant la digestion. Il est très utilisé dans les régimes contre les intolérances alimentaires."
+		},
+		"linguineEpeautre": {
+			"name": "Linguine",
+			"imgAlt": "@:products.linguineEpeautre.name",
+			"abstract": "@:products.fusilliEpeautre.abstract",
+			"description": "@:products.fusilliEpeautre.description"
+		},
+		"penneEpeautre": {
+			"name": "Penne",
+			"imgAlt": "@:products.penneEpeautre.name",
+			"abstract": "@:products.fusilliEpeautre.abstract",
+			"description": "@:products.fusilliEpeautre.description"
+		},
+		"spaghettiEpeautre": {
+			"name": "Spaghetti",
+			"imgAlt": "@:products.spaghettiEpeautre.name",
+			"abstract": "@:products.fusilliEpeautre.abstract",
+			"description": "@:products.fusilliEpeautre.description"
+		},
+		"spaghettiOrtica": {
+			"name": "Spaghetti à l'ortie",
+			"imgAlt": "@:products.spaghettiOrtica.name",
+			"abstract": "Pâte complète au blé dur",
+			"description": ""
+		},
+
+
+		"coulisTomate": {
+			"name": "Coulis de Tomate",
+			"imgAlt": "@:products.coulisTomate.name",
+			"abstract": "Coulis",
+			"description": ""
+		},
+		"coulisTomateBasilic": {
+			"name": "Coulis de Tomate au Basilic",
+			"imgAlt": "@:products.coulisTomateBasilic.name",
+			"abstract": "Coulis",
+			"description": "@:products.coulisTomate.description"
+		},
+		"tomatesPelees": {
+			"name": "Tomates Pelées",
+			"imgAlt": "@:products.tomatesPelees.name",
+			"abstract": "Tomates en boîte pelées",
+			"description": "@:products.coulisTomate.description"
+		},
+		"saucePreteArrabbiata": {
+			"name": "Sauce Prête à l'Arrabbiata",
+			"imgAlt": "@:products.saucePreteArrabbiata.name",
+			"abstract": "Sauce Prête",
+			"description": "@:products.coulisTomate.description"
+		},
+		"saucePreteAubergine": {
+			"name": "Sauce Prête à l'Aubergine",
+			"imgAlt": "@:products.saucePreteAubergine.name",
+			"abstract": "@:products.saucePreteArrabbiata.abstract",
+			"description": "@:products.coulisTomate.description"
+		},
+		"saucePreteBasilic": {
+			"name": "Sauce Prête au Basilic",
+			"imgAlt": "@:products.saucePreteBasilic.name",
+			"abstract": "@:products.saucePreteArrabbiata.abstract",
+			"description": "@:products.coulisTomate.description"
+		},
+		"saucePreteChampignons": {
+			"name": "Sauce Prête au Champignons",
+			"imgAlt": "@:products.saucePreteChampignons.name",
+			"abstract": "@:products.saucePreteArrabbiata.abstract",
+			"description": "@:products.coulisTomate.description"
 		}
 	},
 
 	"productCategories": {
 		"pastaLigorio": {
-			"name": "Pasta Ligorio",
-			"imgAlt": "@:productCategories.pastaLigorio.name"
+			"name": "Pasta Ligorio"
 		},
 		"pastaTerraECielo": {
-			"name": "Pasta Terra e il Cielo",
-			"imgAlt": "@:productCategories.pastaTerraECielo.name"
+			"name": "Pasta Terra e il Cielo"
 		},
 		"pastaFiore": {
-			"name": "Pasta Fiore",
-			"imgAlt": "@:productCategories.pastaFiore.name"
+			"name": "Pasta Fiore"
+		},
+		"pastaBleAncien": {
+			"name": "Pasta Blé Ancien"
+		},
+		"pastaBleDur": {
+			"name": "Pasta Blé Dur"
+		},
+		"pastaSansGluten": {
+			"name": "Pasta sans Gluten"
+		},
+		"pastaTrafileBronze": {
+			"name": "Pasta Trafilé au Bronze"
+		},
+		"pastaIntegrale": {
+			"name": "Pasta Intégrale"
+		},
+		"condiments": {
+			"name": "Condiments"
 		}
 	},
 

@@ -1,17 +1,18 @@
-<div class="row">
-	<div data-ng-repeat="c in categories track by c.id" class="category-container col-lg-4 col-md-6 col-sm-12">
-		
+<div class="container-fluid">
+	<div class="row" data-masonry="{ transitionDuration: '0.8s' }">
+		<div data-ng-repeat="c in categories track by c.id" class="category-container masonry-brick col-lg-4 col-md-6 col-sm-12">
+			
 			<div class="panel panel-default">
 				<div class="panel-heading" ng-style="getStyle( c );">
 					<h3 data-translate="productCategories.{{ c.id }}.name"></h3>
 				</div>
 				<div class="panel-body category-body">
 					<div data-ng-repeat="p in c.products track by p.id" class="product"
-						 ng-mouseover="updatePopoverContent( p )"
+						 ng-click="updatePopoverContent( p )"
 						 popover-title="{{ getName( p.id ) }}"
 						 uib-popover-html="popover.content"
 						 popover-placement="auto right"
-						 popover-trigger="'mouseenter'">
+						 popover-trigger="'outsideClick'">
 						<div class="media-left">
 							<img class="pull-left media-object img-thumbnail item-thumbnail-sm"
 								 data-ng-if="p.img"
@@ -31,5 +32,6 @@
 				</div>
 			</div>
 
+		</div>
 	</div>
 </div>

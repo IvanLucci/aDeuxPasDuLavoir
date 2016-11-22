@@ -10,8 +10,10 @@ var gulp 	= require( 'gulp' ),
 //List of dependency libraries
 // I don't need all. For example, from bootstrap I only need dropdown. But I could use ui.bootstrap.
 var depLibs = [
-	'bower_components/angular/angular.min.js',
 	'bower_components/jquery/dist/jquery.min.js',
+	'bower_components/jquery-bridget/jquery-bridget.js',
+	'bower_components/bootstrap/dist/js/bootstrap.min.js',
+	'bower_components/angular/angular.min.js',
 	'bower_components/angular-animate/angular-animate.min.js',
 	'bower_components/angular-route/angular-route.min.js',
 	'bower_components/angular-translate/angular-translate.min.js',
@@ -19,8 +21,16 @@ var depLibs = [
 	'bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js',
 	'bower_components/angular-translate-storage-local/angular-translate-storage-local.min.js',
 	'bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js',
-	'bower_components/bootstrap/dist/js/bootstrap.min.js',
-	'bower_components/ui-bootstrap/ui-bootstrap-custom-tpls-2.2.0.min.js'
+	'bower_components/ui-bootstrap/ui-bootstrap-custom-tpls-2.2.0.min.js',
+	'bower_components/ev-emitter/ev-emitter.js',
+	'bower_components/desandro-matches-selector/matches-selector.js',
+	'bower_components/fizzy-ui-utils/utils.js',
+	'bower_components/get-size/get-size.js',
+	'bower_components/outlayer/item.js',
+	'bower_components/outlayer/outlayer.js',
+	'bower_components/masonry/masonry.js',
+	'bower_components/imagesloaded/imagesloaded.js',
+	'bower_components/angular-masonry/angular-masonry.js'
 ];
 
 //List of CSS dependencies

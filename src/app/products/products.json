@@ -5,54 +5,235 @@
 		"products": [
 			{
 				"id": "vinoPrimitivo",
-				"img": "pastaLigorio/vino primitivo.jpg"
+				"img": "ligorio/vino primitivo.jpg"
 			},
 			{
 				"id": "spaghettiAglioBasilico",
-				"img": "pastaLigorio/spaghetti aglio e basilico.jpg"
+				"img": "ligorio/spaghetti aglio e basilico.jpg"
 			},
 			{
 				"id": "spaghettiLimone",
-				"img": "pastaLigorio/spaghetti al limone.jpg"
+				"img": "ligorio/spaghetti al limone.jpg"
 			},
 			{
 				"id": "spaghettiPiccanti",
-				"img": "pastaLigorio/spaghetti piccanti.jpg"
+				"img": "ligorio/spaghetti piccanti.jpg"
 			},
 			{
 				"id": "spaghettiRucolaPeperoncino",
-				"img": "pastaLigorio/spaghetti rucola e peperoncino.jpg"
+				"img": "ligorio/spaghetti rucola e peperoncino.jpg"
 			},
 			{
 				"id": "taglioliniNeroSeppia",
-				"img": "pastaLigorio/taglioline al nero di seppia.jpg"
+				"img": "ligorio/taglioline al nero di seppia.jpg"
 			},
 			{
 				"id": "taglioliniMenta",
-				"img": "pastaLigorio/taglioline alla menta.jpg"
+				"img": "ligorio/taglioline alla menta.jpg"
 			},
 			{
 				"id": "taglioliniFunghiPorcini",
-				"img": "pastaLigorio/tagliolini ai funghi porcini.jpg"
+				"img": "ligorio/tagliolini ai funghi porcini.jpg"
 			}
 		]
 	},
 
+
 	{
-		"id": "pastaTerraECielo",
-		"img": "terraCieloLogo2Opa.png",
+		"id": "pastaBleAncien",
+		"img": "noImg.jpg",
 		"products": [
 			{
 				"id": "SCchitarrine",
-				"img": "pastaterraCielo/SCchitarrine.jpg"
+				"img": "bleAncien/SCchitarrine.jpg"
 			},
 			{
 				"id": "SCpenne",
-				"img": "pastaterraCielo/SCpenne.jpg"
+				"img": "bleAncien/SCpenne.jpg"
 			},
 			{
 				"id": "SCstrozzapreti",
-				"img": "pastaterraCielo/SCstrozzapreti.jpg"
+				"img": "bleAncien/SCstrozzapreti.jpg"
+			},
+			{
+				"id": "taganrogPenne",
+				"img": "bleAncien/taganrogPenne.jpg"
+			},
+			{
+				"id": "taganrogSpaghetti",
+				"img": "bleAncien/taganrogSpaghetti.jpg"
+			}
+		]
+	},
+
+
+	{
+		"id": "pastaBleDur",
+		"img": "noImg.jpg",
+		"products": [
+			{
+				"id": "cavatappiSGD",
+				"img": "bleDur/cavatappiSGD.jpg"
+			},
+			{
+				"id": "farfalleSGD",
+				"img": "bleDur/farfalleSGD.jpg"
+			},
+			{
+				"id": "linguineSGD",
+				"img": "bleDur/linguineSGD.jpg"
+			},
+			{
+				"id": "penneRigateSGD",
+				"img": "bleDur/penne rigateSGD.jpg"
+			},
+			{
+				"id": "spaghettiSGD",
+				"img": "bleDur/spaghettiSGD.jpg"
+			},
+			{
+				"id": "pappardelleSGD",
+				"img": "bleDur/pappardelleSGD.jpg"
+			},
+			{
+				"id": "tagliatelleSGD",
+				"img": "bleDur/tagliatelleSGD.jpg"
+			},
+			{
+				"id": "pizzichiFavaSGD",
+				"img": "bleDur/pizzichi_favaSGD.jpg"
+			}
+		]
+	},
+
+
+	{
+		"id": "pastaSansGluten",
+		"img": "noImg.jpg",
+		"products": [
+			{
+				"id": "caserecceGranoro",
+				"img": "sansGluten/caserecceGranoro.jpg"
+			},
+			{
+				"id": "fusilliGranoro",
+				"img": "sansGluten/fusilliGranoro.jpg"
+			},
+			{
+				"id": "penneRigateGranoro",
+				"img": "sansGluten/penneRigateGranoro.jpg"
+			},
+			{
+				"id": "sedaniGranoro",
+				"img": "sansGluten/sedaniGranoro.jpg"
+			},
+			{
+				"id": "spaghettiGranoro",
+				"img": "sansGluten/spaghettiGranoro.jpg"
+			}
+		]
+	},
+
+
+	{
+		"id": "pastaTrafileBronze",
+		"img": "noImg.jpg",
+		"products": [
+			{
+				"id": "conchiglioniTB",
+				"img": "trafileBronze/conchiglioniTB.jpg"
+			},
+			{
+				"id": "fusilliTB",
+				"img": "trafileBronze/fusilliTB.jpg"
+			},
+			{
+				"id": "linguineTB",
+				"img": "trafileBronze/linguineTB.jpg"
+			},
+			{
+				"id": "lumacheTB",
+				"img": "trafileBronze/lumacheTB.jpg"
+			},
+			{
+				"id": "mezzeManicheTB",
+				"img": "trafileBronze/mezzeManicheTB.jpg"
+			},
+			{
+				"id": "reginetteTB",
+				"img": "trafileBronze/reginetteTB.jpg"
+			},
+			{
+				"id": "spaghettiTB",
+				"img": "trafileBronze/spaghettiTB.jpg"
+			},
+			{
+				"id": "trenneTB",
+				"img": "trafileBronze/trenneTB.jpg"
+			}
+		]
+	},
+
+
+	{
+		"id": "pastaIntegrale",
+		"img": "noImg.jpg",
+		"products": [
+			{
+				"id": "fusilliEpeautre",
+				"img": "integrale/fusilliEpeautre.jpg"
+			},
+			{
+				"id": "linguineEpeautre",
+				"img": "integrale/linguineEpeautre.jpg"
+			},
+			{
+				"id": "penneEpeautre",
+				"img": "integrale/penneEpeautre.jpg"
+			},
+			{
+				"id": "spaghettiEpeautre",
+				"img": "integrale/spaghettiEpeautre.jpg"
+			},
+			{
+				"id": "spaghettiOrtica",
+				"img": "integrale/spaghettiOrtica.jpg"
+			}
+		]
+	},
+
+
+	{
+		"id": "condiments",
+		"img": "noImg.jpg",
+		"products": [
+			{
+				"id": "coulisTomate",
+				"img": "condiments/coulisTomate.jpg"
+			},
+			{
+				"id": "coulisTomateBasilic",
+				"img": "condiments/coulisTomateBasilic.jpg"
+			},
+			{
+				"id": "tomatesPelees",
+				"img": "condiments/tomatesPelees.jpg"
+			},
+			{
+				"id": "saucePreteArrabbiata",
+				"img": "condiments/saucePreteArrabbiata.jpg"
+			},
+			{
+				"id": "saucePreteAubergine",
+				"img": "condiments/saucePreteAubergine.jpg"
+			},
+			{
+				"id": "saucePreteBasilic",
+				"img": "condiments/saucePreteBasilic.jpg"
+			},
+			{
+				"id": "saucePreteChampignons",
+				"img": "condiments/saucePreteChampignons.jpg"
 			}
 		]
 	}

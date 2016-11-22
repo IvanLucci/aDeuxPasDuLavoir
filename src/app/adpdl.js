@@ -16,7 +16,8 @@ Author: Ivan Lucci
 		'ngRoute',
 		'ngCookies',
 		'pascalprecht.translate',
-		'ui.bootstrap'
+		'ui.bootstrap',
+		'wu.masonry'
 	]);
 
 	var paths = {

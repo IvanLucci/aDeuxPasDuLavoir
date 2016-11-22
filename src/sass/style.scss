@@ -95,6 +95,7 @@ a {
 
 .content-container {
 	padding: 5px 15px;
+	min-height: 500px;
 }
 
 #flowerImg {
@@ -504,4 +505,15 @@ address .fa {
 .artist-header {
 	border-radius: 3px;
 	margin-bottom: 20px;
+}
+
+
+// Masonry
+
+.masonry-brick {
+	display: none;
+}
+
+.loaded {
+	display: block;
 }
