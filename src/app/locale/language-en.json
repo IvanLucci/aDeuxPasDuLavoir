@@ -66,6 +66,11 @@
 			"name": "Press Point",
 			"description": "Press point description",
 			"imgAlt": "@:services.pressPoint.name"
+		},
+		"massage": {
+			"name": "Sitting Massage",
+			"description": "Description of sitting massage.",
+			"imgAlt": "@:services.massage.name"
 		}
 	},
 
@@ -74,13 +79,13 @@
 	},
 
 	"monthlyArtist": {
-		"title": "Artist of the month",
+		"title": "Artists of the month",
 		"noArtist": "No artist this month.",
 		"morrison": {
 			"description": "Originaire de Thionville, aujourd’hui installé à la frontière Luxembourgeoise, dans son « l’Atelier l’Art c’est Sérieux », Mo. reste un autodidacte à la recherche artistique perpétuelle."
 		},
 		"simonPage": {
-			"description": "Some description of Simon Page"
+			
 		}
 	},
 

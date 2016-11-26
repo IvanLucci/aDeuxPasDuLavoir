@@ -8,8 +8,11 @@ $highlightColorLight: #191919;
 $borderColor: #ddd;
 $borderColorDark: #333;
 $boxShadowColor: #000;
+$boxShadowColorLight: #121212;
 $oddRowColor: #1d1d1d;
 $titleFont: NoirEtBlanc;
+$bioIcon: '../img/bio.png';
+$bioIconSm: '../img/bio-sm.png';
 
 // Background paths
 $pressingBgOpa: '../app/content/services/img/pressingBgOpa.png';
@@ -18,15 +21,19 @@ $deliveryCenterBgOpa: '../app/content/services/img/deliveryCenterBgOpa.png';
 $deliveryCenterBg: '../app/content/services/img/deliveryCenterBg.png';
 $pressPointBgOpa: '../app/content/services/img/pressPointBgOpa.png';
 $pressPointBg: '../app/content/services/img/pressPointBg.png';
+$massageBgOpa: '../app/content/services/img/massageBgOpa.png';
+$massageBg: '../app/content/services/img/massageBg.png';
+
+
 
 @font-face {
     font-family: $titleFont;
-    src: url("../fonts/Noir-et-Blanc.eot"); /* for IE */
+    src: url("../fonts/Noir-et-Blanc-edited.eot"); /* for IE */
 }
 
 @font-face {
     font-family: $titleFont;
-    src: url("../fonts/Noir-et-Blanc.ttf");
+    src: url("../fonts/Noir-et-Blanc-edited.ttf");
 }
 
 body {
@@ -257,10 +264,14 @@ a {
 	color: $textColor;
 }
 
-.visibleBold {
+.orangeBold {
 	color: $linkColor;
 	font-weight: bold;
 }
+
+.orange {
+	color: $linkColor;
+} 
 
 .hidden {
 	display: none;
@@ -274,9 +285,8 @@ a {
 
 .text-box {
 	border-radius: 3px;
-	border: 1px solid $borderColorDark;
     padding: 15px;
-    box-shadow: 0px 2px 8px $boxShadowColor;
+    box-shadow: 0px 2px 8px $boxShadowColorLight;
 }
 
 
@@ -414,6 +424,19 @@ address .fa {
 	}
 }
 
+.img-container {
+	position: relative;
+	&.bio:after {
+		content: url( $bioIcon );
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	&.bio-sm:after {
+		@extend .img-container.bio:after;
+		content: url( $bioIconSm );
+	}
+}
 
 
 // services -----------------------------------------------------
@@ -422,20 +445,27 @@ address .fa {
 	> li {
 		&.active >a {
 			&, &:focus, &:hover {
-				background-color: $highlightColorLight;
-				color: $linkColorHover;
-				border: 1px solid $borderColorDark;
+				background-color: $bodyBackground;
+				color: $linkColor;
+				border-bottom: 1px solid $linkColorHover;
+				border-radius: 0px;
 			}
 		}
 		> a {
 			@include animation-ease( 0.3s );
 			border: 1px solid transparent;
+			border-radius: 0px;
 			&:hover {
 				background-color: $bodyBackground;
-				border: 1px solid $borderColorDark;
+				border-bottom: 1px solid $borderColorDark;
 			}
 		}
 	}
+}
+
+.nav-justified {
+	width: 50%;
+	margin: 0px auto 10px;
 }
 
 .nav {
@@ -497,6 +527,9 @@ address .fa {
 }
 .panel-press {
 	@include accordion-heading-toggle( $pressPointBgOpa, $pressPointBg, 50px, -15px );
+}
+.panel-massage {
+	@include accordion-heading-toggle( $massageBgOpa, $massageBg, 50px, -15px );
 }
 
 

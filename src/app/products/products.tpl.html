@@ -14,15 +14,18 @@
 						 popover-placement="auto right"
 						 popover-trigger="'outsideClick'">
 						<div class="media-left">
-							<img class="pull-left media-object img-thumbnail item-thumbnail-sm"
-								 data-ng-if="p.img"
-								 data-ng-src="{{ p.img }}"
-								 data-ng-alt="{{ getId( p.id, 'imgAlt' ) | translate }}" />
+							<div class="img-container" data-ng-class="{ 'bio-sm': p.bio }">
+								<img class="pull-left media-object img-thumbnail item-thumbnail-sm "
+								 	data-ng-if="p.img"
+								 	data-ng-src="{{ p.img }}"
+								 	data-ng-alt="{{ getId( p.id, 'imgAlt' ) | translate }}" />
+							</div>
 						</div>
 						<div class="media-body media-middle">
-							<a data-translate="products.{{ p.id }}.name"
-							   data-translate-default="{{ p.id }}">
-							</a>
+							<span data-translate="products.{{ p.id }}.name"
+							   	  data-translate-default="{{ p.id }}"
+							   	  class="orangeBold">
+							</span>
 							<p data-translate="products.{{ p.id }}.abstract"
 							   data-translate-default="">
 							</p>

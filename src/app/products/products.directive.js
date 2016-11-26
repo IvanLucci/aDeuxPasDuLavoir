@@ -33,7 +33,8 @@
 			};
 
 			scope.updatePopoverContent = function( product ) {
-				var image = '<img class="img-rounded" src="' + product.img + '"/>',
+				var containerClass = product.bio ? 'img-container bio' : 'img-container',
+				image = '<div class="' + containerClass + '"><img class="img-rounded" src="' + product.img + '"/></div>',
 				transId = 'products.' + product.id + '.description',
 				description = $filter('translate')( transId );
 				description = description !== transId ? description : '';

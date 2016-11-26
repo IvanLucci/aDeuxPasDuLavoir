@@ -3,6 +3,7 @@
 	<img class="hidden" src="app/content/services/img/pressingBg.png" />
 	<img class="hidden" src="app/content/services/img/deliveryCenterBg.png" />
 	<img class="hidden" src="app/content/services/img/pressPointBg.png" />
+	<img class="hidden" src="app/content/services/img/massageBg.png" />
 
 	<h1 data-translate="menu.services"></h1>
 
@@ -40,6 +41,17 @@
 					<i class="pull-right fa fa-x2 chevron" data-ng-class="{ 'fa-chevron-right': !open.press, 'fa-chevron-down': open.press }"></i>
 				</uib-accordion-heading>
 				<div data-press-point></div>
+			</div>
+
+			<div uib-accordion-group
+				 class="panel-default panel-massage"
+				 template-url="app/tpl/accordion-group.tpl.html"
+				 is-open="open.massage">
+				<uib-accordion-heading>
+					{{ 'services.massage.name' | translate }}
+					<i class="pull-right fa fa-x2 chevron" data-ng-class="{ 'fa-chevron-right': !open.massage, 'fa-chevron-down': open.massage }"></i>
+				</uib-accordion-heading>
+				<div data-massage></div>
 			</div>
 
 		</uib-accordion>

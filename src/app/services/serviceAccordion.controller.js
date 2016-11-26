@@ -4,7 +4,8 @@
 		$scope.open = {
 			laundry: false,
 			delivery: false,
-			press: false
+			press: false,
+			massage: false
 		};
 	}]);
 

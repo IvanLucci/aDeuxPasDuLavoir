@@ -52,7 +52,7 @@
 		},
 		"saturday": {
 			"morning": {
-				"from": "9:00",
+				"from": "09:00",
 				"to": "12:30"
 			},
 			"afternoon": {
@@ -62,7 +62,7 @@
 		},
 		"sunday": {
 			"morning": {
-				"from": "9:00",
+				"from": "09:00",
 				"to": "13:00"
 			}
 		}
@@ -120,7 +120,7 @@
 		},
 		"saturday": {
 			"morning": {
-				"from": "9:00",
+				"from": "09:00",
 				"to": "12:30"
 			},
 			"afternoon": {
@@ -130,7 +130,7 @@
 		},
 		"sunday": {
 			"morning": {
-				"from": "9:00",
+				"from": "09:00",
 				"to": "13:00"
 			}
 		}

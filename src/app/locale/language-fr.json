@@ -164,25 +164,25 @@
 			"name": "Fusilli",
 			"imgAlt": "@:products.fusilliGranoro.name",
 			"abstract": "@:products.caserecceGranoro.abstract",
-			"description": "@:products.caserecceGranoro.abstract"
+			"description": "@:products.caserecceGranoro.description"
 		},
 		"penneRigateGranoro": {
 			"name": "Penne Rigate",
 			"imgAlt": "@:products.penneRigateGranoro.name",
 			"abstract": "@:products.caserecceGranoro.abstract",
-			"description": "@:products.caserecceGranoro.abstract"
+			"description": "@:products.caserecceGranoro.description"
 		},
 		"sedaniGranoro": {
 			"name": "Sedani",
 			"imgAlt": "@:products.sedaniGranoro.name",
 			"abstract": "@:products.caserecceGranoro.abstract",
-			"description": "@:products.caserecceGranoro.abstract"
+			"description": "@:products.caserecceGranoro.description"
 		},
 		"spaghettiGranoro": {
 			"name": "Spaghetti",
 			"imgAlt": "@:products.spaghettiGranoro.name",
 			"abstract": "@:products.caserecceGranoro.abstract",
-			"description": "@:products.caserecceGranoro.abstract"
+			"description": "@:products.caserecceGranoro.description"
 		},
 
 
@@ -314,28 +314,28 @@
 
 	"productCategories": {
 		"pastaLigorio": {
-			"name": "Pasta Ligorio"
+			"name": "Pâte Ligorio"
 		},
 		"pastaTerraECielo": {
-			"name": "Pasta Terra e il Cielo"
+			"name": "Pâte Terra e il Cielo"
 		},
 		"pastaFiore": {
-			"name": "Pasta Fiore"
+			"name": "Pâte Fiore"
 		},
 		"pastaBleAncien": {
-			"name": "Pasta Blé Ancien"
+			"name": "Pâte Blé Ancien"
 		},
 		"pastaBleDur": {
-			"name": "Pasta Blé Dur"
+			"name": "Pâte Blé Dur"
 		},
 		"pastaSansGluten": {
-			"name": "Pasta sans Gluten"
+			"name": "Pâte sans Gluten"
 		},
 		"pastaTrafileBronze": {
-			"name": "Pasta Trafilé au Bronze"
+			"name": "Pâte Trafilé au Bronze"
 		},
 		"pastaIntegrale": {
-			"name": "Pasta Intégrale"
+			"name": "Pâte Intégrale"
 		},
 		"condiments": {
 			"name": "Condiments"
@@ -355,6 +355,11 @@
 			"name": "Point de Presse",
 			"description": "Description du point de presse.",
 			"imgAlt": "@:services.pressPoint.name"
+		},
+		"massage": {
+			"name": "Massage Assis",
+			"description": "Description du massage assis.",
+			"imgAlt": "@:services.massage.name"
 		}
 	},
 
@@ -450,13 +455,13 @@
 	},
 
 	"monthlyArtist": {
-		"title": "Artiste du mois",
+		"title": "Artistes du mois",
 		"noArtist": "Aucun artiste ce mois-ci.",
 		"morrison": {
 			"description": "Originaire de Thionville, aujourd’hui installé à la frontière Luxembourgeoise, dans son « l’Atelier l’Art c’est Sérieux », Mo. reste un autodidacte à la recherche artistique perpétuelle."
 		},
 		"simonPage": {
-			"description": "Some description of Simon Page"
+			
 		}
 	},
 

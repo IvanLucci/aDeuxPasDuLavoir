@@ -1,7 +1,7 @@
 [
 	{
 		"id": "pastaLigorio",
-		"img": "almattarelloLogoOpa.png",
+		"img": "ligorioLogoOpa.png",
 		"products": [
 			{
 				"id": "vinoPrimitivo",
@@ -41,27 +41,32 @@
 
 	{
 		"id": "pastaBleAncien",
-		"img": "noImg.jpg",
+		"img": "ancientWheatLogoOpa.png",
 		"products": [
 			{
 				"id": "SCchitarrine",
-				"img": "bleAncien/SCchitarrine.jpg"
+				"img": "bleAncien/SCchitarrine.jpg",
+				"bio": true
 			},
 			{
 				"id": "SCpenne",
-				"img": "bleAncien/SCpenne.jpg"
+				"img": "bleAncien/SCpenne.jpg",
+				"bio": true
 			},
 			{
 				"id": "SCstrozzapreti",
-				"img": "bleAncien/SCstrozzapreti.jpg"
+				"img": "bleAncien/SCstrozzapreti.jpg",
+				"bio": true
 			},
 			{
 				"id": "taganrogPenne",
-				"img": "bleAncien/taganrogPenne.jpg"
+				"img": "bleAncien/taganrogPenne.jpg",
+				"bio": true
 			},
 			{
 				"id": "taganrogSpaghetti",
-				"img": "bleAncien/taganrogSpaghetti.jpg"
+				"img": "bleAncien/taganrogSpaghetti.jpg",
+				"bio": true
 			}
 		]
 	},
@@ -69,39 +74,47 @@
 
 	{
 		"id": "pastaBleDur",
-		"img": "noImg.jpg",
+		"img": "granoDuroLogoOpa.png",
 		"products": [
 			{
 				"id": "cavatappiSGD",
-				"img": "bleDur/cavatappiSGD.jpg"
+				"img": "bleDur/cavatappiSGD.jpg",
+				"bio": true
 			},
 			{
 				"id": "farfalleSGD",
-				"img": "bleDur/farfalleSGD.jpg"
+				"img": "bleDur/farfalleSGD.jpg",
+				"bio": true
 			},
 			{
 				"id": "linguineSGD",
-				"img": "bleDur/linguineSGD.jpg"
+				"img": "bleDur/linguineSGD.jpg",
+				"bio": true
 			},
 			{
 				"id": "penneRigateSGD",
-				"img": "bleDur/penne rigateSGD.jpg"
+				"img": "bleDur/penne rigateSGD.jpg",
+				"bio": true
 			},
 			{
 				"id": "spaghettiSGD",
-				"img": "bleDur/spaghettiSGD.jpg"
+				"img": "bleDur/spaghettiSGD.jpg",
+				"bio": true
 			},
 			{
 				"id": "pappardelleSGD",
-				"img": "bleDur/pappardelleSGD.jpg"
+				"img": "bleDur/pappardelleSGD.jpg",
+				"bio": true
 			},
 			{
 				"id": "tagliatelleSGD",
-				"img": "bleDur/tagliatelleSGD.jpg"
+				"img": "bleDur/tagliatelleSGD.jpg",
+				"bio": true
 			},
 			{
 				"id": "pizzichiFavaSGD",
-				"img": "bleDur/pizzichi_favaSGD.jpg"
+				"img": "bleDur/pizzichi_favaSGD.jpg",
+				"bio": true
 			}
 		]
 	},
@@ -109,7 +122,7 @@
 
 	{
 		"id": "pastaSansGluten",
-		"img": "noImg.jpg",
+		"img": "granoroLogoOpa.png",
 		"products": [
 			{
 				"id": "caserecceGranoro",
@@ -137,39 +150,47 @@
 
 	{
 		"id": "pastaTrafileBronze",
-		"img": "noImg.jpg",
+		"img": "trafBronzoLogoOpa.png",
 		"products": [
 			{
 				"id": "conchiglioniTB",
-				"img": "trafileBronze/conchiglioniTB.jpg"
+				"img": "trafileBronze/conchiglioniTB.jpg",
+				"bio": true
 			},
 			{
 				"id": "fusilliTB",
-				"img": "trafileBronze/fusilliTB.jpg"
+				"img": "trafileBronze/fusilliTB.jpg",
+				"bio": true
 			},
 			{
 				"id": "linguineTB",
-				"img": "trafileBronze/linguineTB.jpg"
+				"img": "trafileBronze/linguineTB.jpg",
+				"bio": true
 			},
 			{
 				"id": "lumacheTB",
-				"img": "trafileBronze/lumacheTB.jpg"
+				"img": "trafileBronze/lumacheTB.jpg",
+				"bio": true
 			},
 			{
 				"id": "mezzeManicheTB",
-				"img": "trafileBronze/mezzeManicheTB.jpg"
+				"img": "trafileBronze/mezzeManicheTB.jpg",
+				"bio": true
 			},
 			{
 				"id": "reginetteTB",
-				"img": "trafileBronze/reginetteTB.jpg"
+				"img": "trafileBronze/reginetteTB.jpg",
+				"bio": true
 			},
 			{
 				"id": "spaghettiTB",
-				"img": "trafileBronze/spaghettiTB.jpg"
+				"img": "trafileBronze/spaghettiTB.jpg",
+				"bio": true
 			},
 			{
 				"id": "trenneTB",
-				"img": "trafileBronze/trenneTB.jpg"
+				"img": "trafileBronze/trenneTB.jpg",
+				"bio": true
 			}
 		]
 	},
@@ -177,27 +198,32 @@
 
 	{
 		"id": "pastaIntegrale",
-		"img": "noImg.jpg",
+		"img": "farroLogoOpa.png",
 		"products": [
 			{
 				"id": "fusilliEpeautre",
-				"img": "integrale/fusilliEpeautre.jpg"
+				"img": "integrale/fusilliEpeautre.jpg",
+				"bio": true
 			},
 			{
 				"id": "linguineEpeautre",
-				"img": "integrale/linguineEpeautre.jpg"
+				"img": "integrale/linguineEpeautre.jpg",
+				"bio": true
 			},
 			{
 				"id": "penneEpeautre",
-				"img": "integrale/penneEpeautre.jpg"
+				"img": "integrale/penneEpeautre.jpg",
+				"bio": true
 			},
 			{
 				"id": "spaghettiEpeautre",
-				"img": "integrale/spaghettiEpeautre.jpg"
+				"img": "integrale/spaghettiEpeautre.jpg",
+				"bio": true
 			},
 			{
 				"id": "spaghettiOrtica",
-				"img": "integrale/spaghettiOrtica.jpg"
+				"img": "integrale/spaghettiOrtica.jpg",
+				"bio": true
 			}
 		]
 	},
@@ -205,35 +231,42 @@
 
 	{
 		"id": "condiments",
-		"img": "noImg.jpg",
+		"img": "condimentsLogoOpa.png",
 		"products": [
 			{
 				"id": "coulisTomate",
-				"img": "condiments/coulisTomate.jpg"
+				"img": "condiments/coulisTomate.jpg",
+				"bio": true
 			},
 			{
 				"id": "coulisTomateBasilic",
-				"img": "condiments/coulisTomateBasilic.jpg"
+				"img": "condiments/coulisTomateBasilic.jpg",
+				"bio": true
 			},
 			{
 				"id": "tomatesPelees",
-				"img": "condiments/tomatesPelees.jpg"
+				"img": "condiments/tomatesPelees.jpg",
+				"bio": true
 			},
 			{
 				"id": "saucePreteArrabbiata",
-				"img": "condiments/saucePreteArrabbiata.jpg"
+				"img": "condiments/saucePreteArrabbiata.jpg",
+				"bio": true
 			},
 			{
 				"id": "saucePreteAubergine",
-				"img": "condiments/saucePreteAubergine.jpg"
+				"img": "condiments/saucePreteAubergine.jpg",
+				"bio": true
 			},
 			{
 				"id": "saucePreteBasilic",
-				"img": "condiments/saucePreteBasilic.jpg"
+				"img": "condiments/saucePreteBasilic.jpg",
+				"bio": true
 			},
 			{
 				"id": "saucePreteChampignons",
-				"img": "condiments/saucePreteChampignons.jpg"
+				"img": "condiments/saucePreteChampignons.jpg",
+				"bio": true
 			}
 		]
 	}
