@@ -13,6 +13,7 @@ $oddRowColor: #1d1d1d;
 $titleFont: NoirEtBlanc;
 $bioIcon: '../img/bio.png';
 $bioIconSm: '../img/bio-sm.png';
+$coursesLogo: '../app/content/courses/img/coursesLogo2.png';
 
 // Background paths
 $pressingBgOpa: '../app/content/services/img/pressingBgOpa.png';
@@ -285,8 +286,9 @@ a {
 
 .text-box {
 	border-radius: 3px;
+	border: 1px solid $borderColorDark;
     padding: 15px;
-    box-shadow: 0px 2px 8px $boxShadowColorLight;
+    box-shadow: 0px 2px 8px $boxShadowColor;
 }
 
 
@@ -447,17 +449,17 @@ address .fa {
 			&, &:focus, &:hover {
 				background-color: $bodyBackground;
 				color: $linkColor;
-				border-bottom: 1px solid $linkColorHover;
+				border-bottom: 2px solid $linkColorHover;
 				border-radius: 0px;
 			}
 		}
 		> a {
 			@include animation-ease( 0.3s );
-			border: 1px solid transparent;
+			border: 2px solid transparent;
 			border-radius: 0px;
 			&:hover {
 				background-color: $bodyBackground;
-				border-bottom: 1px solid $borderColorDark;
+				border-bottom: 2px solid $borderColorDark;
 			}
 		}
 	}
@@ -466,6 +468,10 @@ address .fa {
 .nav-justified {
 	width: 50%;
 	margin: 0px auto 10px;
+}
+
+.nav-pills {
+	margin-bottom: 20px;
 }
 
 .nav {
@@ -539,6 +545,22 @@ address .fa {
 	border-radius: 3px;
 	margin-bottom: 20px;
 }
+
+
+
+// Courses
+
+.img-course {
+	width: 100%;
+}
+
+.courses-container {
+	background: url( $coursesLogo );
+	background-repeat: no-repeat;
+	background-position: right 20px top 10px;
+	background-size: 110px;
+}
+
 
 
 // Masonry

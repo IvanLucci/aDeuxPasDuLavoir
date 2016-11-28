@@ -1,0 +1,14 @@
+{
+	"id": "courses",
+	"courses": [
+		{
+			"id": "theater",
+			"img": "noImg.jpg",
+			"link": "http://example.com"
+		},
+		{
+			"id": "italian",
+			"img": "noImg.jpg"
+		}
+	]
+}

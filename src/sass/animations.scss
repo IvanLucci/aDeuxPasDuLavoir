@@ -53,3 +53,32 @@ $transitionTime: 0.5s;
     -o-transition: color 0 ease-in;
     transition: none;
 }
+
+
+// Tab animation
+.tab-animation > .tab-content {
+    position: relative;
+}
+
+/* set animate effect */
+.tab-animation > .tab-content > .tab-pane{
+    transition: 0.1s ease all;
+}
+
+/* overwrite display: none and remove from document flow */
+.tab-animation > .tab-content > .tab-pane.active-remove {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: block;
+}
+
+/* opacity=0 when removing "active" class */
+.tab-animation > .tab-content > .tab-pane.active-remove-active {
+    opacity: 0;
+}
+
+/* opacity=0 when adding "active" class */
+.tab-animation > .tab-content > .tab-pane.active-add {
+    opacity: 0;
+}

@@ -1,0 +1,24 @@
+<div class="text-box courses-container">
+	<uib-tabset type="pills" justified="false" class="tab-animation" data-ng-if="info.courses.length">
+		<uib-tab data-ng-repeat="c in info.courses" heading="{{ getHeading( c.id ) }}">
+			
+			<div class="row">
+				<div class="col-md-6">
+					<img class="img-thumbnail img-course" data-ng-src="{{ c.img }}" />		
+				</div>
+				<div class="col-md-6">
+					<h3 data-translate="courses.{{ c.id }}.name"
+						data-translate-default="{{ c.id }}"
+						class="no-shadow"></h3>
+					<p data-translate="courses.{{ c.id }}.description"
+					   data-translate-default=""></p>
+					<p data-ng-if="c.link">
+						<a href="{{ c.link }}" target="_blank">{{ c.link }}</a>
+					</p>		
+				</div>
+			</div>
+		</uib-tab>
+	</uib-tabset>
+	<p data-ng-if="!info.courses.length" data-translate="courses.noCourses"></p>
+</div>
+
