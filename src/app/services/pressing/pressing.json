@@ -1,7 +1,7 @@
 {
 	"id": "pressing",
-	"deliveryDay": "wednesday",
-	"deliveryTime": "11:00",
+	"deliveryDay": "thursday",
+	"deliveryMoment": "afternoon",
 	"img": "pressing.jpg", 
 
 	"pricing": {

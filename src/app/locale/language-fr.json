@@ -506,12 +506,16 @@
 	"sat": "Sam",
 	"sun": "Dim",
 
+	"morning": "Matin",
+	"afternoon": "Après midi",
+
 	"france": "France",
 
 	"pricing": "Prixs",
 	"price": "Prix",
 	"item": "Article",
 	"deliveryDay": "Jour de livraison",
+	"deliveryMoment": "Heur de livraison",
 	"deliveryTime": "Heur de livraison",
 	"dryCleaning": "Pressing",
 	"ironing": "Repassage",

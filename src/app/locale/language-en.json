@@ -130,12 +130,16 @@
 	"sat": "Sat",
 	"sun": "Sun",
 
+	"morning": "Morning",
+	"afternoon": "Afternoon",
+
 	"france": "France",
 
 	"pricing": "Pricing",
 	"price": "Price",
 	"item": "Item",
 	"deliveryDay": "Delivery day",
+	"deliveryMoment": "Delivery time",
 	"deliveryTime": "Delivery time",
 	"dryCleaning": "Dry cleaning",
 	"ironing": "Ironing",
