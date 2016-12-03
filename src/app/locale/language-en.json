@@ -69,7 +69,6 @@
 		},
 		"massage": {
 			"name": "Sitting Massage",
-			"description": "Description of sitting massage.",
 			"imgAlt": "@:services.massage.name"
 		}
 	},

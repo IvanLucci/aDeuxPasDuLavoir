@@ -358,7 +358,8 @@
 		},
 		"massage": {
 			"name": "Massage Assis",
-			"description": "Description du massage assis.",
+			"title": "Relaxant et réénergisant",
+			"description": "<p>De 15 à 20 minutes, le massage-amma assis se pratique habillé sur une chaise ergonomique.</p><p>\"AMMA\" signifie \"calmer par le toucher\". Ancêtre du shiatsu, le amma-assis est un art traditionnel japonais d'acupression vieux de 1300 ans. Il stimule les méridiens d'acupuncture, active la circulation de l'énergie dans le corps, procure vitalité et sensation de bien-être. Son action est immédiate.</p><p>C'est une méthode agréable qui peut être utilisée à titre préventif dans une vie dynamique. Il contribue à la gestion des tensions et du stress. Fréquence idéale une fois par semaine.</p><p><em>Disponibilité pour Rendez-Vous</em></p>",
 			"imgAlt": "@:services.massage.name"
 		}
 	},
