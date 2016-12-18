@@ -32,12 +32,12 @@
 
 			scope.getMorningTime = function( day ) {
 				var morning = timetable[ day ].morning || '';
-				return morning && morning.from + ' - ' + morning.to;
+				return morning.from && morning.to ? morning.from + ' - ' + morning.to : '';
 			}
 
 			scope.getAfternoonTime = function( day ) {
 				var afternoon = timetable[ day ].afternoon || '';
-				return afternoon && afternoon.from + ' - ' + afternoon.to;
+				return afternoon.from && afternoon.to ? afternoon.from + ' - ' + afternoon.to : '';
 			}
 
 			scope.isCurrentWeekDay = function( day ) {

@@ -353,7 +353,7 @@
 		},
 		"pressPoint": {
 			"name": "Point de Presse",
-			"description": "Description du point de presse.",
+			"description": "Le Républicain Lorrain est arrivé.",
 			"imgAlt": "@:services.pressPoint.name"
 		},
 		"massage": {

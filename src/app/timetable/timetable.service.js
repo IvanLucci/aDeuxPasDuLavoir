@@ -38,6 +38,38 @@
 			return x >= a && x <= b;
 		}
 
+		// Fill the missing properties of the timetable to avoid exceptions in function isCurrTimeInRange
+		function toCompleteTimetable( timetable ) {
+			var days = [ 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday' ],
+				completeTT = { summer: {}, winter: {} };
+			days.forEach(function( elem ) {
+				completeTT.summer[ elem ] = {
+					morning: {
+						from: getTimeValue( 'summer', elem, 'morning', 'from' ),
+						to: getTimeValue( 'summer', elem, 'morning', 'to' )
+					},
+					afternoon: {
+						from: getTimeValue( 'summer', elem, 'afternoon', 'from' ),
+						to: getTimeValue( 'summer', elem, 'afternoon', 'to' )
+					}
+				};
+				completeTT.winter[ elem ] = {
+					morning: {
+						from: getTimeValue( 'winter', elem, 'morning', 'from' ),
+						to: getTimeValue( 'winter', elem, 'morning', 'to' )
+					},
+					afternoon: {
+						from: getTimeValue( 'winter', elem, 'afternoon', 'from' ),
+						to: getTimeValue( 'winter', elem, 'afternoon', 'to' )
+					}
+				};
+			});
+			function getTimeValue( season, day, period, limit ) {
+				return (timetable && timetable[ season ] && timetable[ season ][ day ] && timetable[ season ][ day ][ period ] && timetable[ season ][ day ][ period ][ limit ]) || '';
+			}
+			return completeTT;
+		}
+
 		return {
 
 			// Get the timetable. It will return the summer or winter ones according to
@@ -52,6 +84,7 @@
 					function( res ) {
 						var timetable 		= res[0].data,
 							summerSeason 	= res[1].data;
+						timetable = toCompleteTimetable( timetable );
 						return isSummer( summerSeason ) ? timetable.summer : timetable.winter; 
 					},
 					function( error ) {

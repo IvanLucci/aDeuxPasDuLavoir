@@ -64,7 +64,7 @@
 		},
 		"pressPoint": {
 			"name": "Press Point",
-			"description": "Press point description",
+			"description": "The Républicain Lorrain has arrived.",
 			"imgAlt": "@:services.pressPoint.name"
 		},
 		"massage": {
