@@ -17,6 +17,60 @@
 	},
 
 	"products": {
+
+		"baramis": {
+			"name": "The Baramis",
+			"imgAlt": "@:products.baramis.name",
+			"abstract": "Indian Pale Ale (IPA)"
+		},
+		"barbeRouge": {
+			"name": "The Barbe Rouge",
+			"imgAlt": "@:products.barbeRouge.name",
+			"abstract": "Red Ale"
+		},
+		"nullBarAilleurs": {
+			"name": "The Null Bar Ailleurs",
+			"imgAlt": "@:products.nullBarAilleurs.name",
+			"abstract": "Unique brewers. Pils / WIIPA"
+		},
+
+		"pastaLigorio": {
+			"name": "Pasta Ligorio",
+			"imgAlt": "@:products.pastaLigorio.name",
+			"abstract": "Pasta Ligorio",
+			"description": ""
+		},
+		"pastaBleAncien": {
+			"name": "Ancient Wheat Pasta",
+			"imgAlt": "@:products.pastaBleAncien.name",
+			"abstract": "Senatore Cappelli ancient wheat pasta",
+			"description": "@:products.SCchitarrine.description"
+		},
+		"pastaBleDur": {
+			"name": "Hard wheat pasta",
+			"imgAlt": "@:products.pastaBleDur.name",
+			"abstract": "La terra e il Cielo hard wheat pasta",
+			"description": "@:products.cavatappiSGD.description"
+		},
+		"pastaSansGluten": {
+			"name": "Gluten-free Pasta",
+			"imgAlt": "@:products.pastaSansGluten.name",
+			"abstract": "Granoro gluten-free pasta",
+			"description": "@:products.caserecceGranoro.description"
+		},
+		"pastaTrafileBronze": {
+			"name": "Bronze Drawn Pasta",
+			"imgAlt": "@:products.pastaTrafileBronze.name",
+			"abstract": "La Terra e il Cielo bronze drawn pasta",
+			"description": "@:products.conchiglioniTB.description"
+		},
+		"pastaIntegrale": {
+			"name": "Full Wheat Pasta",
+			"imgAlt": "@:products.pastaIntegrale.name",
+			"abstract": "La Terra e il Cielo full wheat pasta",
+			"description": "@:products.fusilliEpeautre.description"
+		},
+
 		"conchiglioni4Sapori": {
 			"name": "Conchiglioni 4 Flavours",
 			"abstract": "Special kind of pasta with four different flavours",
@@ -37,6 +91,12 @@
 	},
 
 	"productCategories": {
+		"bieresRodemack": {
+			"name": "Rodemack Beer"
+		},
+		"pastaSecca": {
+			"name": "Pasta"
+		},
 		"pastaLigorio": {
 			"name": "Pasta Ligorio",
 			"imgAlt": "@:productCategories.pastaLigorio.name"

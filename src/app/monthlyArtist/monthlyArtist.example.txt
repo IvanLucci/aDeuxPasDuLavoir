@@ -1,14 +1,14 @@
 {
 	"11": {
-		"id": "morrison",
-		"name": "Mo",
-		"link": "http://morrison-art.com",
+		"id": "morrison&me",
+		"name": "Mo & Me",
+		"links": ["http://morrison-art.com", "http://example.com"],
 		"img": "mo.jpg"
 	},
 	"12": {
 		"id": "simonPage",
 		"name": "SimonPage",
-		"link": "http://example.com",
+		"links": "http://example.com",
 		"img": "simonPage.jpg"
 	}
 }

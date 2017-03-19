@@ -22,6 +22,63 @@
 
 	"products": {
 
+		"baramis": {
+			"name": "La Baramis",
+			"imgAlt": "@:products.baramis.name",
+			"abstract": "Indian Pale Ale (IPA)",
+			"description": "<p>Toute première bière de la brasserie.</p> <p>Il s’agit d’une bière blonde de fermentation haute (Pale Ale). Elle est brassée avec des ingrédients locaux : eau de Rodemack, malts d’Alsace (malterie Soufflet à Strasbourg) et houblons d’Alsace (Coopérative des Houblonnières d’Alsace).</p> <p>D’une belle couleur dorée opalescente, surplombée d’une mousse persistante, la Baramis développe de beaux arômes de malt. Se dégagent également les notes fruitées du houblon ARAMIS. En bouche, on retrouve les arômes du nez, céréales, agrumes (touches citronnées, mandarine). Viennent s’y ajouter quelques arômes herbeux. La finale est assez sèche et amère.</p> <p>Site web: <a href='http://www.b-a-r.fr' target='_blank'>www.b-a-r.fr</a> </p>"
+		},
+		"barbeRouge": {
+			"name": "La Barbe Rouge",
+			"imgAlt": "@:products.barbeRouge.name",
+			"abstract": "Red Ale",
+			"description": "<p>Bière rousse de fermentation haute (Red Ale), dans le pur style britannique. Malts rouges et caramel, deux variétés de houblons anglais.</p> <p>D’une belle robe rousse, la Barbe Rouge dégage des arômes épicés et herbeux de houblon. En bouche, texture crémeuse, de légères touches de caramel viennent se marier aux arômes de houblon. Finale assez longue sur le malt et le houblon, l’amertume arrive en toute fin de bouche, bien fondue dans un corps ample.</p> <p>Site web: <a href='http://www.b-a-r.fr' target='_blank'>www.b-a-r.fr</a> </p>"
+		},
+		"nullBarAilleurs": {
+			"name": "La Null Bar Ailleurs",
+			"imgAlt": "@:products.nullBarAilleurs.name",
+			"abstract": "Brassins uniques. Pils / WIIPA",
+			"description": "<p>Le début de l’hiver 2017 est rude à Rodemack. Entre -5 et -10 degrés tous les matins de janvier… Difficile de maintenir une température de fermentation optimale dans la brasserie. L’occasion rêvée de se (re-) lancer dans des fermentations basses. La Pils en est l’exemple emblématique.</p> <p>Originaire de la ville tchèque de Pilsen, ce type de bière est brassée avec le noble et célèbre houblon tchèque SAAZ.  C’est ce houblon que la Brasserie Artisanale de Rodemack a marié avec le houblon allemand MAGNUM pour sa version de la Pils…</p> <p>Site web: <a href='http://www.b-a-r.fr' target='_blank'>www.b-a-r.fr</a> </p>"
+		},
+
+		"pastaLigorio": {
+			"name": "Pâte Ligorio",
+			"imgAlt": "@:products.pastaLigorio.name",
+			"abstract": "Pâte Ligorio",
+			"description": ""
+		},
+		"pastaBleAncien": {
+			"name": "Pâte Blé Ancien",
+			"imgAlt": "@:products.pastaBleAncien.name",
+			"abstract": "Pâte au blé ancien Senatore Cappelli",
+			"description": "@:products.SCchitarrine.description"
+		},
+		"pastaBleDur": {
+			"name": "Pâte Blé Dur",
+			"imgAlt": "@:products.pastaBleDur.name",
+			"abstract": "Pâte La terra e il Cielo au blé dur",
+			"description": "@:products.cavatappiSGD.description"
+		},
+		"pastaSansGluten": {
+			"name": "Pâte Sans Gluten",
+			"imgAlt": "@:products.pastaSansGluten.name",
+			"abstract": "Pâte sans gluten Granoro",
+			"description": "@:products.caserecceGranoro.description"
+		},
+		"pastaTrafileBronze": {
+			"name": "Pâte Trafilée au Bronze",
+			"imgAlt": "@:products.pastaTrafileBronze.name",
+			"abstract": "Pâte trafilée au bronze La Terra e il Cielo",
+			"description": "@:products.conchiglioniTB.description"
+		},
+		"pastaIntegrale": {
+			"name": "Pâte Intégrale",
+			"imgAlt": "@:products.pastaIntegrale.name",
+			"abstract": "Pâte intégrale La Terra e il Cielo",
+			"description": "@:products.fusilliEpeautre.description"
+		},
+
+
 		"vinoPrimitivo": {
 			"name": "Tagliolini Vino Primitivo",
 			"imgAlt": "@:products.vinoPrimitivo.name",
@@ -313,6 +370,12 @@
 	},
 
 	"productCategories": {
+		"biereRodemack": {
+			"name": "Bière de Rodemack"
+		},
+		"pastaSecca": {
+			"name": "Pâtes"
+		},
 		"pastaLigorio": {
 			"name": "Pâte Ligorio"
 		},
@@ -332,7 +395,7 @@
 			"name": "Pâte sans Gluten"
 		},
 		"pastaTrafileBronze": {
-			"name": "Pâte Trafilé au Bronze"
+			"name": "Pâte trafilée au Bronze"
 		},
 		"pastaIntegrale": {
 			"name": "Pâte Intégrale"
@@ -456,7 +519,7 @@
 	},
 
 	"monthlyArtist": {
-		"title": "Artistes du mois",
+		"title": "Artists du mois",
 		"noArtist": "Aucun artiste ce mois-ci.",
 		"morrison": {
 			"description": "Originaire de Thionville, aujourd’hui installé à la frontière Luxembourgeoise, dans son « l’Atelier l’Art c’est Sérieux », Mo. reste un autodidacte à la recherche artistique perpétuelle."

@@ -1,233 +1,58 @@
 [
+	
 	{
-		"id": "pastaLigorio",
-		"img": "ligorioLogoOpa.png",
+		"id": "biereRodemack",
+		"img": "barLogo.png",
 		"products": [
 			{
-				"id": "vinoPrimitivo",
-				"img": "ligorio/vino primitivo.jpg"
+				"id": "baramis",
+				"img": "bieres/baramis.jpg"
 			},
 			{
-				"id": "spaghettiAglioBasilico",
-				"img": "ligorio/spaghetti aglio e basilico.jpg"
+				"id": "barbeRouge",
+				"img": "bieres/barbeRouge.jpg"
 			},
 			{
-				"id": "spaghettiLimone",
-				"img": "ligorio/spaghetti al limone.jpg"
-			},
-			{
-				"id": "spaghettiPiccanti",
-				"img": "ligorio/spaghetti piccanti.jpg"
-			},
-			{
-				"id": "spaghettiRucolaPeperoncino",
-				"img": "ligorio/spaghetti rucola e peperoncino.jpg"
-			},
-			{
-				"id": "taglioliniNeroSeppia",
-				"img": "ligorio/taglioline al nero di seppia.jpg"
-			},
-			{
-				"id": "taglioliniMenta",
-				"img": "ligorio/taglioline alla menta.jpg"
-			},
-			{
-				"id": "taglioliniFunghiPorcini",
-				"img": "ligorio/tagliolini ai funghi porcini.jpg"
+				"id": "nullBarAilleurs",
+				"img": "bieres/nullBarAilleurs.jpg"
 			}
 		]
 	},
 
-
 	{
-		"id": "pastaBleAncien",
-		"img": "ancientWheatLogoOpa.png",
+		"id": "pastaSecca",
+		"img": "pastaCat.png",
 		"products": [
 			{
-				"id": "SCchitarrine",
-				"img": "bleAncien/SCchitarrine.jpg",
-				"bio": true
+				"id": "pastaLigorio",
+				"img": "ligorio/vino primitivo.jpg"
 			},
 			{
-				"id": "SCpenne",
+				"id": "pastaBleAncien",
 				"img": "bleAncien/SCpenne.jpg",
 				"bio": true
 			},
 			{
-				"id": "SCstrozzapreti",
-				"img": "bleAncien/SCstrozzapreti.jpg",
-				"bio": true
-			},
-			{
-				"id": "taganrogPenne",
-				"img": "bleAncien/taganrogPenne.jpg",
-				"bio": true
-			},
-			{
-				"id": "taganrogSpaghetti",
-				"img": "bleAncien/taganrogSpaghetti.jpg",
-				"bio": true
-			}
-		]
-	},
-
-
-	{
-		"id": "pastaBleDur",
-		"img": "granoDuroLogoOpa.png",
-		"products": [
-			{
-				"id": "cavatappiSGD",
-				"img": "bleDur/cavatappiSGD.jpg",
-				"bio": true
-			},
-			{
-				"id": "farfalleSGD",
+				"id": "pastaBleDur",
 				"img": "bleDur/farfalleSGD.jpg",
 				"bio": true
 			},
 			{
-				"id": "linguineSGD",
-				"img": "bleDur/linguineSGD.jpg",
-				"bio": true
-			},
-			{
-				"id": "penneRigateSGD",
-				"img": "bleDur/penne rigateSGD.jpg",
-				"bio": true
-			},
-			{
-				"id": "spaghettiSGD",
-				"img": "bleDur/spaghettiSGD.jpg",
-				"bio": true
-			},
-			{
-				"id": "pappardelleSGD",
-				"img": "bleDur/pappardelleSGD.jpg",
-				"bio": true
-			},
-			{
-				"id": "tagliatelleSGD",
-				"img": "bleDur/tagliatelleSGD.jpg",
-				"bio": true
-			},
-			{
-				"id": "pizzichiFavaSGD",
-				"img": "bleDur/pizzichi_favaSGD.jpg",
-				"bio": true
-			}
-		]
-	},
-
-
-	{
-		"id": "pastaSansGluten",
-		"img": "granoroLogoOpa.png",
-		"products": [
-			{
-				"id": "caserecceGranoro",
+				"id": "pastaSansGluten",
 				"img": "sansGluten/caserecceGranoro.jpg"
 			},
 			{
-				"id": "fusilliGranoro",
-				"img": "sansGluten/fusilliGranoro.jpg"
-			},
-			{
-				"id": "penneRigateGranoro",
-				"img": "sansGluten/penneRigateGranoro.jpg"
-			},
-			{
-				"id": "sedaniGranoro",
-				"img": "sansGluten/sedaniGranoro.jpg"
-			},
-			{
-				"id": "spaghettiGranoro",
-				"img": "sansGluten/spaghettiGranoro.jpg"
-			}
-		]
-	},
-
-
-	{
-		"id": "pastaTrafileBronze",
-		"img": "trafBronzoLogoOpa.png",
-		"products": [
-			{
-				"id": "conchiglioniTB",
-				"img": "trafileBronze/conchiglioniTB.jpg",
-				"bio": true
-			},
-			{
-				"id": "fusilliTB",
+				"id": "pastaTrafileBronze",
 				"img": "trafileBronze/fusilliTB.jpg",
 				"bio": true
 			},
 			{
-				"id": "linguineTB",
-				"img": "trafileBronze/linguineTB.jpg",
-				"bio": true
-			},
-			{
-				"id": "lumacheTB",
-				"img": "trafileBronze/lumacheTB.jpg",
-				"bio": true
-			},
-			{
-				"id": "mezzeManicheTB",
-				"img": "trafileBronze/mezzeManicheTB.jpg",
-				"bio": true
-			},
-			{
-				"id": "reginetteTB",
-				"img": "trafileBronze/reginetteTB.jpg",
-				"bio": true
-			},
-			{
-				"id": "spaghettiTB",
-				"img": "trafileBronze/spaghettiTB.jpg",
-				"bio": true
-			},
-			{
-				"id": "trenneTB",
-				"img": "trafileBronze/trenneTB.jpg",
-				"bio": true
-			}
-		]
-	},
-
-
-	{
-		"id": "pastaIntegrale",
-		"img": "farroLogoOpa.png",
-		"products": [
-			{
-				"id": "fusilliEpeautre",
-				"img": "integrale/fusilliEpeautre.jpg",
-				"bio": true
-			},
-			{
-				"id": "linguineEpeautre",
-				"img": "integrale/linguineEpeautre.jpg",
-				"bio": true
-			},
-			{
-				"id": "penneEpeautre",
-				"img": "integrale/penneEpeautre.jpg",
-				"bio": true
-			},
-			{
-				"id": "spaghettiEpeautre",
-				"img": "integrale/spaghettiEpeautre.jpg",
-				"bio": true
-			},
-			{
-				"id": "spaghettiOrtica",
+				"id": "pastaIntegrale",
 				"img": "integrale/spaghettiOrtica.jpg",
 				"bio": true
 			}
 		]
 	},
-
 
 	{
 		"id": "condiments",

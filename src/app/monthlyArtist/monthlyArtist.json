@@ -1,7 +1,8 @@
 {
-	"12": {
-		"id": "divoCristelle",
-		"name": "Divo & Christelle",
-		"img": "divoChristelle.jpg"
+       "3": {
+		"id": "mars",
+		"name": "Deb or EVE & Coeur D'Encre",
+                "links": ["https://www.facebook.com/costumes.art.fantaisies", "http://coeur-dencre.weebly.com"],
+		"img": "debEVE.png"
 	}
 }
