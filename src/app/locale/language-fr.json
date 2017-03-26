@@ -41,6 +41,7 @@
 			"description": "<p>Le début de l’hiver 2017 est rude à Rodemack. Entre -5 et -10 degrés tous les matins de janvier… Difficile de maintenir une température de fermentation optimale dans la brasserie. L’occasion rêvée de se (re-) lancer dans des fermentations basses. La Pils en est l’exemple emblématique.</p> <p>Originaire de la ville tchèque de Pilsen, ce type de bière est brassée avec le noble et célèbre houblon tchèque SAAZ.  C’est ce houblon que la Brasserie Artisanale de Rodemack a marié avec le houblon allemand MAGNUM pour sa version de la Pils…</p> <p>Site web: <a href='http://www.b-a-r.fr' target='_blank'>www.b-a-r.fr</a> </p>"
 		},
 
+
 		"pastaLigorio": {
 			"name": "Pâte Ligorio",
 			"imgAlt": "@:products.pastaLigorio.name",
@@ -51,277 +52,57 @@
 			"name": "Pâte Blé Ancien",
 			"imgAlt": "@:products.pastaBleAncien.name",
 			"abstract": "Pâte au blé ancien Senatore Cappelli",
-			"description": "@:products.SCchitarrine.description"
+			"description": "Ses tiges culminent à 2 mètres et ses épis blonds sont carrés et ont de longues moustaches. Sa sensibilité à la verse lui a value d'être abandonné par les sélectionneurs à la fin des années soixante. Mais cette variété de blé dur a des qualités organoleptiques exceptionnelles, c'est pourquoi, \"La Terra e il Cielo\" a créé cette gamme de produits : Pâtes \"Cheveux du sénateur\". L'attention particulière que nous portons à l'obtention de la farine, la filature au bronze qui lui donne cet aspect rugueux et poreux et le séchage à basse température lui donne un délicieux goût épicé. Elles s'accompagnent de tous types de sauces, des plus simples aux plus épicées."
 		},
 		"pastaBleDur": {
 			"name": "Pâte Blé Dur",
 			"imgAlt": "@:products.pastaBleDur.name",
 			"abstract": "Pâte La terra e il Cielo au blé dur",
-			"description": "@:products.cavatappiSGD.description"
+			"description": "Elle est moulue sur cylindres, le blé dur est produit dans les fermes de la coopérative. Il se distingue du blé tendre par sa granulométrie plus accentuée et sa couleur jaune. On l'utilise pour le pain et les pâtes."
 		},
 		"pastaSansGluten": {
 			"name": "Pâte Sans Gluten",
 			"imgAlt": "@:products.pastaSansGluten.name",
 			"abstract": "Pâte sans gluten Granoro",
-			"description": "@:products.caserecceGranoro.description"
+			"description": "<p>Ingrédients: Farine de maïs, farine de riz, farine de quinoa (3%), émulsifiants : mono et diglycérides d’acides gras.</p><p>Peut contenir des traces de lupin et de soja.</p><p>Conserver loin de toute source de chaleur et à l’abri de l’humidité.</p><p></p>Recyclable : collecte du papier."
 		},
 		"pastaTrafileBronze": {
 			"name": "Pâte Trafilée au Bronze",
 			"imgAlt": "@:products.pastaTrafileBronze.name",
 			"abstract": "Pâte trafilée au bronze La Terra e il Cielo",
-			"description": "@:products.conchiglioniTB.description"
+			"description": "Réalisées avec expérience et savoir-faire, la farine est pétrie avec de l'eau de source. Ces pâtes sont tréfilées au bronze. En plus d'une haute teneur en protéines et d'un gluten de qualité, elles sont dotées de caractéristiques nutritionnelles exceptionnelles. Elles sont poreuses et rugueuse, ce qui leur permet d'absorber la sauce et leur confère une meilleure tenue à la cuisson. Les pâtes tréfilées au bronze se marient à merveille avec des sauces traditionnelles ou avec les condiments les plus simples comme les pulpes ou purées de tomates."
 		},
 		"pastaIntegrale": {
 			"name": "Pâte Intégrale",
 			"imgAlt": "@:products.pastaIntegrale.name",
 			"abstract": "Pâte intégrale La Terra e il Cielo",
-			"description": "@:products.fusilliEpeautre.description"
-		},
-
-
-		"vinoPrimitivo": {
-			"name": "Tagliolini Vino Primitivo",
-			"imgAlt": "@:products.vinoPrimitivo.name",
-			"abstract": "Pâte Ligorio",
-			"description": ""
-		},
-		"spaghettiAglioBasilico": {
-			"name": "Spaghetti Aglio e Basilico",
-			"imgAlt": "@:products.spaghettiAglioBasilico.name",
-			"abstract": "Pâte Ligorio",
-			"description": ""
-		},
-		"spaghettiLimone": {
-			"name": "Spaghetti al Limone",
-			"imgAlt": "@:products.spaghettiLimone.name",
-			"abstract": "Pâte Ligorio",
-			"description": ""
-		},
-		"spaghettiPiccanti": {
-			"name": "Spaghetti Piccanti",
-			"imgAlt": "@:products.spaghettiPiccanti.name",
-			"abstract": "Pâte Ligorio",
-			"description": ""
-		},
-		"spaghettiRucolaPeperoncino": {
-			"name": "Spaghetti Rucola Peperoncino",
-			"imgAlt": "@:products.spaghettiRucolaPeperoncino.name",
-			"abstract": "Pâte Ligorio",
-			"description": ""
-		},
-		"taglioliniNeroSeppia": {
-			"name": "Spaghetti al Nero di Seppia",
-			"imgAlt": "@:products.taglioliniNeroSeppia.name",
-			"abstract": "Pâte Ligorio",
-			"description": ""
-		},
-		"taglioliniMenta": {
-			"name": "Tagliolini alla Menta",
-			"imgAlt": "@:products.taglioliniMenta.name",
-			"abstract": "Pâte Ligorio",
-			"description": ""
-		},
-		"taglioliniFunghiPorcini": {
-			"name": "Tagliolini ai Funghi Porcini",
-			"imgAlt": "@:products.taglioliniFunghiPorcini.name",
-			"abstract": "Pâte Ligorio",
-			"description": ""
-		},
-		
-
-		"SCchitarrine": {
-			"name": "Chitarrine",
-			"imgAlt": "@:products.SCchitarrine.name",
-			"abstract": "Pâte au blé Senatore Cappelli",
-			"description": "Ses tiges culminent à 2 mètres et ses épis blonds sont carrés et ont de longues moustaches. Sa sensibilité à la verse lui a value d'être abandonné par les sélectionneurs à la fin des années soixante. Mais cette variété de blé dur a des qualités organoleptiques exceptionnelles, c'est pourquoi, \"La Terra e il Cielo\" a créé cette gamme de produits : Pâtes \"Cheveux du sénateur\". L'attention particulière que nous portons à l'obtention de la farine, la filature au bronze qui lui donne cet aspect rugueux et poreux et le séchage à basse température lui donne un délicieux goût épicé. Elles s'accompagnent de tous types de sauces, des plus simples aux plus épicées."
-		},
-		"SCpenne": {
-			"name": "Penne",
-			"imgAlt": "@:products.SCpenne.name",
-			"abstract": "@:products.SCchitarrine.abstract",
-			"description": "@:products.SCchitarrine.description"
-		},
-		"SCstrozzapreti": {
-			"name": "Strozzapreti",
-			"imgAlt": "@:products.SCstrozzapreti.name",
-			"abstract": "@:products.SCchitarrine.abstract",
-			"description": "@:products.SCchitarrine.description"
-		},
-		"taganrogPenne": {
-			"name": "Penne Taganrog",
-			"imgAlt": "@:products.taganrogPenne.name",
-			"abstract": "Pâtes de semoule de blé dur tréfilées au bronze Taganrog",
-			"description": "Le blé dur Taganrog est une céréale amenée au VIIIème siècle en Italie de la ville homonyme, située sur la rive de la mer d'Azov, afin d'améliorer la qualité des semoules utilisées pour la production de pâtes. Par rapport aux blés durs modernes, le Taganrog est exceptionnellement riche en protéines, lipides et sels minéraux. Il se caractérise en outre par des épis très longs et par des chaumes atteignant une hauteur de 130 cm environ. Son rendement est réduit : un hectare de terre à Taganrog produit 18 quintaux de blé par rapport aux 30-35 quintaux obtenus habituellement avec d'autres variétés de blé dur bio. Cela fait désormais vingt ans que les exploitations agricoles associées de la coopérative La Terra e il Cielo sélectionnent et cultivent le Taganrog sur les collines des Marches, le but étant d'exalter davantage ses excellentes caractéristiques meunières. Un blé dur de qualité supérieure tel que le Taganrog donne des pâtes de semoule aromatiques et dorées, à teneur élevée en protéines, tenant très bien la cuisson. On peut goûter les pâtes de blé Taganrog en forme de pennes. Elles sont tréfilées aux bronze et séchées à basse températures, ce qui donne à leur surface un petit aspect poreux. Cette caractéristique permet aux pâtes de mieux capturer les sauces et d'exalter parfaitement le goût du blé."
-		},
-		"taganrogSpaghetti": {
-			"name": "Spaghetti Taganrog",
-			"imgAlt": "@:products.taganrogSpaghetti.name",
-			"abstract": "@:products.taganrogPenne.abstract",
-			"description": "@:products.taganrogPenne.description"
-		},
-
-
-		"cavatappiSGD": {
-			"name": "Cavatappi",
-			"imgAlt": "@:products.cavatappiSGD.name",
-			"abstract": "Pâte à la farine de blé dur",
-			"description": "Elle est moulue sur cylindres, le blé dur est produit dans les fermes de la coopérative. Il se distingue du blé tendre par sa granulométrie plus accentuée et sa couleur jaune. On l'utilise pour le pain et les pâtes."
-		},
-		"farfalleSGD": {
-			"name": "Farfalle",
-			"imgAlt": "@:products.farfalleSGD.name",
-			"abstract": "@:products.cavatappiSGD.abstract",
-			"description": "@:products.cavatappiSGD.description"
-		},
-		"linguineSGD": {
-			"name": "Linguine",
-			"imgAlt": "@:products.linguineSGD.name",
-			"abstract": "@:products.cavatappiSGD.abstract",
-			"description": "@:products.cavatappiSGD.description"
-		},
-		"penneRigateSGD": {
-			"name": "Penne Rigate",
-			"imgAlt": "@:products.penneRigateSGD.name",
-			"abstract": "@:products.cavatappiSGD.abstract",
-			"description": "@:products.cavatappiSGD.description"
-		},
-		"spaghettiSGD": {
-			"name": "Spaghetti",
-			"imgAlt": "@:products.spaghettiSGD.name",
-			"abstract": "@:products.cavatappiSGD.abstract",
-			"description": "@:products.cavatappiSGD.description"
-		},
-		"pappardelleSGD": {
-			"name": "Pappardelle",
-			"imgAlt": "@:products.pappardelleSGD.name",
-			"abstract": "@:products.cavatappiSGD.abstract",
-			"description": "@:products.cavatappiSGD.description"
-		},
-		"tagliatelleSGD": {
-			"name": "Tagliatelle",
-			"imgAlt": "@:products.tagliatelleSGD.name",
-			"abstract": "@:products.cavatappiSGD.abstract",
-			"description": "@:products.cavatappiSGD.description"
-		},
-		"pizzichiFavaSGD": {
-			"name": "Pizzichi di Fava",
-			"imgAlt": "@:products.pizzichiFavaSGD.name",
-			"abstract": "Specialité alimentaire à la farine de fève",
-			"description": "L'origine des pâtes de fève remonte à l'époque des \"Mezzadria\" des Marches. Les paysans cultivaient la terre des nobles et chacun recevait la moitié de la récolte. Quand après la guerre, la farine de blé dur ne suffisait pas à nourrir toute la famille jusqu'à la prochaine récolte, on ajouta alors de la farine de fève à la farine de froment pour le pain et les pâtes sans avoir conscience de l'exceptionnel apport nutritionnel de ce mélange."
-		},
-
-
-		"caserecceGranoro": {
-			"name": "Caserecce",
-			"imgAlt": "@:products.caserecceGranoro.name",
-			"abstract": "Pâte sans gluten avec farine de quinoa",
-			"description": "<p>Ingrédients: Farine de maïs, farine de riz, farine de quinoa (3%), émulsifiants : mono et diglycérides d’acides gras.</p><p>Peut contenir des traces de lupin et de soja.</p><p>Conserver loin de toute source de chaleur et à l’abri de l’humidité.</p><p></p>Recyclable : collecte du papier."
-		},
-		"fusilliGranoro": {
-			"name": "Fusilli",
-			"imgAlt": "@:products.fusilliGranoro.name",
-			"abstract": "@:products.caserecceGranoro.abstract",
-			"description": "@:products.caserecceGranoro.description"
-		},
-		"penneRigateGranoro": {
-			"name": "Penne Rigate",
-			"imgAlt": "@:products.penneRigateGranoro.name",
-			"abstract": "@:products.caserecceGranoro.abstract",
-			"description": "@:products.caserecceGranoro.description"
-		},
-		"sedaniGranoro": {
-			"name": "Sedani",
-			"imgAlt": "@:products.sedaniGranoro.name",
-			"abstract": "@:products.caserecceGranoro.abstract",
-			"description": "@:products.caserecceGranoro.description"
-		},
-		"spaghettiGranoro": {
-			"name": "Spaghetti",
-			"imgAlt": "@:products.spaghettiGranoro.name",
-			"abstract": "@:products.caserecceGranoro.abstract",
-			"description": "@:products.caserecceGranoro.description"
-		},
-
-
-		"conchiglioniTB": {
-			"name": "Conchiglioni",
-			"imgAlt": "@:products.conchiglioniTB.name",
-			"abstract": "Pâte au blé dur tréfilée au bronze",
-			"description": "Réalisées avec expérience et savoir-faire, la farine est pétrie avec de l'eau de source. Ces pâtes sont tréfilées au bronze. En plus d'une haute teneur en protéines et d'un gluten de qualité, elles sont dotées de caractéristiques nutritionnelles exceptionnelles. Elles sont poreuses et rugueuse, ce qui leur permet d'absorber la sauce et leur confère une meilleure tenue à la cuisson. Les pâtes tréfilées au bronze se marient à merveille avec des sauces traditionnelles ou avec les condiments les plus simples comme les pulpes ou purées de tomates."
-		},
-		"fusilliTB": {
-			"name": "Fusilli",
-			"imgAlt": "@:products.fusilliTB.name",
-			"abstract": "@:products.conchiglioniTB.abstract",
-			"description": "@:products.conchiglioniTB.description"
-		},
-		"linguineTB": {
-			"name": "Linguine",
-			"imgAlt": "@:products.linguineTB.name",
-			"abstract": "@:products.conchiglioniTB.abstract",
-			"description": "@:products.conchiglioniTB.description"
-		},
-		"lumacheTB": {
-			"name": "Lumache",
-			"imgAlt": "@:products.lumacheTB.name",
-			"abstract": "@:products.conchiglioniTB.abstract",
-			"description": "@:products.conchiglioniTB.description"
-		},
-		"mezzeManicheTB": {
-			"name": "Mezze Maniche",
-			"imgAlt": "@:products.mezzeManicheTB.name",
-			"abstract": "@:products.conchiglioniTB.abstract",
-			"description": "@:products.conchiglioniTB.description"
-		},
-		"reginetteTB": {
-			"name": "Reginette",
-			"imgAlt": "@:products.reginetteTB.name",
-			"abstract": "@:products.conchiglioniTB.abstract",
-			"description": "@:products.conchiglioniTB.description"
-		},
-		"spaghettiTB": {
-			"name": "Spaghetti",
-			"imgAlt": "@:products.spaghettiTB.name",
-			"abstract": "@:products.conchiglioniTB.abstract",
-			"description": "@:products.conchiglioniTB.description"
-		},
-		"trenneTB": {
-			"name": "Trenne",
-			"imgAlt": "@:products.trenneTB.name",
-			"abstract": "@:products.conchiglioniTB.abstract",
-			"description": "@:products.conchiglioniTB.description"
-		},
-
-
-		"fusilliEpeautre": {
-			"name": "Fusilli",
-			"imgAlt": "@:products.fusilliEpeautre.name",
-			"abstract": "Pâte semi intégrale 100% epeautre",
 			"description": "Pâte monovariétale, de la variété Triricum Dicoccum, particulièrement adaptée à la production de pâtes alimentaires sèches, intégrales et semi intégrales. L’épeautre est un céréale à l’origine très ancienne, présent également dans la culture égyptienne et grecque et qui jouissait d’un grand prestige dans le monde romain, constituant leur base nutritionnelle par excellence. Elle était très estimée au Moyen-Age. La sainte, devin et guérisseuse Hildegard von Bingen (Hildegarde) la recommandait comme base d’une alimentation saine. Dans les Marches cette culture, à la limite de la disparition, n’a jamais été abandonné par tous, tant par la présence d’une tradition gastronomique, qu’artisanale (avec des chapeaux et des paniers tressés d’épeautre). Pour nous, les agriculteurs biologiques de la région, il a était naturel de en faire, depuis des décennies, une culture de première importance. L’épeautre est un aliment équilibré dans chaque composants (acides, graisses, vitamines, protéines, oligo-éléments etc.). Riche en vitamine A, B, C, E et en sels minéraux (zinc, cuivre, manganèse, sélénium, fer, etc.). Il fournit une nourriture savoureuse et énergétique sans alourdir l’intestin et en encourageant la digestion. Il est très utilisé dans les régimes contre les intolérances alimentaires."
 		},
-		"linguineEpeautre": {
-			"name": "Linguine",
-			"imgAlt": "@:products.linguineEpeautre.name",
-			"abstract": "@:products.fusilliEpeautre.abstract",
-			"description": "@:products.fusilliEpeautre.description"
+
+
+		"agnolottiBorragine": {
+			"name": "Agnolotti alla Borragine",
+			"imgAlt": "@:products.agnolottiBorragine.name",
+			"abstract": "Pâtes fraîches aux œufs à la farine de blé tendre",
+			"description": "<p>La bourrache est une plante assez connue pour ses petites fleurs bleues qui ont la particularité surprenante d’être iodées. Elle est moins réputée pour ses feuilles duveteuses qui, une fois blanchies, perdent leur saveur d’huitre.</p> <p>C’est pourtant celles-ci qui entrent dans la composition de ces agnolotti!</p>"
 		},
-		"penneEpeautre": {
-			"name": "Penne",
-			"imgAlt": "@:products.penneEpeautre.name",
-			"abstract": "@:products.fusilliEpeautre.abstract",
-			"description": "@:products.fusilliEpeautre.description"
+		"agnolottiPlinMagro": {
+			"name": "Agnolotti al plin di magro",
+			"imgAlt": "@:products.agnolottiPlinMagro.name",
+			"abstract": "@:products.agnolottiBorragine.abstract",
+			"description": "<p>Ils se marient parfaitement avec une sauce aux noix qui améliore pleinement la saveur, avec une sauce tomate fraîche et basilic ou avec du beurre fondu et sauge.</p> <p>Le « Plin » sont une préparation traditionnelle du Piémont, ils ont des origines très anciennes et mils sont mentionné en 1846 dans une recette pour un cuisinier de Turin.</p> <p>Leur nom (plin) dérive du pincement qui est donné à la pâte pour enfermer la garniture, en serrant dans une feuille mince entre le pouce et l'index. Ils sont minuscules poches d'œufs farcis de pâte. Les Plin doivent  bouillir pendant quelques minutes dans l'eau salée et être servi avec du beurre, le parmesan et la sauge ou avec de la sauce.</p>"
 		},
-		"spaghettiEpeautre": {
-			"name": "Spaghetti",
-			"imgAlt": "@:products.spaghettiEpeautre.name",
-			"abstract": "@:products.fusilliEpeautre.abstract",
-			"description": "@:products.fusilliEpeautre.description"
+		"tortellini": {
+			"name": "Tortellini",
+			"imgAlt": "@:products.tortellini.name",
+			"abstract": "@:products.agnolottiBorragine.abstract",
+			"description": "Ils se marient parfaitement avec une sauce à base de crème, jambon et asperges, avec une sauce à la viande ou au beurre fondu ou d'un bouillon de viande. Vous pouvez ajouter du poivre noir moulu au goût pour le rendre encore plus délicieux de votre assiette de tortellini."
 		},
-		"spaghettiOrtica": {
-			"name": "Spaghetti à l'ortie",
-			"imgAlt": "@:products.spaghettiOrtica.name",
-			"abstract": "Pâte complète au blé dur",
-			"description": ""
+		"agnolottiPlinTreArrosti": {
+			"name": "Agnolotti al plin ai 3 arrosti",
+			"imgAlt": "@:products.agnolottiPlinTreArrosti.name",
+			"abstract": "@:products.agnolottiBorragine.abstract",
+			"description": "<p>Le « Plin » sont une préparation traditionnelle du Piémont, ils ont des origines très anciennes et mils sont mentionné en 1846 dans une recette pour un cuisinier de Turin.</p> <p>Leur nom (plin) dérive du pincement qui est donné à la pâte pour enfermer la garniture, en serrant dans une feuille mince entre le pouce et l'index. Ils sont minuscules poches d'œufs farcis de pâte. Les Plin doivent  bouillir pendant quelques minutes dans l'eau salée et être servi avec du beurre, le parmesan et la sauge ou avec de la sauce.</p>"
 		},
 
 
@@ -366,6 +147,74 @@
 			"imgAlt": "@:products.saucePreteChampignons.name",
 			"abstract": "@:products.saucePreteArrabbiata.abstract",
 			"description": "@:products.coulisTomate.description"
+		},
+
+
+		"chateauTerreBlanque": {
+			"name": "Château Terre Blanque",
+			"imgAlt": "@:products.chateauTerreBlanque.name",
+			"abstract": "Bordeaux 2015",
+			"description": "<a href='https://www.vivino.com/wineries/terre-blanque/wines/bordeaux-2015' target='_blank'>Détails chez vivino.com</a>"
+		},
+		"potsBlanc": {
+			"name": "Château Terre Blanque",
+			"imgAlt": "@:products.potsBlanc.name",
+			"abstract": "Domaine Sontag",
+			"description": "<a href='https://www.vivino.com/wineries/sontag/wines/pots-blanc-9999' target='_blank'>Détails chez vivino.com</a>"
+		},
+		"terreVerdiane": {
+			"name": "Terre Verdiane",
+			"imgAlt": "@:products.terreVerdiane.name",
+			"abstract": "Ceci, Lambrusco",
+			"description": "<a href='https://www.vivino.com/wineries/ceci/wines/terre-verdiane-lambrusco-8888' target='_blank'>Détails chez vivino.com</a>"
+		},
+		"monmousseau": {
+			"name": "Monmousseau",
+			"imgAlt": "@:products.monmousseau.name",
+			"abstract": "Brut Etoile",
+			"description": "<a href='https://www.vivino.com/wineries/monmousseau/wines/brut-etoile-8888' target='_blank'>Détails chez vivino.com</a>"
+		},
+		"mayneDurege": {
+			"name": "Château Du Mayne",
+			"imgAlt": "@:products.mayneDurege.name",
+			"abstract": "Durège Bordeaux 2015",
+			"description": "<a href='https://www.vivino.com/wineries/fr-chateau-du-mayne/wines/durege-bordeaux-2015' target='_blank'>Détails chez vivino.com</a>"
+		},
+		"uveDiTroia": {
+			"name": "Uve Di Troia 2014",
+			"imgAlt": "@:products.uveDiTroia.name",
+			"abstract": "Vigne di Sammarco",
+			"description": "<a href='https://www.vivino.com/wineries/vigne-di-sammarco/wines/uva-di-troia-2014' target='_blank'>Détails chez vivino.com</a>"
+		},
+		"domaineDeLAlba": {
+			"name": "Domaine De L'Alba",
+			"imgAlt": "@:products.domaineDeLAlba.name",
+			"abstract": "L'Ermite Corbières 2013",
+			"description": "<a href='https://www.vivino.com/wineries/l-alba/wines/lermite-corbieres-2013' target='_blank'>Détails chez vivino.com</a>"
+		},
+		"lesGrainsMerlot2014": {
+			"name": "Les Grains Merlot 2014",
+			"imgAlt": "@:products.lesGrainsMerlot2014.name",
+			"abstract": "Marrenon",
+			"description": "<a href='https://www.vivino.com/wineries/marrenon-17444/wines/les-grains-merlot-2014' target='_blank'>Détails chez vivino.com</a>"
+		},
+		"lesGrainsMerlot2015": {
+			"name": "Les Grains Merlot 2015",
+			"imgAlt": "@:products.lesGrainsMerlot2015.name",
+			"abstract": "Marrenon",
+			"description": "<a href='https://www.vivino.com/wineries/marrenon-17444/wines/les-grains-merlot-2015' target='_blank'>Détails chez vivino.com</a>"
+		},
+		"lesGrainsChardonnais": {
+			"name": "Les Grains Chardonnais",
+			"imgAlt": "@:products.lesGrainsChardonnais.name",
+			"abstract": "Marrenon",
+			"description": "<a href='https://www.vivino.com/wineries/marrenon-17444/wines/les-grains-chardonnay-2015' target='_blank'>Détails chez vivino.com</a>"
+		},
+		"denisPasquet": {
+			"name": "Denis Pasquet",
+			"imgAlt": "@:products.denisPasquet.name",
+			"abstract": "Champagne Brut",
+			"description": "<a href='https://www.vivino.com/wineries/denis-pasquet/wines/champagne-brut-9999' target='_blank'>Détails chez vivino.com</a>"
 		}
 	},
 
@@ -374,34 +223,16 @@
 			"name": "Bière de Rodemack"
 		},
 		"pastaSecca": {
-			"name": "Pâtes"
+			"name": "Pâte Sèche"
 		},
-		"pastaLigorio": {
-			"name": "Pâte Ligorio"
-		},
-		"pastaTerraECielo": {
-			"name": "Pâte Terra e il Cielo"
-		},
-		"pastaFiore": {
-			"name": "Pâte Fiore"
-		},
-		"pastaBleAncien": {
-			"name": "Pâte Blé Ancien"
-		},
-		"pastaBleDur": {
-			"name": "Pâte Blé Dur"
-		},
-		"pastaSansGluten": {
-			"name": "Pâte sans Gluten"
-		},
-		"pastaTrafileBronze": {
-			"name": "Pâte trafilée au Bronze"
-		},
-		"pastaIntegrale": {
-			"name": "Pâte Intégrale"
+		"pastaFresca": {
+			"name": "Pâte Fraîche"
 		},
 		"condiments": {
 			"name": "Condiments"
+		},
+		"vins": {
+			"name": "Vins"
 		}
 	},
 

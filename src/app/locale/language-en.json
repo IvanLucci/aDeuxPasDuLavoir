@@ -34,6 +34,7 @@
 			"abstract": "Unique brewers. Pils / WIIPA"
 		},
 
+
 		"pastaLigorio": {
 			"name": "Pasta Ligorio",
 			"imgAlt": "@:products.pastaLigorio.name",
@@ -44,49 +45,113 @@
 			"name": "Ancient Wheat Pasta",
 			"imgAlt": "@:products.pastaBleAncien.name",
 			"abstract": "Senatore Cappelli ancient wheat pasta",
-			"description": "@:products.SCchitarrine.description"
+			"description": "Ses tiges culminent à 2 mètres et ses épis blonds sont carrés et ont de longues moustaches. Sa sensibilité à la verse lui a value d'être abandonné par les sélectionneurs à la fin des années soixante. Mais cette variété de blé dur a des qualités organoleptiques exceptionnelles, c'est pourquoi, \"La Terra e il Cielo\" a créé cette gamme de produits : Pâtes \"Cheveux du sénateur\". L'attention particulière que nous portons à l'obtention de la farine, la filature au bronze qui lui donne cet aspect rugueux et poreux et le séchage à basse température lui donne un délicieux goût épicé. Elles s'accompagnent de tous types de sauces, des plus simples aux plus épicées."
 		},
 		"pastaBleDur": {
 			"name": "Hard wheat pasta",
 			"imgAlt": "@:products.pastaBleDur.name",
 			"abstract": "La terra e il Cielo hard wheat pasta",
-			"description": "@:products.cavatappiSGD.description"
+			"description": "Elle est moulue sur cylindres, le blé dur est produit dans les fermes de la coopérative. Il se distingue du blé tendre par sa granulométrie plus accentuée et sa couleur jaune. On l'utilise pour le pain et les pâtes."
 		},
 		"pastaSansGluten": {
 			"name": "Gluten-free Pasta",
 			"imgAlt": "@:products.pastaSansGluten.name",
 			"abstract": "Granoro gluten-free pasta",
-			"description": "@:products.caserecceGranoro.description"
+			"description": "<p>Ingrédients: Farine de maïs, farine de riz, farine de quinoa (3%), émulsifiants : mono et diglycérides d’acides gras.</p><p>Peut contenir des traces de lupin et de soja.</p><p>Conserver loin de toute source de chaleur et à l’abri de l’humidité.</p><p></p>Recyclable : collecte du papier."
 		},
 		"pastaTrafileBronze": {
 			"name": "Bronze Drawn Pasta",
 			"imgAlt": "@:products.pastaTrafileBronze.name",
 			"abstract": "La Terra e il Cielo bronze drawn pasta",
-			"description": "@:products.conchiglioniTB.description"
+			"description": "Réalisées avec expérience et savoir-faire, la farine est pétrie avec de l'eau de source. Ces pâtes sont tréfilées au bronze. En plus d'une haute teneur en protéines et d'un gluten de qualité, elles sont dotées de caractéristiques nutritionnelles exceptionnelles. Elles sont poreuses et rugueuse, ce qui leur permet d'absorber la sauce et leur confère une meilleure tenue à la cuisson. Les pâtes tréfilées au bronze se marient à merveille avec des sauces traditionnelles ou avec les condiments les plus simples comme les pulpes ou purées de tomates."
 		},
 		"pastaIntegrale": {
 			"name": "Full Wheat Pasta",
 			"imgAlt": "@:products.pastaIntegrale.name",
 			"abstract": "La Terra e il Cielo full wheat pasta",
-			"description": "@:products.fusilliEpeautre.description"
+			"description": "Pâte monovariétale, de la variété Triricum Dicoccum, particulièrement adaptée à la production de pâtes alimentaires sèches, intégrales et semi intégrales. L’épeautre est un céréale à l’origine très ancienne, présent également dans la culture égyptienne et grecque et qui jouissait d’un grand prestige dans le monde romain, constituant leur base nutritionnelle par excellence. Elle était très estimée au Moyen-Age. La sainte, devin et guérisseuse Hildegard von Bingen (Hildegarde) la recommandait comme base d’une alimentation saine. Dans les Marches cette culture, à la limite de la disparition, n’a jamais été abandonné par tous, tant par la présence d’une tradition gastronomique, qu’artisanale (avec des chapeaux et des paniers tressés d’épeautre). Pour nous, les agriculteurs biologiques de la région, il a était naturel de en faire, depuis des décennies, une culture de première importance. L’épeautre est un aliment équilibré dans chaque composants (acides, graisses, vitamines, protéines, oligo-éléments etc.). Riche en vitamine A, B, C, E et en sels minéraux (zinc, cuivre, manganèse, sélénium, fer, etc.). Il fournit une nourriture savoureuse et énergétique sans alourdir l’intestin et en encourageant la digestion. Il est très utilisé dans les régimes contre les intolérances alimentaires."
 		},
 
-		"conchiglioni4Sapori": {
-			"name": "Conchiglioni 4 Flavours",
-			"abstract": "Special kind of pasta with four different flavours",
-			"description": "Special kind of pasta with four different flavours",
-			"imgAlt": "@:products.conchiglioni4Sapori.name"
+
+		"agnolottiBorragine": {
+			"abstract": "Fresh pasta with eggs made with soft wheat flour"
 		},
-		"trofietteBasilico": {
-			"name": "Troffiette Basil",
-			"abstract": "Ligurian speciality",
-			"description": "Ligurian speciality. These trofie have a basil flavour that you must not miss!",
-			"imgAlt": "@:products.trofietteBasilico.name"
+		"agnolottiPlinMagro": {
+			"abstract": "@:products.agnolottiBorragine.abstract"
 		},
-		"linguineI": {
-			"name": "linguine Terra e Arte",
-			"abstract": "Linguine",
-			"imgAlt": "@:products.linguineI.name"
+		"tortellini": {
+			"abstract": "@:products.agnolottiBorragine.abstract"
+		},
+		"agnolottiPlinTreArrosti": {
+			"abstract": "@:products.agnolottiBorragine.abstract"
+		},
+
+
+		"chateauTerreBlanque": {
+			"name": "Château Terre Blanque",
+			"imgAlt": "@:products.chateauTerreBlanque.name",
+			"abstract": "Bordeaux 2015",
+			"description": "<a href='https://www.vivino.com/wineries/terre-blanque/wines/bordeaux-2015' target='_blank'>Details at vivino.com</a>"
+		},
+		"potsBlanc": {
+			"name": "Château Terre Blanque",
+			"imgAlt": "@:products.potsBlanc.name",
+			"abstract": "Domaine Sontag",
+			"description": "<a href='https://www.vivino.com/wineries/sontag/wines/pots-blanc-9999' target='_blank'>Details at vivino.com</a>"
+		},
+		"terreVerdiane": {
+			"name": "Terre Verdiane",
+			"imgAlt": "@:products.terreVerdiane.name",
+			"abstract": "Ceci, Lambrusco",
+			"description": "<a href='https://www.vivino.com/wineries/ceci/wines/terre-verdiane-lambrusco-8888' target='_blank'>Details at vivino.com</a>"
+		},
+		"monmousseau": {
+			"name": "Monmousseau",
+			"imgAlt": "@:products.monmousseau.name",
+			"abstract": "Brut Etoile",
+			"description": "<a href='https://www.vivino.com/wineries/monmousseau/wines/brut-etoile-8888' target='_blank'>Details at vivino.com</a>"
+		},
+		"mayneDurege": {
+			"name": "Château Du Mayne",
+			"imgAlt": "@:products.mayneDurege.name",
+			"abstract": "Durège Bordeaux 2015",
+			"description": "<a href='https://www.vivino.com/wineries/fr-chateau-du-mayne/wines/durege-bordeaux-2015' target='_blank'>Details at vivino.com</a>"
+		},
+		"uveDiTroia": {
+			"name": "Uve Di Troia 2014",
+			"imgAlt": "@:products.uveDiTroia.name",
+			"abstract": "Vigne di Sammarco",
+			"description": "<a href='https://www.vivino.com/wineries/vigne-di-sammarco/wines/uva-di-troia-2014' target='_blank'>Details at vivino.com</a>"
+		},
+		"domaineDeLAlba": {
+			"name": "Domaine De L'Alba",
+			"imgAlt": "@:products.domaineDeLAlba.name",
+			"abstract": "L'Ermite Corbières 2013",
+			"description": "<a href='https://www.vivino.com/wineries/l-alba/wines/lermite-corbieres-2013' target='_blank'>Details at vivino.com</a>"
+		},
+		"lesGrainsMerlot2014": {
+			"name": "Les Grains Merlot 2014",
+			"imgAlt": "@:products.lesGrainsMerlot2014.name",
+			"abstract": "Marrenon",
+			"description": "<a href='https://www.vivino.com/wineries/marrenon-17444/wines/les-grains-merlot-2014' target='_blank'>Details at vivino.com</a>"
+		},
+		"lesGrainsMerlot2015": {
+			"name": "Les Grains Merlot 2015",
+			"imgAlt": "@:products.lesGrainsMerlot2015.name",
+			"abstract": "Marrenon",
+			"description": "<a href='https://www.vivino.com/wineries/marrenon-17444/wines/les-grains-merlot-2015' target='_blank'>Details at vivino.com</a>"
+		},
+		"lesGrainsChardonnais": {
+			"name": "Les Grains Chardonnais",
+			"imgAlt": "@:products.lesGrainsChardonnais.name",
+			"abstract": "Marrenon",
+			"description": "<a href='https://www.vivino.com/wineries/marrenon-17444/wines/les-grains-chardonnay-2015' target='_blank'>Details at vivino.com</a>"
+		},
+		"denisPasquet": {
+			"name": "Denis Pasquet",
+			"imgAlt": "@:products.denisPasquet.name",
+			"abstract": "Champagne Brut",
+			"description": "<a href='https://www.vivino.com/wineries/denis-pasquet/wines/champagne-brut-9999' target='_blank'>Details at vivino.com</a>"
 		}
 	},
 
@@ -95,19 +160,16 @@
 			"name": "Rodemack Beer"
 		},
 		"pastaSecca": {
-			"name": "Pasta"
+			"name": "Dry Pasta"
 		},
-		"pastaLigorio": {
-			"name": "Pasta Ligorio",
-			"imgAlt": "@:productCategories.pastaLigorio.name"
+		"pastaFresca": {
+			"name": "Fresh Pasta"
 		},
-		"pastaTerraECielo": {
-			"name": "Pasta Terra e il Cielo",
-			"imgAlt": "@:productCategories.pastaTerraECielo.name"
+		"condiments": {
+			"name": "Condiments"
 		},
-		"pastaFiore": {
-			"name": "Pasta Fiore",
-			"imgAlt": "@:productCategories.pastaFiore.name"
+		"vins": {
+			"name": "Wines"
 		}
 	},
 

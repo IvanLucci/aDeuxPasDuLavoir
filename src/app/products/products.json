@@ -19,40 +19,30 @@
 		]
 	},
 
+	
 	{
-		"id": "pastaSecca",
-		"img": "pastaCat.png",
+		"id": "pastaFresca",
+		"img": "pastaFrescaOpa.png",
 		"products": [
 			{
-				"id": "pastaLigorio",
-				"img": "ligorio/vino primitivo.jpg"
+				"id": "agnolottiBorragine",
+				"img": "pastaFresca/agnolottiBorragine.jpg"
 			},
 			{
-				"id": "pastaBleAncien",
-				"img": "bleAncien/SCpenne.jpg",
-				"bio": true
+				"id": "tortellini",
+				"img": "pastaFresca/tortellini.jpg"
 			},
 			{
-				"id": "pastaBleDur",
-				"img": "bleDur/farfalleSGD.jpg",
-				"bio": true
+				"id": "agnolottiPlinMagro",
+				"img": "pastaFresca/agnolottiPlinMagro.jpg"
 			},
 			{
-				"id": "pastaSansGluten",
-				"img": "sansGluten/caserecceGranoro.jpg"
-			},
-			{
-				"id": "pastaTrafileBronze",
-				"img": "trafileBronze/fusilliTB.jpg",
-				"bio": true
-			},
-			{
-				"id": "pastaIntegrale",
-				"img": "integrale/spaghettiOrtica.jpg",
-				"bio": true
+				"id": "agnolottiPlinTreArrosti",
+				"img": "pastaFresca/agnolottiPlinTreArrosti.jpg"
 			}
 		]
 	},
+
 
 	{
 		"id": "condiments",
@@ -92,6 +82,92 @@
 				"id": "saucePreteChampignons",
 				"img": "condiments/saucePreteChampignons.jpg",
 				"bio": true
+			}
+		]
+	},
+
+	{
+		"id": "vins",
+		"img": "wineCatOpa.png",
+		"products": [
+			{
+				"id": "chateauTerreBlanque",
+				"img": "vins/chateauTerreBlanque.jpg"
+			},
+			{
+				"id": "potsBlanc",
+				"img": "vins/potsBlanc.jpg"
+			},
+			{
+				"id": "terreVerdiane",
+				"img": "vins/terreVerdiane.jpg"
+			},
+			{
+				"id": "monmousseau",
+				"img": "vins/monmousseau.jpg"
+			},
+			{
+				"id": "mayneDurege",
+				"img": "vins/mayneDurege.jpg"
+			},
+			{
+				"id": "uveDiTroia",
+				"img": "vins/uveDiTroia.jpg"
+			},
+			{
+				"id": "domaineDeLAlba",
+				"img": "vins/domaineDeLAlba.jpg"
+			},
+			{
+				"id": "lesGrainsMerlot2014",
+				"img": "vins/lesGrainsMerlot2014.jpg"
+			},
+			{
+				"id": "lesGrainsMerlot2015",
+				"img": "vins/lesGrainsMerlot2015.jpg"
+			},
+			{
+				"id": "lesGrainsChardonnais",
+				"img": "vins/lesGrainsChardonnais.jpg"
+			},
+			{
+				"id": "denisPasquet",
+				"img": "vins/denisPasquet.jpg"
+			}
+		]
+	},
+
+	{
+		"id": "pastaSecca",
+		"img": "pastaCat.png",
+		"products": [
+			{
+				"id": "pastaBleAncien",
+				"img": "bleAncien/SCpenne.jpg",
+				"bio": true
+			},
+			{
+				"id": "pastaBleDur",
+				"img": "bleDur/farfalleSGD.jpg",
+				"bio": true
+			},
+			{
+				"id": "pastaSansGluten",
+				"img": "sansGluten/caserecceGranoro.jpg"
+			},
+			{
+				"id": "pastaTrafileBronze",
+				"img": "trafileBronze/fusilliTB.jpg",
+				"bio": true
+			},
+			{
+				"id": "pastaIntegrale",
+				"img": "integrale/spaghettiOrtica.jpg",
+				"bio": true
+			},
+			{
+				"id": "pastaLigorio",
+				"img": "ligorio/vino primitivo.jpg"
 			}
 		]
 	}
